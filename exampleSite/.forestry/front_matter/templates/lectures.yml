@@ -20,6 +20,38 @@ fields:
 - type: text
   name: description
   label: description
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: speaker_name
+    type: text
+    config:
+      required: false
+    label: speaker name
+  - name: speaker_image_webp
+    type: file
+    config:
+      maxSize: 64
+    label: speaker image webp
+  - name: speaker_image
+    type: file
+    config:
+      maxSize: 64
+    label: speaker image
+  - name: bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: bio
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: speakers
 - name: related_tags
   type: tag_list
   default: []
