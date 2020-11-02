@@ -18,7 +18,7 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
-        {{ $speakers := .Params.event_speakers }}
+        {{ $speakers := .Params.speakers }}
         {{ if gt ( len $speakers) 0 }}
           <div class="mb-2 mt-2">
             <h4>
