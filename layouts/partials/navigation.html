@@ -20,7 +20,15 @@
             <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
 					</li>
 					{{ end }}
-					<li><input type="search" class="search-icon" placeholder="Search"/></li>
+					<li>
+						<div class="searchBox">
+							<input type="search" class="searchInput" name="" placeholder="Search">
+							<button class="searchButton" href="#">
+								<i class="ti-search">
+									search
+								</i>
+							</button>
+						</div>
 				</ul>
 				<!-- Language List -->
 				{{- if site.IsMultiLingual }}
