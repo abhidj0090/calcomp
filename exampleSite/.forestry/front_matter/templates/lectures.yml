@@ -1,0 +1,30 @@
+---
+label: Lectures
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image_webp
+  label: image_webp
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+- name: related_tags
+  type: tag_list
+  default: []
+  label: Related Tags
+  description: Tag any keyword related to this lecture
+pages:
+- exampleSite/content/english/lectures/a-comparative-study-of-sanskrit-and-greek-poetics.md
+- exampleSite/content/english/lectures/was-gorky-spiritual-a-study-based-on-his-writings-between-1917-18.md

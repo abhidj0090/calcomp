@@ -1,0 +1,34 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: author_bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: author bio
+- type: file
+  name: image_webp
+  label: image webp
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+  description: meta description

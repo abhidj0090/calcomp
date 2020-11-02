@@ -1,0 +1,114 @@
+baseURL = "https://calcomp.netlify.app/"
+canonifyURLs = "true"
+disableLanguages = ["Fr"]
+disqusShortname = ""
+paginate = "6"
+summaryLength = "15"
+theme = "meghna-hugo"
+title = "Calcomp1919"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[Languages.fr]
+contentDir = "content/french"
+copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
+home = "Accueil"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
+[[menu.main]]
+name = "Upcoming"
+pre = ""
+url = "events"
+weight = "1"
+[[menu.main]]
+name = "Blog"
+pre = ""
+url = "blog"
+weight = "2"
+[[menu.main]]
+name = "Lectures"
+pre = ""
+url = "lectures"
+weight = "3"
+[[menu.main]]
+name = "Who are we"
+pre = "#"
+url = "about"
+weight = "4"
+[[menu.main]]
+name = "Team Calcomp"
+pre = "#"
+url = "team"
+weight = "5"
+[[menu.main]]
+name = "Contact Us"
+pre = "#"
+url = "contact"
+weight = "6"
+[params]
+author = ""
+description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
+google_analytics_id = ""
+logo = "images/logo.jpg"
+post_share = true
+staticAddress = "https://calcomp.netlify.app"
+twitterSite="@1919Calcutta"
+[params.cookies]
+enable = false
+expire_days = 2
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+[[params.plugins.js]]
+link = "plugins/ics/Blob.js"
+[[params.plugins.js]]
+link = "plugins/ics/FileSaver.min.js"
+[[params.plugins.js]]
+link = "plugins/ics/ics.min.js"
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+[params.preloader]
+enable = false
+preloader = "images/logo.png"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/CalcuttaComparatists1919"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/1919Calcutta?s=09"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/invites/contact/?i=1n2k0271ntjlf&utm_content=io0z4gk"

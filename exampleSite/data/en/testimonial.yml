@@ -1,0 +1,30 @@
+---
+testimonial:
+  enable: true
+  bg_image: images/library-lights.jpg
+  bg_image_webp: images/library-lights.webp
+  testimonial_item:
+  - name: Jonathon Andrew
+    designation: Professor
+    image: images/client/client-1.jpg
+    image_webp: images/client/client-1.webp
+    date: Dec 26, 2018
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
+      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name: Mark Dinn
+    designation: Professor
+    image: images/client/client-2.jpg
+    image_webp: images/client/client-2.webp
+    date: Dec 26, 2018
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
+      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name: Lemos Kail
+    designation: Professor
+    image: images/client/client-1.jpg
+    image_webp: images/client/client-1.webp
+    date: Dec 26, 2018
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
+      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

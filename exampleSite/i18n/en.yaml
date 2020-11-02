@@ -1,0 +1,39 @@
+---
+- id: upcomingSectionTitle
+  translation: Upcoming Events & Lectures
+- id: blogTitle
+  translation: Latest Post
+- id: lectureTitle
+  translation: Recent Lectures
+- id: readMore
+  translation: Read more
+- id: viewAllPost
+  translation: View All Post
+- id: viewAllLectures
+  translation: View All Lectures
+- id: ViewAllEvents
+  translation: View all upcoming events & lectures
+- id: share
+  translation: Share
+- id: aboutAuthor
+  translation: About author
+- id: authorsPosts
+  translation: Author's posts
+- id: all
+  translation: All
+- id: about
+  translation: About Us
+- id: services
+  translation: Service
+- id: portfolio
+  translation: Portfolio
+- id: team
+  translation: Team
+- id: pricing
+  translation: Pricing
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Contact
+- id: themefisher
+  translation: Themefisher

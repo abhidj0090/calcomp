@@ -1,0 +1,18 @@
+---
+contact:
+  enable: true
+  title: Contact Us
+  subtitle: Contact Details
+  content: Feel free to mail us or drop us a note, we would be happy to hear from
+    you.
+  contact_list:
+  - icon: ti-email
+    info: 'Email: calcomparatists@gmail.com'
+  contact_form:
+    enable: true
+    form_action: https://formspree.io/f/xayloyar
+    name: Your Name
+    email: Your Email
+    subject: Subject
+    message: Message
+    submit: Submit

@@ -1,0 +1,80 @@
+---
+team:
+  enable: true
+  title: Our Team
+  team_member:
+  - name: Suparna Mondal
+    image_webp: "/images/team/Suparna.webp"
+    image: "/images/team/Suparna.jpg"
+    designation: Creative member & Co-founder
+    content: 'She is an independent researcher and translator. She has completed her
+      Masters in Comparative Literature from the Department of Comparative Literature,
+      Jadavpur University. Previously she studied BA in Bangla Literature from Visva-Bharati.
+      She has also done a certificate course on ‘Translation as a Skill’ from CENTIL,
+      Jadavpur University. '
+    social:
+    - icon: ti-facebook
+      link: "#"
+  - name: Suman Paul
+    image_webp: "/images/team/Suman-new.webp"
+    image: "/images/team/Suman-new.jpg"
+    designation: Creative member & Co-founder
+    content: something
+    social:
+    - icon: ti-facebook
+      link: "#"
+  - name: Poonam Mukherjee
+    image_webp: "/images/team/Poonam.webp"
+    image: "/images/team/Poonam.jpg"
+    designation: Creative member & Co-founder
+    content: something
+    social:
+    - icon: ti-facebook
+      link: "#"
+  - name: Kingshuk Bandyaopadhyay
+    image_webp: "/images/team/Kinshuk.webp"
+    image: "/images/team/Kinshuk.jpg"
+    designation: Creative member & Co-founder
+    content: Kingshuk is currently working as an Assistant Professor of English at
+      Shyambazar Law College Kolkata. He has done his MA in Comparative Indian Language
+      and Literature and BA Honours in English from University of Calcutta. An habitual
+      poet author of 'Libido Tomar Jotno Lalon' doubling up as a theater artist occasionally.
+    social:
+    - icon: ti-facebook
+      link: "#"
+  - name: Jemima Nasrin
+    image_webp: "/images/team/Jemima.webp"
+    image: "/images/team/Jemima.jpg"
+    designation: 'Coordinator & Co-founder '
+    content: She is currently enrolled as a Ph.D. student in the Department of English
+      at the University of Calcutta. She completed her Masters from the University
+      of Burdwan. She has presented a few papers in National and International level
+      seminars. Her areas of interest include Culture Studies, South Asian History,
+      Comparative Literature, Folk Literature etc
+    social:
+    - icon: ti-facebook
+      link: "#"
+  - name: Pratim Das
+    image_webp: "/images/team/Pratim.webp"
+    image: "/images/team/Pratim.jpg"
+    designation: Coordinator & Co-founder
+    content: |-
+      Pratim is a PhD research scholar in the Dept. of Comparative Indian Language and Literature, University of Calcutta. His research area for PhD is Indian Travelogues on South East Asia. He did his MPhil from Dept. MIL & LS, University of Calcutta. His interest lies in the area of South East Asia,
+      Travelogues, Coolie Literature, Migration, Dalit literature, Children’s Literature, Vaishnava Literature, Literary criticism, and Folk culture.
+    social:
+    - icon: ti-facebook
+      link: ''
+  - name: Aratrika Ganguly
+    image_webp: "/images/team/Aratrika.webp"
+    image: "/images/team/Aratrika.jpg"
+    designation: Chief Coordinator & Co-founder
+    content: 'PhD Research Scholar in the Department of Comparative Indian Language
+      and Literature at University of Calcutta. She has done her MPhil and Masters
+      from the Department of Comparative Literature at Jadavpur University. She also
+      worked as a Project Fellow in a UGC-UPE-II project entitled ''South-East Asia:
+      Colony and Beyond'' Investigated by Dr. Mrinmoy Pramanick.'
+    social:
+    - icon: ti-facebook
+      link: "#"
+    - icon: ti-twitter-alt
+      link: "#"

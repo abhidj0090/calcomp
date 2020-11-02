@@ -1,0 +1,111 @@
+---
+label: Events
+hide_body: false
+display_field: event_name
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: event_start_date
+  type: datetime
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Event Start Date
+  description: Event or lecture start date and time
+- name: event_end_date
+  type: datetime
+  label: Event End Date
+  description: Event or lecture end date and time
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: all_day_event
+  type: boolean
+  label: All day Event
+  description: Check if its an all day event
+- name: image_webp
+  type: file
+  config:
+    maxSize: 64
+  label: image_webp
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+- name: event_speakers
+  type: field_group_list
+  fields:
+  - name: speaker_name
+    type: text
+    config:
+      required: false
+    label: speaker name
+    description: Event speaker name
+  - name: speaker_image_webp
+    type: file
+    config:
+      maxSize: 64
+    label: Speaker image webp
+    description: Speaker image
+  - name: speaker_image
+    type: file
+    config:
+      maxSize: 64
+    label: Speaker image
+  - name: bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: bio
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Event Speakers
+  description: Speakers at the event or lecture
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Related Tags
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: calendar_filename
+  type: text
+  config:
+    required: false
+  label: calendar filename
+- name: location
+  type: text
+  config:
+    required: false
+  label: location
+- name: disable_link
+  type: boolean
+  label: disable link
+- name: meeting_link
+  type: text
+  config:
+    required: false
+  label: meeting link
+- name: disable_download
+  type: boolean
+  label: disable download
+pages:
+- exampleSite/content/english/events/exploring-the-reception-of-the-concept-of-adventure-in-the-bengali-literary-arena.md
+- exampleSite/content/english/events/writing-new-material-histories-cement-and-concrete-in-south-asia.md

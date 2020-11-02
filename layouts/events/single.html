@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>{{ .Title }}</h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
+        </ul>
+          {{with .Params.image}}
+          <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="event-image">
+          {{end}}
+      </div>
+      {{ $speakers := .Params.event_speakers }}
+      {{ if gt ( len $speakers) 0 }}
+        <div class="col-lg-8 offset-lg-2 mb-3">
+          <h4>
+            Speakers
+          </h4>
+          {{ range $speakers }}
+          {{ $imagewbp := .speaker_image_webp }}
+          {{ $image := .speaker_image }}
+          {{ $name := .speaker_name }}
+            <div class="mb-2">
+              {{with .speaker_image}}
+                <div class="client-thumb speaker">
+                  <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                </div>
+              {{end}}
+              <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
+            </div>
+          {{end}}
+        </div>
+      {{end}}
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          {{ .Content }}
+        </div>
+        {{ if site.Params.post_share }}
+        {{ partial "post-share.html" . }}
+        {{ end }}
+        <!-- comments -->
+        <div class="mt-5">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      </div>
+        <div class="col-lg-8 offset-lg-2">
+          {{if not .Params.disable_link}}
+            <a href={{.Params.meeting_link}} class="btn btn-main" target="_blank"><i class="ti-link"></i>Join</a>
+          {{end}}
+          {{if not .Params.disable_download}}
+            <input type="hidden" id="subject" value="{{.Title }}"/>
+            <input type="hidden" id="description" value="{{ .Params.meeting_link }}"/>
+            <input type="hidden" id="location" value="{{.Params.location }}"/>
+            <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
+            <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
+            <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
+            <button class="clndr btn btn-main" onclick="downloadEvent()">
+                <i class="ti-calendar"></i>Add to Calendar
+            </button>
+          {{ end }}
+        </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
