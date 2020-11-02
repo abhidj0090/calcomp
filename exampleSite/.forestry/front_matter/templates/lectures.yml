@@ -15,9 +15,6 @@ fields:
   name: image
   label: image
 - type: text
-  name: author
-  label: author
-- type: text
   name: description
   label: description
 - name: speakers
