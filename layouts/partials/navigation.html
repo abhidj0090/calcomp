@@ -20,7 +20,7 @@
             <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
 					</li>
 					{{ end }}
-					<li><input type="search" /></li>
+					<li><input type="search" class="search-icon" placeholder="Search"/></li>
 				</ul>
 				<!-- Language List -->
 				{{- if site.IsMultiLingual }}
