@@ -48,7 +48,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: speakers
+  label: Speakers
 - name: tags
   type: tag_list
   default: []
