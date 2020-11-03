@@ -40,7 +40,7 @@ fields:
   config:
     maxSize: 64
   label: image
-- name: event_speakers
+- name: speakers
   type: field_group_list
   fields:
   - name: speaker_name
@@ -73,7 +73,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Event Speakers
+  label: Speakers
   description: Speakers at the event or lecture
 - name: tags
   type: tag_list
