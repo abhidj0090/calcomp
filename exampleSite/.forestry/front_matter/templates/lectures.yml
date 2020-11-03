@@ -49,10 +49,10 @@ fields:
     max: 
     labelField: 
   label: speakers
-- name: related_tags
+- name: tags
   type: tag_list
   default: []
-  label: Related Tags
+  label: Tags
   description: Tag any keyword related to this lecture
 pages:
 - exampleSite/content/english/lectures/a-comparative-study-of-sanskrit-and-greek-poetics.md
