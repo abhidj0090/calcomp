@@ -13,7 +13,12 @@
 	{{ $url := site.Params.staticAddress }}
 	{{ template "_internal/opengraph.html" . }}
 	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
-
+	{{ range .Params.tags }}
+	<meta name="og:tag" content="{{.}}"/>
+	{{end}}
+	{{ with .Params.author }}
+	<meta name="og:author" content="{{.}}"/>
+	{{end}}
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:title" content="{{ .Title }}"/>
 	<meta name="twitter:description"  content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
@@ -59,8 +64,13 @@
 			// Optional
 			analytics: true,                      // Enable search analytics
 			autocomplete: {
-			inputSelector: '.js-search',        // CSS selector of your search input(s)
-			}
+				inputSelector: '.js-search',        // CSS selector of your search input(s)
+			},
+		 	exclusionPatterns: [
+    			// Means all `/tags` pages are excluded.
+    			'/tags/**'
+			]
+			
 		});
 	</script>	
 	{{end}}
