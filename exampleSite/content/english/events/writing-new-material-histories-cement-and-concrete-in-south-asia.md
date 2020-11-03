@@ -14,7 +14,7 @@ location = "Kolkata, IN"
 meeting_link = "https://bit.ly/CC-Lecture"
 tags = []
 title = "Writing New Material Histories: Cement and Concrete in South Asia"
-[[event_speakers]]
+[[speakers]]
 bio = "Researcher in construction history at Jawaharlal Nehru University"
 speaker_image = ""
 speaker_image_webp = ""
