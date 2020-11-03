@@ -53,7 +53,7 @@ fields:
   type: tag_list
   default: []
   label: Tags
-  description: Tag any keyword related to this lecture
+  description: Tag any keyword related to this content
 pages:
 - exampleSite/content/english/lectures/a-comparative-study-of-sanskrit-and-greek-poetics.md
 - exampleSite/content/english/lectures/was-gorky-spiritual-a-study-based-on-his-writings-between-1917-18.md

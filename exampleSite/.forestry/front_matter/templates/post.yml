@@ -36,3 +36,4 @@ fields:
   type: tag_list
   default: []
   label: Tags
+  description: Tag any keyword related to this content
