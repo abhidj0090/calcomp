@@ -14,10 +14,10 @@
 	{{ template "_internal/opengraph.html" . }}
 	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	{{ range .Params.tags }}
-	<meta name="og:tag" content="{{.}}"/>
+	<meta name="article:tag" content="{{.}}"/>
 	{{end}}
 	{{ with .Params.author }}
-	<meta name="og:author" content="{{.}}"/>
+	<meta name="article:author" content="{{.}}"/>
 	{{end}}
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:title" content="{{ .Title }}"/>
