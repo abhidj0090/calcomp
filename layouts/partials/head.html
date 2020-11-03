@@ -7,22 +7,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 	{{ with site.Params.author }}
-	<meta name="author" content="{{ . }}">{{ end }}
+	<meta property="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
 
 	{{ $url := site.Params.staticAddress }}
 	{{ template "_internal/opengraph.html" . }}
-	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
+	<meta property="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	{{ range .Params.tags }}
-	<meta name="article:tag" content="{{.}}"/>
+	<meta property="article:tag" content="{{.}}"/>
 	{{end}}
 	{{ with .Params.author }}
 	<meta name="article:author" content="{{.}}"/>
 	{{end}}
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:title" content="{{ .Title }}"/>
-	<meta name="twitter:description"  content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
-	<meta name="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL}}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
+	<meta property="twitter:card" content="summary_large_image"/>
+	<meta property="twitter:title" content="{{ .Title }}"/>
+	<meta property="twitter:description"  content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
+	<meta property="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL}}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	<meta property="twitter:site" content="{{site.Params.twitterSite}}" />
 	<meta property="twitter:creator" content="{{site.Params.twitterSite}}" />
 
