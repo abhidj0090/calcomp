@@ -19,6 +19,13 @@
 	{{ with .Params.author }}
 	<meta name="article:author" content="{{.}}"/>
 	{{end}}
+	{{ $speakers := .Params.speakers }}
+	{{ if gt ( len $speakers) 0 }}
+	{{ range $speakers }}
+		  {{ $name := .speaker_name }}
+		  <meta name="article:author" content="{{$name}}"/>
+	{{end}}
+	{{end}}
 	<meta property="twitter:card" content="summary_large_image"/>
 	<meta property="twitter:title" content="{{ .Title }}"/>
 	<meta property="twitter:description"  content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"/>

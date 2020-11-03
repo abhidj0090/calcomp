@@ -159,5 +159,10 @@ function downloadEvent(){
 	cal.download(filename)
 }
 function focusSearch(){
-	$('.js-search').focus();
+	if ($('.js-search').is(":focus")) {
+		//do nothing
+	}
+	else{
+		$('.js-search').focus();
+	}
 }
