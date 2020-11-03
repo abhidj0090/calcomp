@@ -5,6 +5,7 @@ description = "A Comparative Study of Sanskrit and Greek Poetics"
 image = "/images/a-comparative-study-of-sanskrit-and-greek-poetics.jpg"
 image_webp = "/images/a-comparative-study-of-sanskrit-and-greek-poetics.webp"
 related_tags = []
+tags = ["Comparative Literature"]
 title = "A Comparative Study of Sanskrit and Greek Poetics"
 [[speakers]]
 bio = "JNU Researcher"
