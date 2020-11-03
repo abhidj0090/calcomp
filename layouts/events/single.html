@@ -14,7 +14,7 @@
           <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="event-image">
           {{end}}
       </div>
-      {{ $speakers := .Params.event_speakers }}
+      {{ $speakers := .Params.speakers }}
       {{ if gt ( len $speakers) 0 }}
         <div class="col-lg-8 offset-lg-2 mb-3">
           <h4>
@@ -39,7 +39,7 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
-        {{ if site.Params.post_share }}
+          
         {{ partial "post-share.html" . }}
         {{ end }}
         <!-- comments -->
