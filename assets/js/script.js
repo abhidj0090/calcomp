@@ -158,3 +158,6 @@ function downloadEvent(){
 	//cal.addEvent(subject, description, location, begin, end); // yes, you can have multiple events :-)
 	cal.download(filename)
 }
+function focusSearch(){
+	$('.js-search').focus();
+}
