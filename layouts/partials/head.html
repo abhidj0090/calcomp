@@ -46,6 +46,7 @@
 	  gtag('config', '{{ . }}');
 	</script>
 	{{ end }}
+	{{if site.Params.enable_search}}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
 	<script type="text/javascript">
@@ -62,6 +63,7 @@
 			}
 		});
 	</script>	
+	{{end}}
 	{{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
 	{{ $custom := resources.Get "css/custom.css" | minify }}
 	<link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
