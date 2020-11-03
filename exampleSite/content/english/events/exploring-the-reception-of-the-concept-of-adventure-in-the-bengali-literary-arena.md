@@ -11,7 +11,7 @@ image = "/images/29oct.jpg"
 image_webp = "/images/29oct.webp"
 location = "Kolkata, IN"
 meeting_link = "https://bit.ly/CC-Lecture"
-tags = ["Adventure", " Literature"]
+tags = ["Adventure"]
 title = "Exploring the Reception of the Concept of Adventure in the Bengali Literary Arena"
 [[event_speakers]]
 bio = "Assistant Professor, Dept of English Sikkim University"
