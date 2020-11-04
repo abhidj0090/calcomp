@@ -5,7 +5,7 @@ date = 2020-10-30T06:52:36Z
 description = "Who Dominates the Stage of the World?"
 image = "/images/nabadita2-feature.jpg"
 image_webp = "/images/nabadita2.webp"
-tags = ["Feminism"]
+tags = ["Feminism", "Gender Equality"]
 title = "Who Dominates the Stage of the World?"
 
 +++
