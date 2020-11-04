@@ -2,7 +2,7 @@
 author = "Nabodita Ganguly"
 author_bio = "Nabodia is currently pursuing her masters degree in mass media from Symbiosis Pune."
 date = 2020-10-30T06:52:36Z
-description = "Who Dominates the Stage of the World?"
+description = "I really enjoyed studying As You Like It, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage"
 image = "/images/nabadita2-feature.jpg"
 image_webp = "/images/nabadita2.webp"
 tags = ["Feminism", "Gender Equality"]
