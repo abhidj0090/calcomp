@@ -5,7 +5,7 @@ date = 2020-10-30T06:52:36Z
 description = "বাাংলাদেদের মুসললম সমাদে গণমাধ্যদমর প্রলিগ্রহণ: প্রসঙ্গ ‘টেলিভিশন’"
 image = "/images/tv-feature.jpg"
 image_webp = "/images/tv.webp"
-tags = ["Television", "Bangladesh", "Media"]
+tags = ["Television", "Media", "Popular culture"]
 title = "বাাংলাদেদের মুসললম সমাদে গণমাধ্যদমর প্রলিগ্রহণ: প্রসঙ্গ ‘টেলিভিশন’"
 
 +++
