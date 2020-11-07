@@ -19,7 +19,10 @@ team:
     image_webp: "/images/team/Suman-new.webp"
     image: "/images/team/Suman-new.jpg"
     designation: Creative member & Co-founder
-    content: something
+    content: Suman is currently pursuing his MPhil from the department of Comparative
+      Indian Language and Literature, University of Calcutta. He has a couple of publications
+      under his belt while occasionally working as a actor and theater artist. Also
+      he is a big fan of heavy metal, EDM and Ghazals.
     social:
     - icon: ti-facebook
       link: "#"
