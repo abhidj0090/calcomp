@@ -27,7 +27,8 @@ team:
     image_webp: "/images/team/Poonam.webp"
     image: "/images/team/Poonam.jpg"
     designation: Creative member & Co-founder
-    content: something
+    content: "Poonamis a Mphil Research scholar in the department of Bengali, University
+      of Calcutta.  \n"
     social:
     - icon: ti-facebook
       link: "#"
