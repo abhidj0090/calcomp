@@ -4,27 +4,13 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
-  - name: Jonathon Andrew
-    designation: Professor
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
+  - name: Dr Subhadeep Ray
+    designation: Associate Professor of English, Bidhan Chandra College, Kazi Nazrul
+      University, Asansol, West Bengal, India
+    image: images/client/Subhadeep.jpg
+    image_webp: images/client/Subhadeep.webp
     date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-  - name: Mark Dinn
-    designation: Professor
-    image: images/client/client-2.jpg
-    image_webp: images/client/client-2.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-  - name: Lemos Kail
-    designation: Professor
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    content: |-
+      It has been an excellent experience to be associated with the Calcutta Comparatists 1919. This forum of sincere, talented and young scholars of literatures and humanities from universities and research institutes across the world has been recently engaged in exploring multiple intersecting trends of the
+      contemporary studies in social sciences and culture. The ongoing lecture series organized by CC1919, with its very distinctive nature, is a novel and highly successful way to focus and continue dialogues on several areas of research interests in humanities. I feel myself really fortunate to be linked with the
+      collective effort of this forum to interrogate and change the paradigms, and wish it every success.
