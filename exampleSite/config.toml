@@ -46,7 +46,7 @@ pre = ""
 url = "blog"
 weight = 2
 [[menu.main]]
-name = "Upcoming"
+name = "Upcoming Events"
 pre = ""
 url = "events"
 weight = 1
