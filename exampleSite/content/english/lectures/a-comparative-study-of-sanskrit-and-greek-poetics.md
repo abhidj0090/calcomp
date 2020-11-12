@@ -8,7 +8,7 @@ related_tags = []
 tags = ["Comparative Literature"]
 title = "A Comparative Study of Sanskrit and Greek Poetics"
 [[speakers]]
-bio = "JNU Researcher"
+bio = " PhD Fellow at the Department of Modern Indian Languages and Literary Studies (MIL and LS), University  of Delhi."
 speaker_image = ""
 speaker_image_webp = ""
 speaker_name = "Ragini Kapoor"
