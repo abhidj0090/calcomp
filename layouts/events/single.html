@@ -39,6 +39,13 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
+        <div class="mt-2 topics">
+          <ul class="tags">
+            {{ range .Params.tags }}
+              <li> <a href="/tags/{{.}}">{{ . }}</a></li>
+            {{end}}
+          </ul>
+        </div>
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}

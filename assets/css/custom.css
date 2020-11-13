@@ -85,3 +85,20 @@ blockquote {
   .js-search::placeholder{
     color:#fff
 }
+.tags li{
+    list-style: none;
+    float: left;
+    background: teal;
+    border-radius: 4px;
+    margin: 2px;
+    padding:10px
+}
+.tags li:hover{
+    color:black
+}
+.topics{
+    display: flex;
+}
+.topics .tags{
+    padding:10px;
+}

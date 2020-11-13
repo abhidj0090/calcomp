@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+{{"<!-- Start Tags Section -->" | safeHTML}}
+<section id="tags" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{"<!-- section title -->" | safeHTML}}
+        <div class="title text-center wow fadeInDown">
+            {{ if eq .Title "Tags" }}
+            <h2>
+               All<span class="color">
+                Topics</span>
+            </h2>  
+            {{else}}
+            <h2>
+            Latest<span class="color">
+                Lectures</span>
+                &<span class="color">
+                Posts</span> on 
+                <span class="color">
+                   {{.Title}}</span>
+                   </h2>
+            {{end}}
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ if eq .Title "Tags" }}
+        <ul class="tags">
+        {{ range $paginator.Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}
+                </a>
+            </li>
+        {{end}}
+        </ul>
+      {{else}}
+        {{ range $paginator.Pages }}
+        {{ .Render "article" }}
+        {{ end }}
+        <div class="col-12">
+            {{ template "_internal/pagination.html" . }}
+        </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{"<!-- /tags -->" | safeHTML}}
+
+{{ end }}
