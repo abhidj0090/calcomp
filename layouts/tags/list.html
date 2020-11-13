@@ -12,9 +12,7 @@
             {{ if eq .Title "Tags" }}
             <h2>
                Latest<span class="color">
-                Lectures</span>
-                &<span class="color">
-                Posts</span>
+                Keywords</span>
             </h2>  
             {{else}}
             <h2>
@@ -24,7 +22,7 @@
                 Posts</span> on 
                 <span class="color">
                    {{.Title}}</span>
-                   </h2>
+            </h2>
             {{end}}
           <div class="border-meghna"></div>
         </div>
@@ -32,7 +30,7 @@
       {{"<!-- /section title -->" | safeHTML}}
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
-      {{ .Render "article" }}
+      {{ .Render "taglist" }}
       {{ end }}
       <div class="col-12">
         {{ template "_internal/pagination.html" . }}
@@ -40,6 +38,6 @@
     </div>
   </div>
 </section>
-{{"<!-- /blog -->" | safeHTML}}
+{{"<!-- /Tags -->" | safeHTML}}
 
 {{ end }}
