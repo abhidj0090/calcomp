@@ -28,9 +28,9 @@
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
-      {{ .Render "taglist" }}
+      {{ $paginator := .Paginate .Data.Singular }}
+      {{ range $paginator.Singular }}
+      {{ .Render "article" }}
       {{ end }}
       <div class="col-12">
         {{ template "_internal/pagination.html" . }}
