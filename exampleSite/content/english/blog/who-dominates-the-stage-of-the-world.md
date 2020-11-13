@@ -3,13 +3,14 @@ author = "Nabodita Ganguly"
 author_bio = "Nabodia is currently pursuing her masters degree in mass media from Symbiosis Pune."
 date = 2020-10-30T06:52:36Z
 description = "I really enjoyed studying As You Like It, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage"
+draft = true
 image = "/images/rights.jpg"
 image_webp = "/images/rights.webp"
 tags = ["Feminism", "Gender Equality"]
 title = "Who Dominates the Stage of the World?"
 
 +++
-> _“All the world’s a stage, And all the men and women merely players…”- Shakespeare_
+> All the world’s a stage, And all the men and women merely players
 
 I really enjoyed studying _As You Like It_, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage. There was a time when I was a dancer. Stage was pretty much a part of life. As we danced on the stage, we memorised the steps taught to us by our dance teacher, a woman. We acted with grace, danced with the rhythm of the music. It took us months of hard work, to learn the steps as instructed by our mam.
 
@@ -41,7 +42,9 @@ No, these aren’t my words, this is something which the majority of girls liste
 
 As a girl tries to fight the wave of ignorance that tries to drown her like the big wave which you are always afraid of, there comes another group of people: those who accept what happens. Yes, the woman wore short clothes (I would like to use the line: even an infant is raped, how do you justify that? Does wearing short clothes is directly proportional to getting raped?
 
-> These are facts feminists have tried to put on the table for the decades, but, wait, “_And those who were seen dancing were thought to be insane by those who could not hear the music_,” Nietszche.
+These are facts feminists have tried to put on the table for the decades, but, wait didnt Nietszche say 
+
+> And those who were seen dancing were thought to be insane by those who could not hear the music.
 
 So, these groups of people consider equality to be insane because they do not have an adequate understanding about the broader views of life. They will point out:
 
