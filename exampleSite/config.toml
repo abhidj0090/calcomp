@@ -5,7 +5,7 @@ disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "CC1919 - Calcutta Comparatists 1919"
+title = "Calcutta Comparatists 1919"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
@@ -57,9 +57,9 @@ enable_search = true
 google_analytics_id = ""
 logo = "images/logo.jpg"
 post_share = true
+shortname = "CC1919"
 staticAddress = "https://calcomp.netlify.app"
 twitterSite = "@1919Calcutta"
-shortname="CC1919"
 [params.cookies]
 enable = false
 expire_days = 2
