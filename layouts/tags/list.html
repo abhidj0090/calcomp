@@ -12,9 +12,7 @@
             {{ if eq .Title "Tags" }}
             <h2>
                Latest<span class="color">
-                Lectures</span>
-                &<span class="color">
-                Posts</span>
+                Topics</span>
             </h2>  
             {{else}}
             <h2>
@@ -31,15 +29,15 @@
       </div>
       {{"<!-- /section title -->" | safeHTML}}
       {{ if eq .Title "Tags" }}
+        <ul class="tags">
         {{ $paginator := .Paginate .Data.Pages }}
         {{ range $paginator.Pages }}
-        <ul>
             <li>
                 <a href="{{ .Permalink }}">{{ .Title }}
                 </a>
             </li>
-        </ul>
         {{end}}
+        </ul>
       {{else}}
         {{ $paginator := .Paginate .Data.Pages }}
         {{ range $paginator.Pages }}
