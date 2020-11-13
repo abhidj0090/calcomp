@@ -17,7 +17,7 @@ Now, the question is,
 
 > who dominates the stage of the world ?
 
-Yes, it's Society. The dominating part is always played by men. In a part of his play Shakespeare wrote, “Beauty provoketh thieves sooner than gold,” which signifies that thieves are more provoked by the beauty of women (here it was in the context of two women in the play) than wealth. This woman, in the play, thinking about their own safety, one of them decided to disguise herself as a boy and then start their journey to the forest of Arden.
+It's dominated by a society driven mostly by men. In a part of his play Shakespeare wrote, “Beauty provoketh thieves sooner than gold,” which signifies that thieves are more provoked by the beauty of women (here it was in the context of two women in the play) than wealth. This woman, in the play, thinking about their own safety, one of them decided to disguise herself as a boy and then start their journey to the forest of Arden.
 
 How much has the society in large changed so far?
 
