@@ -39,6 +39,13 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
+        <div class="mt-2 topics">
+          <ul class="tags">
+            {{ range .Params.tags }}
+              <li> <a href="/tags/{{.}}">{{ . }}</li>
+            {{end}}
+          </ul>
+        </div>
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}
@@ -62,13 +69,6 @@
                 <i class="ti-calendar"></i>Add to Calendar
             </button>
           {{ end }}
-        </div>
-        <div class="mt-2 topics" style="display: flex;">
-          <ul class="tags">
-            {{ range .Params.tags }}
-              <li> <a href="/tags/{{.}}">{{ . }}</li>
-            {{end}}
-          </ul>
         </div>
     </div>
   </div>

@@ -96,3 +96,9 @@ blockquote {
 .tags li:hover{
     color:black
 }
+.topics{
+    display: flex;
+}
+.topics .tags{
+    padding:10px;
+}
