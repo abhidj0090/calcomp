@@ -28,20 +28,20 @@
         </div>
       </div>
       {{ if eq .Title "Tags" }}
-        {{ range $paginator.Singular }}
-        {{.}}
+        {{ range .Data.Singular }}
+            {{.}}
         {{end}}
-        {{else}}
-            {{"<!-- /section title -->" | safeHTML}}
-            {{ $paginator := .Paginate .Data.Pages }}
-            {{ range $paginator.Pages }}
-            {{ .Render "article" }}
-            {{ end }}
-            <div class="col-12">
-                {{ template "_internal/pagination.html" . }}
-            </div>
-      </div>
+    {{else}}
+        {{"<!-- /section title -->" | safeHTML}}
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+        {{ .Render "article" }}
+        {{ end }}
+        <div class="col-12">
+            {{ template "_internal/pagination.html" . }}
+        </div>
       {{end}}
+    </div>
   </div>
 </section>
 {{"<!-- /Tags -->" | safeHTML}}
