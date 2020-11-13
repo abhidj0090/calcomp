@@ -59,6 +59,7 @@ logo = "images/logo.jpg"
 post_share = true
 staticAddress = "https://calcomp.netlify.app"
 twitterSite = "@1919Calcutta"
+shortname="CC1919"
 [params.cookies]
 enable = false
 expire_days = 2

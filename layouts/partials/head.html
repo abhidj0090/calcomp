@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>{{ .Title }}</title>
+	<title>{{ with site.Params.shortname }}{{.}}{{end}} | {{ .Title }}</title>
 
 	{{ "<!-- mobile responsive meta -->" | safeHTML }}
 	
@@ -29,7 +29,11 @@
 	<meta property="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL}}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	<meta property="twitter:site" content="{{site.Params.twitterSite}}" />
 	<meta property="twitter:creator" content="{{site.Params.twitterSite}}" />
-
+	{{ if and (eq .Kind "taxonomy") (eq .Type "categories")}}
+	<meta name="robots" content="noindex, follow"/>
+	{{ else }}
+	<meta name="robots" content="index, follow"/>
+	{{ end }}
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{ "<!-- plugins -->" | safeHTML }}
 	{{ range site.Params.plugins.css }}
@@ -69,7 +73,7 @@
 			analytics: true,                      // Enable search analytics
 			autocomplete: {
 				inputSelector: '.js-search',        // CSS selector of your search input(s)
-			},
+			}
 		});
 	</script>	
 	{{end}}
