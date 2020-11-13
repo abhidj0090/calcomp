@@ -13,13 +13,13 @@ title = "Who Dominates the Stage of the World?"
 
 I really enjoyed studying _As You Like It_, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage. There was a time when I was a dancer. Stage was pretty much a part of life. As we danced on the stage, we memorized the steps taught to us by our dance teacher, a woman. We acted with grace, danced with the rhythm of the music. It took us months of hard work, to learn the steps as instructed by our mam.
 
-Now, the question is, 
+Now, the question is,
 
 > who dominates the stage of the world ?
 
 Yes, it's Society. The dominating part is always played by men. In a part of his play Shakespeare wrote, “Beauty provoketh thieves sooner than gold,” which signifies that thieves are more provoked by the beauty of women (here it was in the context of two women in the play) than wealth. This woman, in the play, thinking about their own safety, one of them decided to disguise herself as a boy and then start their journey to the forest of Arden.
 
-How much has the society in large changed so far? 
+How much has the society in large changed so far?
 
 Change has happened since it is the only constant of life and Yes women have been empowered,
 
@@ -43,7 +43,7 @@ So, these groups of people consider talks about equality to be vague because the
 
 Men and Women are biologically different, It's alright if a man can not control his sexual desires. But a woman should not try to match herself with a man ever.
 
-In this tussle between what is right and what is wrong innocent girls loose their lives. We come across incidents such as Nirbhay, Unnao, Hathras almost everyday and the list, yes, the list goes on and on like a tunnel without an end. A chilling remainder of a society paralyzed by patriarchal mindset
+In this tussle between what is right and what is wrong innocent girls loose their lives. We come across incidents such as Nirbhay, Unnao, Hathras almost everyday and the list, yes, the list goes on and on like a tunnel without an end. A chilling remainder of a society paralyzed by a patriarchal mindset.
 
 My family has a history of writing.Writing to express their views, opinions, facts. I grew up seeing both my parents writing something or the other. I wrote my first after a personal loss at the age of eight. Since then, I knew that writing is my tool of expressing what I feel in the world. Hence, I write this piece with a hope that equality someday prevails, if that makes me Utopian? So, be it.
 
