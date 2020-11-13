@@ -30,13 +30,25 @@
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
-      {{ .Render "taglist" }}
-      {{ end }}
-      <div class="col-12">
-        {{ template "_internal/pagination.html" . }}
-      </div>
+      {{ if eq .Title "Tags" }}
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+        <ul>
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}
+                </a>
+            </li>
+        </ul>
+        {{end}}
+      {{else}}
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+        {{ .Render "taglist" }}
+        {{ end }}
+        <div class="col-12">
+            {{ template "_internal/pagination.html" . }}
+        </div>
+      {{end}}
     </div>
   </div>
 </section>
