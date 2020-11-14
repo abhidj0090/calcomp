@@ -12,6 +12,6 @@ speaker_image_webp = ""
 speaker_name = "Prof. Kakali Dhara Mandal"
 
 +++
-Check out the recorded lecture here
+Check out the recorded lecture
 
 {{< youtube ZriG7hZY8CU>}}
