@@ -93,8 +93,8 @@ blockquote {
     margin: 2px;
     padding:10px
 }
-.tags li:hover{
-    color:black
+.tags li a:hover {
+    color: #1d2024
 }
 .topics{
     display: flex;
