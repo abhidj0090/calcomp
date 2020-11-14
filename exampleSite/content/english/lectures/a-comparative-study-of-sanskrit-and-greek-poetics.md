@@ -14,6 +14,6 @@ speaker_image_webp = ""
 speaker_name = "Ragini Kapoor"
 
 +++
-Check out the recorded lecture here
+Check out the recorded lecture
 
 {{< youtube xncvQ4dZ9MU >}}
