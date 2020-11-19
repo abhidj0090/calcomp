@@ -1,6 +1,6 @@
 +++
 date = 2020-09-12T13:30:00Z
-description = "A different story of the Highland folks. "
+description = "A different story of the Highland folks. Watch it here: https://youtu.be/x7J2nvYMaGA"
 draft = true
 image = "/images/119064787_122249342935294_2106888352644072800_o.jpg"
 image_webp = "/images/119064787_122249342935294_2106888352644072800_o.webp"
