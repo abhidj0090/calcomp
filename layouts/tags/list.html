@@ -37,7 +37,7 @@
                 </a>
             </li>
         {{end}} -->
-        {{ range .Pages }}
+        {{ range .Pages.ByTitle }}
           <li>
               <a href="{{ .Permalink }}">{{ .Title }}
               </a>
