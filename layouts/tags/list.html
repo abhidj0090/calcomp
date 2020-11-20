@@ -37,7 +37,7 @@
                 </a>
             </li>
         {{end}} -->
-        {{ range (where site.RegularPages "Section" "==" "tags")}}
+        {{ range .Pages }}
           <li>
               <a href="{{ .Permalink }}">{{ .Title }}
               </a>
