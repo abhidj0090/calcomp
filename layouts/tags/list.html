@@ -31,11 +31,17 @@
       {{ $paginator := .Paginate .Data.Pages }}
       {{ if eq .Title "Tags" }}
         <ul class="tags">
-        {{ range $paginator.Pages }}
+        <!-- {{ range $paginator.Pages }}
             <li>
                 <a href="{{ .Permalink }}">{{ .Title }}
                 </a>
             </li>
+        {{end}} -->
+        {{ range (where site.RegularPages "Section" "==" "tags")}}
+          <li>
+              <a href="{{ .Permalink }}">{{ .Title }}
+              </a>
+          </li>
         {{end}}
         </ul>
       {{else}}
