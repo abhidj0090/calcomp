@@ -1,7 +1,6 @@
 +++
 date = 2020-11-21T13:30:00Z
 description = ""
-draft = true
 image = "/images/126302117_3487831711335737_2617645649491253145_n.jpg"
 image_webp = "/images/126302117_3487831711335737_2617645649491253145_n.webp"
 tags = ["Nabati Poetry ", "Comparative Literature ", "Greek Poetry"]
@@ -13,3 +12,6 @@ speaker_image_webp = ""
 speaker_name = "Dr. Valerie Hannon Smitherman"
 
 +++
+Check out the recorded lecture
+
+{{< youtube 2imZtzu5uOo>}}
