@@ -12,3 +12,6 @@ speaker_image_webp = ""
 speaker_name = "Dr. Dheeman Bhattacharyya "
 
 +++
+Check out the recorded lecture
+
+{{< youtube gB4UArZkoQs&t=26s>}}
