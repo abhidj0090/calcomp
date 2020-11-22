@@ -3,7 +3,6 @@ author = "Aratrika Ganguly"
 author_bio = "Aratrika Ganguly is one of the founder members of CC1919 and currently is a research scholar at the dept. of Comparative Indian Language and Literature"
 date = 2020-11-22T06:52:36Z
 description = "ative Study of Tagore's 'Dharma' and Gandhi's 'Sudharo'."
-draft = true
 image = "/images/bruno-7kpvcsybzdi-unsplash.jpg"
 image_webp = "/images/bruno-7kpvcsybzdi-unsplash.webp"
 tags = ["Gandhian Studies"]
