@@ -14,4 +14,4 @@ speaker_name = "Areeba Ahsanat Moazzam"
 +++
 Check out the recorded lecture
 
-{{< youtube gyAoPg3VWcM&t=240s>}}
+{{< youtube gyAoPg3VWcM>}}
