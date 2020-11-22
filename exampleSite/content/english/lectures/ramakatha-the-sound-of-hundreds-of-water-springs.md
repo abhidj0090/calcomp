@@ -1,7 +1,6 @@
 +++
 date = 2020-11-20T13:30:00Z
 description = "Perspectives on the Ramayana"
-draft = true
 image = "/images/126490182_3483545588431016_5555893550575446055_n.jpg"
 image_webp = "/images/126490182_3483545588431016_5555893550575446055_n.webp"
 tags = ["Ramayana", "South Asia", "Literature"]
