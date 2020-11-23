@@ -28,7 +28,7 @@
 					<a class="btn btn-main" href="{{ `events` | absLangURL }}">{{ i18n "ViewAllEvents" }}</a>
 			</div>
 			{{else}}
-				<span>There are no upcoming events at this moment please subscribe to our yourtube channel for more information</span>
+				<h4>{{ replace .Params.noevent "youtube" "<a href={{.Params.youtube}}>youtube</a>" }}</h4>
 			{{end}}
 		</div>
 	</div>

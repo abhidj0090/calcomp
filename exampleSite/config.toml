@@ -53,6 +53,7 @@ weight = 1
 [params]
 author = ""
 noevent="There are no upcoming events at this moment please subscribe to our youtube channel for more information"
+youtube="https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 enable_search = true
 google_analytics_id = ""
