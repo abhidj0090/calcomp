@@ -105,3 +105,6 @@ blockquote {
 .subscription a{
     color:#57cbcc;
 }
+.subscription a:hover{
+    color: #2c9091;
+}
