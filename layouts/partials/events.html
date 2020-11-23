@@ -28,7 +28,7 @@
 					<a class="btn btn-main" href="{{ `events` | absLangURL }}">{{ i18n "ViewAllEvents" }}</a>
 			</div>
 			{{else}}
-				<h4>{{ replace site.Params.noevent "YouTube" "<a href={{.Params.youtube}}>youtube</a>" }}</h4>
+				<h4>{{ replace site.Params.noevent "YouTube" "<a href={{.Params.youtube}}>youtube</a>" | safeHTML }}</h4>
 			{{end}}
 		</div>
 	</div>
