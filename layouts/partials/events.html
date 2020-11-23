@@ -1,6 +1,6 @@
 {{ if gt site.RegularPages 0}}
 {{"<!-- Start Upcoming Section -->" | safeHTML}}
-<section id="Lecture" class="section">
+<section id="events" class="section">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
@@ -19,14 +19,17 @@
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
+			{{ if gt ( len (where .Site.RegularPages "Section" "==" "events") ) 0 }}
+				{{ range first 3 (where site.RegularPages "Section" "==" "events").ByPublishDate}}
+				{{ .Render "upcoming"}}
+				{{ end }}
 
-			{{ range first 3 (where site.RegularPages "Section" "==" "events").ByPublishDate}}
-			{{ .Render "upcoming"}}
-			{{ end }}
-
-			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main" href="{{ `events` | absLangURL }}">{{ i18n "ViewAllEvents" }}</a>
+				<div class="all-post text-center col-lg-12">
+					<a class="btn btn-main" href="{{ `events` | absLangURL }}">{{ i18n "ViewAllEvents" }}</a>
 			</div>
+			{{else}}
+				<span>There are no upcoming events at this moment please subscribe to our yourtube channel for more information</span>
+			{{end}}
 		</div>
 	</div>
 </section>
