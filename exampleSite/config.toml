@@ -37,17 +37,17 @@ url = "about"
 weight = 4
 [[menu.main]]
 name = "Lectures"
-pre = ""
+pre = "#"
 url = "lectures"
 weight = 3
 [[menu.main]]
 name = "Blog"
-pre = ""
+pre = "#"
 url = "blog"
 weight = 2
 [[menu.main]]
 name = "Upcoming Events"
-pre = ""
+pre = "#"
 url = "events"
 weight = 1
 [params]
