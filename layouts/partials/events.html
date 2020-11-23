@@ -28,7 +28,9 @@
 					<a class="btn btn-main" href="{{ `events` | absLangURL }}">{{ i18n "ViewAllEvents" }}</a>
 			</div>
 			{{else}}
-				<h4>{{ site.Params.noevent | safeHTML }}</h4>
+				<div class="col-lg-10">
+					<h4>{{ site.Params.noevent | safeHTML }}</h4>
+				</div>
 			{{end}}
 		</div>
 	</div>
