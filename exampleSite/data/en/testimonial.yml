@@ -4,6 +4,19 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
+  - name: Shweta Krishnan
+    designation: Phd Candidate,  Department of Anthropology,  George Washington university
+    image: images/client/Shweta.jpg
+    image_webp: images/client/Shweta.webp
+    date: ''
+    content: As a PhD Candidate, it is always wonderful to have opportunities like
+      this, where we can share our research and our evolving ideas and get feedback
+      and comments from our peers. It was wonderful to be able to Skype in across
+      time zones, and give a talk in an Indian university. I think academia reinscribes
+      a lot of problematic colonial relations, by keeping institutions in the "West"
+      isolated from institutions in other places. I think it is important to have
+      dialogues across these divides, and so presenting my work scholars in India,
+      while residing in the US, felt like both an interesting and important opportunity.
   - name: Meenakshi A
     designation: Research Scholar, Centre for Historical Studies, Jawaharlal Nehru
       University
