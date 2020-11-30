@@ -14,7 +14,7 @@ team:
       Jadavpur University. '
     social:
     - icon: ti-facebook
-      link: "#"
+      link: https://www.facebook.com/Tsu.por.na
   - name: Suman Paul
     image_webp: "/images/team/suman_newww.webp"
     image: "/images/team/suman_newww.jpg"
@@ -25,7 +25,7 @@ team:
       he is a big fan of heavy metal, EDM and Ghazals.
     social:
     - icon: ti-facebook
-      link: "#"
+      link: https://www.facebook.com/su5m5a1n9p9a6l
   - name: Poonam Mukherjee
     image_webp: "/images/team/Poonam.webp"
     image: "/images/team/Poonam.jpg"
@@ -34,7 +34,7 @@ team:
       of Calcutta.  \n"
     social:
     - icon: ti-facebook
-      link: "#"
+      link: https://www.facebook.com/punam.mukherjee.9440
   - name: Kingshuk Bandyaopadhyay
     image_webp: "/images/team/Kinshuk.webp"
     image: "/images/team/Kinshuk.jpg"
@@ -45,7 +45,7 @@ team:
       poet author of 'Libido Tomar Jotno Lalon' doubling up as a theater artist occasionally.
     social:
     - icon: ti-facebook
-      link: "#"
+      link: https://www.facebook.com/kingshuk.bandyopadhyay
   - name: Jemima Nasrin
     image_webp: "/images/team/Jemima.webp"
     image: "/images/team/Jemima.jpg"
@@ -57,7 +57,7 @@ team:
       Comparative Literature, Folk Literature etc
     social:
     - icon: ti-facebook
-      link: "#"
+      link: https://www.facebook.com/jemima.nasrin.144
   - name: Pratim Das
     image_webp: "/images/team/Pratim.webp"
     image: "/images/team/Pratim.jpg"
@@ -67,7 +67,7 @@ team:
       Travelogues, Coolie Literature, Migration, Dalit literature, Children’s Literature, Vaishnava Literature, Literary criticism, and Folk culture.
     social:
     - icon: ti-facebook
-      link: ''
+      link: https://www.facebook.com/prat0293
   - name: Aratrika Ganguly
     image_webp: "/images/team/Aratrika.webp"
     image: "/images/team/Aratrika.jpg"
@@ -79,6 +79,4 @@ team:
       Colony and Beyond'' Investigated by Dr. Mrinmoy Pramanick.'
     social:
     - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: https://twitter.com/aratrikaganguly
+      link: https://www.facebook.com/aratrikaganguly
