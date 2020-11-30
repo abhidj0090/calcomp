@@ -4,6 +4,18 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
+  - name: Dr. Nishi Pulugurtha
+    designation: Associate Professor in the department of English, Brahmananda Keshab
+      Chandra College
+    image: ''
+    image_webp: ''
+    date: ''
+    content: The Calcutta Comparatists 1919 are a group of enthusiastic students and
+      research scholars who have come together during the pandemic to bring a series
+      of  talks/ lectures on wide ranging topics from literature and culture studies.
+      I was one such speaker and must say that the entire program was wonderfully
+      organized. My best wishes to this energetic bunch of young people as they forge
+      ahead.
   - name: Dr Subhadeep Ray
     designation: Associate Professor of English, Bidhan Chandra College, Kazi Nazrul
       University, Asansol, West Bengal, India
