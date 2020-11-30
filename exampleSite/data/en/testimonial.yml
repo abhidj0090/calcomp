@@ -4,6 +4,19 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
+  - name: Meenakshi A
+    designation: Research Scholar, Centre for Historical Studies, Jawaharlal Nehru
+      University
+    image: images/client/Mennakshi.jpg
+    image_webp: images/client/Mennakshi.webp
+    date: ''
+    content: I believe Calcutta Comparatists to be an important initiative for interdisciplinary
+      scholars. It is crucial to cultivate dialogue and exchanges between researchers
+      at all stages of their careers and this group is doing this very well. I was
+      approached by them to give a lecture on my historical research on material histories,
+      and I had a wonderful experience delivering the talk as well as engaging in
+      fruitful discussions with the organizers and attendees. I look forward to the
+      future events and talks organized by Calcutta Comparatists.
   - name: Dr. Nishi Pulugurtha
     designation: Associate Professor in the department of English, Brahmananda Keshab
       Chandra College
