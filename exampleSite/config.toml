@@ -1,4 +1,4 @@
-baseURL = "https://calcomp.netlify.app/"
+baseURL = "https://www.calcomp.org/"
 canonifyURLs = "true"
 disableLanguages = ["Fr"]
 disqusShortname = ""
@@ -59,7 +59,7 @@ logo = "images/logo.jpg"
 noevent = "There are no upcoming events at this moment please subscribe to our <span class=\"color subscription\"><a href=\"https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q\"><i class=\"ti-youtube\"></i></a></span> channel or follow our <span class=\"color subscription\"><a href=\"https://www.facebook.com/CalcuttaComparatists1919\"><i class=\"ti-facebook\"></i></a></span> page for more information"
 post_share = true
 shortname = "CC1919"
-staticAddress = "https://calcomp.netlify.app"
+staticAddress = "https://www.calcomp.org/"
 twitterSite = "@1919Calcutta"
 youtube = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 [params.cookies]
