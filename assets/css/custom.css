@@ -114,3 +114,12 @@ blockquote {
 .call-to-action h2,.call-to-action p {
     color:white
 }
+.call-to-action .container .row{
+    background: rgba(60, 60, 60, 0.5);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.call-to-action .btn-main{
+    margin-bottom: 10px;
+
+}
