@@ -4,6 +4,7 @@ calendar_filename = "Thomas Hardy and His Asian Correspondents"
 description = "37th Lecture of online lecture series organised by Calcutta Comparatists 1919"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2020-12-02T15:30:00Z
 event_start_date = 2020-12-02T13:30:00Z
 image = "/images/whatsapp-image-2020-11-30-at-18-16-39.jpeg"
