@@ -1,6 +1,7 @@
 ---
 cta:
   enable: true
+  overlay: true
   bg_image: images/cta1.jpg
   bg_image_webp: images/cta1.webp
   title: Call for papers for the blog of Calcutta Comparatists 1919
