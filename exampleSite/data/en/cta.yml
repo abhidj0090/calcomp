@@ -1,12 +1,16 @@
 ---
 cta:
-  enable: false
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  bg_image_webp: images/backgrounds/bg-white-wall.webp
-  title: Great Design & Incredible Features
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
-    odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum.
+  enable: true
+  overlay: true
+  bg_image: images/cta1.jpg
+  bg_image_webp: images/cta1.webp
+  title: Call for papers for the blog of Calcutta Comparatists 1919
+  content: 'Submit your original paper in both pdf and word format in English or Bengali
+    to calcomparatists@gmail.com. Please use the font Times New Roman 12 for your
+    English paper and Kalpurush 12 for the Bangla paper. Paper should be between 1500-2000
+    words. We will publish your paper in our official website. Enrich us with your
+    diverse knowledge and let us look forward to a mutually beneficial academic relationship.  '
   button:
     enable: true
-    label: Start a project with us
+    label: Reach us
     link: "#contact"
