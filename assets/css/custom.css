@@ -108,3 +108,6 @@ blockquote {
 .subscription a:hover{
     color: #2c9091;
 }
+.tags.ti-tag{
+    float: left;
+}
