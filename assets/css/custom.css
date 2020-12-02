@@ -111,3 +111,6 @@ blockquote {
 .tags .ti-tag{
     float: left;
 }
+.call-to-action h2,.call-to-action p {
+    color:white
+}
