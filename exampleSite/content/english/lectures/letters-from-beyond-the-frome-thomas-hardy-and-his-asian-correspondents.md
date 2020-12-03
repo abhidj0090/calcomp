@@ -1,7 +1,6 @@
 +++
 date = 2020-12-01T18:30:00Z
 description = ""
-draft = true
 image = "/images/whatsapp-image-2020-11-30-at-18-16-39.jpeg"
 image_webp = "/images/whatsapp-image-2020-11-30-at-18-16-39-1.webp"
 tags = ["Literature", "Victorian Era"]
@@ -13,3 +12,6 @@ speaker_image_webp = ""
 speaker_name = "Dr. Oindrila Ghosh "
 
 +++
+Check out the recorded lecture
+
+{{< youtube X7BOCvMDMqg>}}
