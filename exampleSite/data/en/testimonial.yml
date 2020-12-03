@@ -4,6 +4,17 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
+  - name: Prof. Kakali Dhara Mandal
+    designation: H.O.D, Dept. of Folklore, University of Kalyani
+    image: images/client/Kakali.jpg
+    image_webp: images/client/Kakali.webp
+    date: ''
+    content: "' নতুন যৌবনেরই দূত' একদল নব্য গবেষকের আন্তরিক ও  উষ্ণ আহ্বানে সাড়া দিয়ে
+      বক্তা হিসাবে উপস্থিত হয়েছিলাম এই আসরে - বিস্বজোড়া মহামারীর সংকট লগ্নে। সুন্দর
+      ও সুচারু সেই আয়োজনে মুগ্ধ হয়েছি। নিত্য নতুন বিষয়ের চমৎকার পশরা সাজিয়ে প্রতিনিয়ত
+      তাঁর অভিনব সব মননশীল বক্তৃতার আয়োজন করে চলেছেন। আন্তরিক  শুভেচ্ছা জানাই তাঁদের
+      এই মহতী উদ্যোগের। দিন দিন শ্রীবৃদ্ধি ঘটুক 'Calcutta Comparatists 1919'  বৌদ্ধিক
+      গোষ্ঠীর।।"
   - name: Shweta Krishnan
     designation: Phd Candidate,  Department of Anthropology,  George Washington university
     image: images/client/Shweta.jpg
