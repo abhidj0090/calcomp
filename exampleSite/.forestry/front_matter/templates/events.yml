@@ -106,5 +106,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/letters-from-beyond-the-frome-thomas-hardy-and-his-asian-correspondents.md
