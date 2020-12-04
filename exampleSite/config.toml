@@ -1,4 +1,5 @@
 baseURL = "https://www.calcomp.org/"
+enableRobotsTXT  = "true"
 canonifyURLs = "true"
 disableLanguages = ["Fr"]
 disqusShortname = ""
