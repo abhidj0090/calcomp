@@ -107,4 +107,5 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/imagining-the-great-imperial-exhibitions-and-fin-de-siecle-gothic-media-spiritualism-new-technologies-and-the-urban-ecology-of-spectacular-spaces.md
 - exampleSite/content/english/events/writing-nation-writing-resistance-anglophone-kashmiri-literature-post-1990s.md
