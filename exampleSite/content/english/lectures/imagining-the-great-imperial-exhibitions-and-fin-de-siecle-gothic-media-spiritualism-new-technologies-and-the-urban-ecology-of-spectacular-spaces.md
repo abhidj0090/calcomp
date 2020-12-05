@@ -13,3 +13,6 @@ speaker_image_webp = ""
 speaker_name = "Arnab Chakraborty"
 
 +++
+Check out the recorded lecture
+
+{{< youtube TTtm0mRWFOQ>}}
