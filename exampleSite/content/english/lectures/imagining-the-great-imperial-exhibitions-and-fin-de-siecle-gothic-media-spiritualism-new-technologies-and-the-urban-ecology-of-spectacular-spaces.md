@@ -1,7 +1,6 @@
 +++
 date = 2020-12-03T18:30:00Z
 description = "38th Online Lecture organized by Calcutta Comparatists 1919"
-draft = true
 image = "/images/128915176_1322138224794324_3904479232474213730_n.jpg"
 image_webp = "/images/128915176_1322138224794324_3904479232474213730_n.webp"
 tags = ["Gothic Media", "Urban Ecoology", "Spiritualism"]
