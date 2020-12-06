@@ -3,7 +3,7 @@ all_day_event = false
 calendar_filename = "Postcolonialism Today"
 description = "Postcolonialism Today"
 disable_download = false
-disable_link = false
+disable_link = true
 event_end_date = 2020-12-09T15:30:00Z
 event_start_date = 2020-12-09T13:30:00Z
 image = "/images/bill2.jpg"
@@ -13,9 +13,9 @@ meeting_link = "https://www.youtube.com/watch?v=KSKHmv-9hQw"
 tags = ["Post Colonial Studies"]
 title = "Postcolonialism Today"
 [[speakers]]
-bio = "FAHA Professor Emeritus School of the Arts and Media UNSW Sydney, Australia"
-speaker_image = "/images/bill-profile.jpg"
-speaker_image_webp = "/images/bill-profile.webp"
+bio = "FAHA, Professor Emeritus School of the Arts and Media UNSW Sydney, Australia"
+speaker_image = "/images/bill-profile-1.jpg"
+speaker_image_webp = "/images/bill-profile-1.webp"
 speaker_name = "Prof. Bill Ashcroft"
 
 +++
