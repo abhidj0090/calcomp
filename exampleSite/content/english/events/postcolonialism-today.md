@@ -4,7 +4,6 @@ calendar_filename = "Postcolonialism Today"
 description = "Postcolonialism Today"
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2020-12-09T15:30:00Z
 event_start_date = 2020-12-09T13:30:00Z
 image = "/images/bill2.jpg"
