@@ -1,7 +1,7 @@
 +++
 all_day_event = false
 calendar_filename = "Postcolonialism Today"
-description = "Postcolonialism Today"
+description = "Postcolonialism Today by Prof. Bill Ashcroft"
 disable_download = false
 disable_link = true
 event_end_date = 2020-12-09T07:30:00Z
