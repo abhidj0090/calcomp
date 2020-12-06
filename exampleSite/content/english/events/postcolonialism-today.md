@@ -10,7 +10,7 @@ image = "/images/bill2.jpg"
 image_webp = "/images/bill2.webp"
 location = "Kolkata, IN"
 meeting_link = "https://www.youtube.com/watch?v=KSKHmv-9hQw"
-tags = ["Post Colonial Studies"]
+tags = ["Post Colonial Studies", "Neocolonialism"]
 title = "Postcolonialism Today"
 [[speakers]]
 bio = "FAHA, Professor Emeritus School of the Arts and Media UNSW Sydney, Australia"
