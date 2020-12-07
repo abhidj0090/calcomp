@@ -47,7 +47,9 @@
     }
     .mobile .js-search {
         width: 300px;
+        padding-top: 10px;
     }
+    
 }
 
 blockquote p{
