@@ -45,6 +45,9 @@
     .mobile{
         display: block;
     }
+    .mobile .js-search {
+        width: 300px;
+    }
 }
 
 blockquote p{
