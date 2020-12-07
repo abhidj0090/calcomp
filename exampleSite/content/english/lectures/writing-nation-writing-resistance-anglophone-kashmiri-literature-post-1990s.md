@@ -13,3 +13,6 @@ speaker_image_webp = ""
 speaker_name = "Dr. Somjyoti Mridha"
 
 +++
+Check out the recorded lecture
+
+{{< youtube 2imZtzu5uOo>}}
