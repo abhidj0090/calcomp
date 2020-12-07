@@ -32,7 +32,7 @@
     font-size: 1.2rem;
 }
 .mobile{
-    display: none !important;
+    display: none;
 }
 @media only screen and (max-device-width: 768px) {
     .hero-area{
