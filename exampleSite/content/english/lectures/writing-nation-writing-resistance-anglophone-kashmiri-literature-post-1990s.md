@@ -15,4 +15,4 @@ speaker_name = "Dr. Somjyoti Mridha"
 +++
 Check out the recorded lecture
 
-{{< youtube 2imZtzu5uOo>}}
+{{< youtube DsEf71M2Oj8>}}
