@@ -4,6 +4,7 @@ calendar_filename = "Postcolonialism Today"
 description = "Postcolonialism Today by Prof. Bill Ashcroft"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2020-12-09T07:30:00Z
 event_start_date = 2020-12-09T05:30:00Z
 image = "/images/bill2.jpg"
