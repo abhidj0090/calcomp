@@ -1,7 +1,6 @@
 +++
 date = 2020-11-01T11:30:00Z
 description = ""
-draft = true
 image = "/images/123207981_3431290890323153_3574695855765800327_n.jpg"
 image_webp = "/images/123207981_3431290890323153_3574695855765800327_n.webp"
 tags = ["Female Space", "Kitchen"]
