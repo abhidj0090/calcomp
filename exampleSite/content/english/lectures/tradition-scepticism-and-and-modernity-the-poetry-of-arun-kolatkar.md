@@ -1,7 +1,6 @@
 +++
 date = 2020-09-27T13:30:00Z
 description = "8th online lecture organized by the Calcutta Comparatists1919."
-draft = true
 image = "/images/120019024_3325401434245433_5675950314259239323_o.jpg"
 image_webp = "/images/120019024_3325401434245433_5675950314259239323_o.webp"
 tags = ["Indian English Literature", "Arun Kolatkar"]
@@ -13,3 +12,6 @@ speaker_image_webp = ""
 speaker_name = "Dr. Goutam Karmakar  "
 
 +++
+Check out the recorded lecture
+
+{{< youtube -ioo1Y_Uc1c>}}
