@@ -107,5 +107,6 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/dubois-the-negro-church-and-ambedkar-s-the-buddha-and-his-dhamma-heterodoxies-of-liberation-theology.md
 - exampleSite/content/english/events/postcolonialism-today.md
 - exampleSite/content/english/events/the-comic-view-of-life-in-sukumar-ray-s-abol-tabol.md
