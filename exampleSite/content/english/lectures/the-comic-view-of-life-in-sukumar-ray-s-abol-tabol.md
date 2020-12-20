@@ -1,7 +1,6 @@
 +++
 date = 2020-12-18T18:30:00Z
 description = "42nd lecture organised by Calcutta Comparatists 1919"
-draft = true
 image = "/images/131486789_181702176990010_1908863405496130389_n.jpg"
 image_webp = "/images/131486789_181702176990010_1908863405496130389_n.webp"
 tags = ["Abol Tabol", "Comics"]
@@ -13,3 +12,6 @@ speaker_image_webp = "/images/20201217_123805.webp"
 speaker_name = "Dr. Purnima Mukherjee"
 
 +++
+Check out the recorded lecture
+
+{{< youtube Tdx8X_benSc>}}
