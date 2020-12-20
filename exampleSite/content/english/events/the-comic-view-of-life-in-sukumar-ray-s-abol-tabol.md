@@ -4,6 +4,7 @@ calendar_filename = "42nd lecture"
 description = "42nd lecture organised by Calcutta Comparatists 1919"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2020-12-19T15:30:00Z
 event_start_date = 2020-12-19T13:30:00Z
 image = "/images/131486789_181702176990010_1908863405496130389_n.jpg"
