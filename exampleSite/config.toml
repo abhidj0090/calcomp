@@ -1,8 +1,8 @@
 baseURL = "https://www.calcomp.org/"
-enableRobotsTXT  = "true"
 canonifyURLs = "true"
 disableLanguages = ["Fr"]
 disqusShortname = ""
+enableRobotsTXT = "true"
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
@@ -103,7 +103,7 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/favicon.png"
 [[params.social]]
 icon = "ti-facebook"
