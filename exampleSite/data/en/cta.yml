@@ -1,6 +1,6 @@
 ---
 cta:
-  enable: true
+  enable: false
   overlay: true
   bg_image: images/cta1.jpg
   bg_image_webp: images/cta1.webp
