@@ -1,7 +1,6 @@
 +++
 date = 2020-12-20T13:30:00Z
 description = "43rd lecture organised by Calcutta Comparatists 1919"
-draft = true
 image = "/images/20dec.jpg"
 image_webp = "/images/20dec.webp"
 tags = ["Theology", "Religion"]
