@@ -9,7 +9,7 @@ event_start_date = 2021-01-03T13:30:00Z
 image = "/images/134386851_3593363987449175_1208658755084371756_n.jpg"
 image_webp = "/images/134386851_3593363987449175_1208658755084371756_n.webp"
 location = ""
-meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q/featured"
+meeting_link = "https://www.youtube.com/watch?v=jsQdS0k7Pk0"
 tags = ["Environmental Literature", "Comparative Literature"]
 title = "Comparative Discussion: Environmental Literature"
 [[speakers]]
