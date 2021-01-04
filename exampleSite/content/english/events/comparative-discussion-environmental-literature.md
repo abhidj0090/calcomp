@@ -4,6 +4,7 @@ calendar_filename = "Comparative Discussion: Environmental Literature"
 description = "Calcutta Comparatists1919 presents 44th lecture of the CC19 lecture series. Debajit Paul will deliver the first lecture of the year 2021 at CC19."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-01-03T15:30:00Z
 event_start_date = 2021-01-03T13:30:00Z
 image = "/images/134386851_3593363987449175_1208658755084371756_n.jpg"
