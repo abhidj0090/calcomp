@@ -4,6 +4,7 @@ calendar_filename = "Writing the city"
 description = "Calcutta Comparatists1919 brings to you 45th lecture of the CC19 Lecture Series. Dr. Pradipta Shyam Chowdhury , Assistant Professor, Dept of English, North Bengal University kindly agreed to deliver a talk on Bapsi Sidhwa's Writings."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-01-04T15:30:00Z
 event_start_date = 2021-01-04T13:30:00Z
 image = "/images/135171392_3600584976727076_1854900258818736862_n.jpg"
