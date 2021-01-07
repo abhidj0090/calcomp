@@ -107,5 +107,4 @@ fields:
   type: boolean
   label: disable download
 pages:
-- exampleSite/content/english/events/coolie-diaspora-literary-perspectives.md
 - exampleSite/content/english/events/postcolonialism-today.md
