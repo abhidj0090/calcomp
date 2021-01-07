@@ -13,3 +13,6 @@ speaker_image_webp = ""
 speaker_name = "Professor Himadri Lahiri "
 
 +++
+Check out the recorded lecture
+
+{{< youtube AG_OGW-SPyI>}}
