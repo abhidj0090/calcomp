@@ -1,7 +1,6 @@
 +++
 date = 2021-01-05T18:30:00Z
 description = "46th lecture of the CC19 lecture series"
-draft = true
 image = "/images/136380404_3603023819816525_1950969578030634855_n.jpg"
 image_webp = "/images/136380404_3603023819816525_1950969578030634855_n.webp"
 tags = ["Coolie", "Diaspora"]
