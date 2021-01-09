@@ -19,3 +19,4 @@ speaker_image_webp = ""
 speaker_name = "Tathagata Dutta "
 
 +++
+48th lecture of the CC1919 lecture series. Tathagata will be speaking on Bengal- Rohingya Connection and its reception in Bengali Literature. A very unique research area will focus on the connections between India and Myanmar. 
