@@ -4,6 +4,7 @@ calendar_filename = "48th lecture of the cc1919 lecture series"
 description = "48th lecture of the cc1919 lecture series. Tathagata will be speaking on Bengal- Rohingya Connection and its reception in Bengali Literature."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-01-09T14:30:00Z
 event_start_date = 2021-01-09T12:30:00Z
 image = "/images/136976104_196890925471135_1356405286499197236_n.jpg"
