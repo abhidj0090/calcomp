@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists1919 Presents to you 50th Lecture of t
 description = "Calcutta Comparatists1919 Presents to you 50th Lecture of the CC1919 lecture Series."
 disable_download = false
 disable_link = true
+draft = true
 event_end_date = 2021-01-14T15:30:00Z
 event_start_date = 2021-01-14T13:30:00Z
 image = "/images/138073067_4163140050380204_7083396080033107812_n.jpg"
