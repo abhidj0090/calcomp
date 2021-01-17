@@ -12,6 +12,8 @@ speaker_image_webp = ""
 speaker_name = "Dr. Anindita Ghoshal"
 
 +++
+Calcutta Comparatists1919 brings to you the 49th lecture of the CC1919 lecture series.  Dr. Anindita Ghoshal delivered an invited lecture at our forum and she spoke on the rich history of Northeast India and its contribution to the Indian Context. This talk also tried to break/change our preconceived notions about the Northeast.
+
 Check out the recorded lecture
 
 {{< youtube G7pwZv5SdXs>}}
