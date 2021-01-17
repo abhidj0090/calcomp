@@ -107,7 +107,6 @@ fields:
   type: boolean
   label: disable download
 pages:
-- exampleSite/content/english/events/acts-of-faith-poetry-of-the-british-indian-diaspora.md
 - exampleSite/content/english/events/crisis-of-regional-languages-in-the-context-of-uttarabanga-north-bengal-india.md
 - exampleSite/content/english/events/migration-and-pandemics.md
 - exampleSite/content/english/events/postcolonialism-today.md
