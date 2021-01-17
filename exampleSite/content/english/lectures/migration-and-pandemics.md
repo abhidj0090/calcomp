@@ -15,3 +15,7 @@ speaker_name = "Professor Chinmay Tumbe"
 Calcutta Comparatists1919 Presents to you the 51st Lecture of the CC1919 Lecture Series.
 
 Professor **Chinmay Tumbe** agreed to deliver an invited lecture at our forum. He spoke on Migration and Pandemics based on his two books- India Moving: A History of Migration and his latest book, The Age of Pandemics. This lecture saw the best of his two works combined together.
+
+Check out the recorded lecture
+
+{{< youtube gDIxTeMl7hg>}}
