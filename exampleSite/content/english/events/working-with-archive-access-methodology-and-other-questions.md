@@ -4,6 +4,7 @@ calendar_filename = "53rd lecture of CC1919 lecture series organized by Calcutta
 description = "53rd lecture of CC1919 lecture series organized by Calcutta Comparatists1919 "
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-01-21T15:30:00Z
 event_start_date = 2021-01-21T13:30:00Z
 image = "/images/140685459_4187604701267072_902953400999261953_n.jpg"
