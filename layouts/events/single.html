@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-
+<div class="announcement" style="display:none">
+  <span class="announcement-text">This session is live you can join here <a href={{.Params.meeting_link}} class="btn btn-main" target="_blank">go</a></span>
+</div>
 <section class="section event">
   <div class="container">
     <div class="row">
@@ -78,7 +80,7 @@
       </div>
         <div class="col-lg-8 event-btns offset-lg-2">
           {{if not .Params.disable_link}}
-            <a href={{.Params.meeting_link}} class="btn btn-main" target="_blank"><i class="ti-link"></i>Join</a>
+            <a href={{.Params.meeting_link}} class="btn btn-join btn-main" target="_blank"><i class="ti-link"></i>Join</a>
           {{end}}
           {{if not .Params.disable_download}}
             <input type="hidden" id="subject" value="{{.Title }}"/>

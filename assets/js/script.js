@@ -187,6 +187,7 @@ function showLive(){
 
 	// compare nowTime and dateTime
 	if (newTime >= sTime && newTime <= eTime) {
-		alert('Session is live')
+		$('.announcement').css('display','block');
+		//alert('Session is live')
 	}
 }
