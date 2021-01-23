@@ -169,6 +169,7 @@ blockquote {
     color: white;
     padding: 10px;
     width: 100%;
+    text-align: center;
 }
 .announcement-text{
     animation: blinkingText 1s infinite;
