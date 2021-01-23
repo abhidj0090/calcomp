@@ -170,6 +170,9 @@ blockquote {
     padding: 10px;
     width: 100%;
     text-align: center;
+    position: sticky;
+    top: 58px;
+    z-index: 1020;
 }
 .announcement-text{
     animation: blinkingText 1s infinite;
