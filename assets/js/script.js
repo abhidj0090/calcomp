@@ -186,7 +186,7 @@ function showLive(){
 	var eTime = e.getHours()*60+e.getMinutes();
 
 	// compare nowTime and dateTime
-	if (newTime >= dateTime && newTime<=eTime) {
+	if (newTime >= sTime && newTime <= eTime) {
 		alert('Session is live')
 	}
 }
