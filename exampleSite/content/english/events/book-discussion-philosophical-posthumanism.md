@@ -18,9 +18,9 @@ speaker_image = "/images/140416173_2793699287626250_4663429292224928209_n.png"
 speaker_image_webp = "/images/140416173_2793699287626250_4663429292224928209_n.webp"
 speaker_name = "Dr. Francesca Ferrando"
 [[speakers]]
-bio = "Assistant Professor\nDept. of English,\nSchool of Literature, Language & Cultural Studies Bankura University"
-speaker_image = "/images/140722867_458985005130687_5140749749379754990_n.jpg"
-speaker_image_webp = "/images/140722867_458985005130687_5140749749379754990_n.webp"
+bio = "Assistant Professor Dept. of English,School of Literature, Language & Cultural Studies Bankura University"
+speaker_image = "/images/subhadeep_paul.jpg"
+speaker_image_webp = "/images/subhadeep_paul.jpg"
 speaker_name = " Dr. Subhadeep Paul"
 
 +++
