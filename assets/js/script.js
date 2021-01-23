@@ -182,7 +182,7 @@ function showLive(){
 	var e = new Date($('.end-date').html());
 
 	var newTime = now.getHours()*60+now.getMinutes();
-	var sTime = s.getHours()*60+d.getMinutes();
+	var sTime = s.getHours()*60+s.getMinutes();
 	var eTime = e.getHours()*60+e.getMinutes();
 
 	// compare nowTime and dateTime

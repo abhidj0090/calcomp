@@ -8,8 +8,9 @@
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
         <ul class="list-inline mb-50">
-          <li class="list-inline-item start-date">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
-          <li class="list-inline-item end-date" style="display:none">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_end_date }}</li>
+          <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
+          <li class="list-inline-item start-date" style="display:none">{{ dateFormat "2006-01-02 11:11" .Params.event_start_date }}</li>
+          <li class="list-inline-item end-date" style="display:none">{{ dateFormat "2006-01-02 11:11" .Params.event_end_date }}</li>
         </ul>
           {{with .Params.image}}
           <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="event-image">
