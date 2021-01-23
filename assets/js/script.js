@@ -139,6 +139,10 @@ jQuery(function ($) {
 	});
 
 });
+
+/* ========================================================================= */
+/*	Download event
+/* ========================================================================= */
 function downloadEvent(){
 	var subject = $('#subject').val();
 	var description = $('#description').val();
@@ -166,6 +170,7 @@ function focusSearch(){
 		$('.js-search').focus();
 	}
 }
+
 function showLive(){
 	var now = new Date();
 	var d = new Date($('.start-date').val());
