@@ -24,25 +24,25 @@
           {{ $imagewbp := .speaker_image_webp }}
           {{ $image := .speaker_image }}
           {{ $name := .speaker_name }}
-          <div class="card mb-2" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                {{with .speaker_image}}
-                <div class="client-thumb speaker">
-                  <figure>
-                    <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
-                  </figure>
+            <div class="card mb-2" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  {{with .speaker_image}}
+                  <div class="client-thumb speaker">
+                    <figure>
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    </figure>
+                  </div>
+                  {{end}}
                 </div>
-                {{end}}
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">{{.speaker_name}}</h5>
-                  <p class="card-text"{{.bio}}</p>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{.speaker_name}}</h5>
+                    <p class="card-text">{{.bio}}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
             <!-- <div class="mb-2">
               {{with .speaker_image}}
                 <div class="client-thumb speaker">
