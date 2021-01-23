@@ -17,13 +17,13 @@
             {{ $imagewbp := .speaker_image_webp }}
             {{ $image := .speaker_image }}
             {{ $name := .speaker_name }}
-              <div class="mb-2">
                 {{with .speaker_image}}
                   <div class="client-thumb speaker">
-                    <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    <figure>
+                      <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    </figure>
                   </div>
                 {{end}}
-              </div>
             {{end}}
           </div>
         {{end}}
