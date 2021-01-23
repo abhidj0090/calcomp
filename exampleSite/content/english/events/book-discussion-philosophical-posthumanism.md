@@ -10,7 +10,7 @@ image = "/images/141016806_4189523167741892_5567338222354119975_n.jpg"
 image_webp = "/images/141016806_4189523167741892_5567338222354119975_n.webp"
 location = "Kolkata, IN"
 meeting_link = "https://www.youtube.com/watch?v=ckXWXzTSpmY"
-tags = ["Philosophical Posthumanism"]
+tags = ["Posthumanism", "Transhumanism "]
 title = "Book Discussion: \"Philosophical Posthumanism\""
 [[speakers]]
 bio = "Adjunct Assistant Professor\nNYU Liberal Studies\nNew York University"
