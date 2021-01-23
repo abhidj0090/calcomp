@@ -20,7 +20,7 @@ speaker_name = "Dr. Francesca Ferrando"
 [[speakers]]
 bio = "Assistant Professor Dept. of English,School of Literature, Language & Cultural Studies Bankura University"
 speaker_image = "/images/subhadeep_paul.jpg"
-speaker_image_webp = "/images/subhadeep_paul.jpg"
+speaker_image_webp = "/images/subhadeep_paul-1.webp"
 speaker_name = " Dr. Subhadeep Paul"
 
 +++
