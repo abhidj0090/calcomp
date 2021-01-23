@@ -2,7 +2,7 @@
 
 {{ partial "navigation.html" . }}
 
-<section class="section">
+<section class="section event">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
@@ -94,19 +94,4 @@
     </div>
   </div>
 </section>
-<script>
-  function showLive(){
-    var now = new Date();
-    var d = new Date($('.start-date').val());
-
-    var nowTime = now.getHours()*60+now.getMinutes();
-    var dateTime = d.getHours()*60+d.getMinutes();
-
-    // compare nowTime and dateTime
-    if (newTime > dateTime) {
-      // do something
-    }
-  }
-  showLive();
-</script>
 {{ end }}

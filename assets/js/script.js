@@ -137,6 +137,11 @@ jQuery(function ($) {
 	$(window).on('scroll', function () {
 		counter();
 	});
+	
+	var event = $(".event *");
+	if(event.length>0){
+		showLive();
+	}
 
 });
 
