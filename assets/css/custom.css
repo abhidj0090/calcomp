@@ -141,3 +141,13 @@ blockquote {
     margin-bottom: 10px;
 
 }
+up-speaker{
+    display: inline-block;
+}
+.up-speaker figure{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70%;
+    border: 2px solid #2c9091;
+}

@@ -12,13 +12,13 @@
         <p>{{ .Summary }}</p>
         {{ $speakers := .Params.speakers }}
         {{ if gt ( len $speakers) 0 }}
-          <div class="col-lg-8 offset-lg-2 mb-3">
+          <div class="mb-3">
             {{ range $speakers }}
             {{ $imagewbp := .speaker_image_webp }}
             {{ $image := .speaker_image }}
             {{ $name := .speaker_name }}
                 {{with .speaker_image}}
-                  <div class="client-thumb speaker">
+                  <div class="client-thumb up-speaker">
                     <figure>
                       <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
                     </figure>
