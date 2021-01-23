@@ -144,6 +144,10 @@ blockquote {
 .card-speaker *{
     color:white;
 }
+.card-speaker .card{
+    background-color: inherit;
+    border: 2px solid teal;
+}
 .up-speaker{
     display: inline-block;
 }
