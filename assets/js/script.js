@@ -178,8 +178,8 @@ function focusSearch(){
 
 function showLive(){
 	var now = new Date();
-	var s = new Date($('.start-date').val());
-	var e = new Date($('.end-date').val());
+	var s = new Date($('.start-date').html());
+	var e = new Date($('.end-date').html());
 
 	var newTime = now.getHours()*60+now.getMinutes();
 	var sTime = s.getHours()*60+d.getMinutes();
