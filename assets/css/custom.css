@@ -141,7 +141,10 @@ blockquote {
     margin-bottom: 10px;
 
 }
-up-speaker{
+.card-speaker *{
+    color:white;
+}
+.up-speaker{
     display: inline-block;
 }
 .up-speaker figure{
