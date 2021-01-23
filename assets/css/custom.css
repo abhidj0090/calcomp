@@ -148,6 +148,9 @@ blockquote {
     background-color: inherit;
     border: 2px solid teal;
 }
+.card-speaker .card .row{
+    margin:10px;
+}
 .up-speaker{
     display: inline-block;
 }
