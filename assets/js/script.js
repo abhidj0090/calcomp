@@ -137,7 +137,7 @@ jQuery(function ($) {
 	$(window).on('scroll', function () {
 		counter();
 	});
-	
+
 	var event = $(".event *");
 	if(event.length>0){
 		showLive();
@@ -178,13 +178,15 @@ function focusSearch(){
 
 function showLive(){
 	var now = new Date();
-	var d = new Date($('.start-date').val());
+	var s = new Date($('.start-date').val());
+	var e = new Date($('.end-date').val());
 
-	var nowTime = now.getHours()*60+now.getMinutes();
-	var dateTime = d.getHours()*60+d.getMinutes();
+	var newTime = now.getHours()*60+now.getMinutes();
+	var sTime = s.getHours()*60+d.getMinutes();
+	var eTime = e.getHours()*60+e.getMinutes();
 
 	// compare nowTime and dateTime
-	if (newTime > dateTime) {
-		// do something
+	if (newTime >= dateTime && newTime<=eTime) {
+		alert('Session is live')
 	}
 }
