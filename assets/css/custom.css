@@ -151,6 +151,9 @@ blockquote {
 .card-speaker .card .row{
     margin:10px;
 }
+.card-speaker .card .row figure img{
+    border-radius: 5px;
+}
 .up-speaker{
     display: inline-block;
 }
