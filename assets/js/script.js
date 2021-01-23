@@ -138,7 +138,16 @@ jQuery(function ($) {
 		counter();
 	});
 
+	var event = $(".event *");
+	if(event.length>0){
+		showLive();
+	}
+
 });
+
+/* ========================================================================= */
+/*	Download event
+/* ========================================================================= */
 function downloadEvent(){
 	var subject = $('#subject').val();
 	var description = $('#description').val();
@@ -164,5 +173,21 @@ function focusSearch(){
 	}
 	else{
 		$('.js-search').focus();
+	}
+}
+
+function showLive(){
+	var now = new Date();
+	var s = new Date($('.start-date').html());
+	var e = new Date($('.end-date').html());
+
+	var newTime = now.getHours()*60+now.getMinutes();
+	var sTime = s.getHours()*60+s.getMinutes();
+	var eTime = e.getHours()*60+e.getMinutes();
+
+	// compare nowTime and dateTime
+	if (newTime >= sTime && newTime <= eTime) {
+		$('.announcement').css('display','block');
+		//alert('Session is live')
 	}
 }

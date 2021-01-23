@@ -164,3 +164,24 @@ blockquote {
     width: 70%;
     border: 2px solid #2c9091;
 }
+.announcement{
+    background: teal;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.announcement-text{
+    animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText { 
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
