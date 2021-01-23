@@ -20,4 +20,4 @@ Poster- Kingshuk Bandyopadhyay
 
 Check out the recorded lecture
 
-{{< youtube iEwUFYsJUog&feature>}}
+{{< youtube iEwUFYsJUog>}}
