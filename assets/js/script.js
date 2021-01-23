@@ -166,3 +166,15 @@ function focusSearch(){
 		$('.js-search').focus();
 	}
 }
+function showLive(){
+	var now = new Date();
+	var d = new Date($('.start-date').val());
+
+	var nowTime = now.getHours()*60+now.getMinutes();
+	var dateTime = d.getHours()*60+d.getMinutes();
+
+	// compare nowTime and dateTime
+	if (newTime > dateTime) {
+		// do something
+	}
+}
