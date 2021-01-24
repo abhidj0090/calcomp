@@ -24,7 +24,7 @@ speaker_image_webp = "/images/subhadeep_paul-1.webp"
 speaker_name = " Dr. Subhadeep Paul"
 
 +++
-56th Lecture of online lecture series organized by Calcutta Comparatists 1919.
+55th Lecture of online lecture series organized by Calcutta Comparatists 1919.
 
 It is our extreme honor to host Dr. Francesca Ferrando as she will be in conversation with Dr. Subhadeep Paul on her book Philosophical Posthumanism. Dr Ferrando is a leading voice in the field of Posthumanism and Transhumanism studies and has received many accolades and awards during her academic life. Her work has been translated into various languages as she continues to engage the academic world with her amazing research.
 
