@@ -28,4 +28,4 @@ speaker_name = " Dr. Subhadeep Paul"
 
 It is our extreme honor to host Dr. Francesca Ferrando as she will be in conversation with Dr. Subhadeep Paul on her book Philosophical Posthumanism. Dr Ferrando is a leading voice in the field of Posthumanism and Transhumanism studies and has received many accolades and awards during her academic life. Her work has been translated into various languages as she continues to engage the academic world with her amazing research.
 
-Do please join on the 26th for this wonderful event.
+Do please join us on the 26th for this wonderful event.
