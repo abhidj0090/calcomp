@@ -8,7 +8,7 @@ event_end_date = 2021-01-28T15:30:00Z
 event_start_date = 2021-01-28T13:30:00Z
 image = "/images/142519866_207757934384434_3061156538177315540_n.jpg"
 image_webp = "/images/142519866_207757934384434_3061156538177315540_n.webp"
-location = ""
+location = "Kolkata, IN"
 meeting_link = " https://www.youtube.com/watch?v=857mdrIV5wo"
 tags = ["COVID 19", "Migration", "India"]
 title = "The Impact of COVID 19 on Migration:A Reference from India"
