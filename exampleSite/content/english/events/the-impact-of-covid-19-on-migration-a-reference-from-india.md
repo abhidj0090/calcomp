@@ -23,4 +23,4 @@ speaker_name = " Dr. Naresh Kumar "
 
 It's a great honor to host Dr. Naresh Kumar who is an Assistant Professor at the Centre for Diaspora Studies (CDS) on our next lecture. Dr Kumar specializes in Internal Migration (India), Issues of Indian diaspora,Migration and Development, Population Studies, Indian Diaspora in Gulf, Margins and Migration, Migration and Media, Tools and Techniques in Social Science Research Methods. 
 
-He will be speaking on one of the most sought-after topics of these times covid-19 and its impact on migration so do join us for the wonderful event.
+He will be speaking on one of the most sought-after topics of these times covid-19 and its impact on migration so do join us for this wonderful event.
