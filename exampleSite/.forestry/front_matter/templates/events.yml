@@ -107,5 +107,6 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/covid-led-migrant-crisis.md
 - exampleSite/content/english/events/postcolonialism-today.md
 - exampleSite/content/english/events/the-prisoner-as-the-pilgrim-the-ideology-of-spirituality-in-sri-aurobindo-s-karakahini.md
