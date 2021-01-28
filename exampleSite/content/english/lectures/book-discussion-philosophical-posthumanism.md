@@ -6,15 +6,15 @@ image_webp = "/images/141016806_4189523167741892_5567338222354119975_n-1.webp"
 tags = ["Philosophy", "Pothumanism", "Philosophical Posthumanism"]
 title = "Book Discussion: \"Philosophical Posthumanism\""
 [[speakers]]
-bio = "Assistant Professor Dept. of English,School of Literature, Language & Cultural Studies Bankura University"
-speaker_image = "/images/140722867_458985005130687_5140749749379754990_n-1.jpg"
-speaker_image_webp = "/images/140722867_458985005130687_5140749749379754990_n-1.webp"
-speaker_name = " Dr. Subhadeep Paul"
-[[speakers]]
 bio = "Adjunct Assistant Professor\nNYU Liberal Studies\nNew York University"
 speaker_image = "/images/140416173_2793699287626250_4663429292224928209_n-1.png"
 speaker_image_webp = "/images/140416173_2793699287626250_4663429292224928209_n-1.webp"
 speaker_name = "Dr. Francesca Ferrando"
+[[speakers]]
+bio = "Assistant Professor Dept. of English,School of Literature, Language & Cultural Studies Bankura University"
+speaker_image = "/images/subhadeep_paul-1.webp"
+speaker_image_webp = "/images/subhadeep_paul-1.webp"
+speaker_name = " Dr. Subhadeep Paul"
 
 +++
 55th Lecture of online lecture series organized by Calcutta Comparatists 1919.
