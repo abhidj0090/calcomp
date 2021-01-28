@@ -13,9 +13,9 @@ meeting_link = "https://www.youtube.com/watch?v=YZywS3lUiHU"
 tags = ["Spirituality", "Prison Literature"]
 title = "The Prisoner as the Pilgrim: The ideology of spirituality in Sri Aurobindo's Karakahini."
 [[speakers]]
-bio = "Assistant Professor\nGokhale Memorial Girls'College Kolkata \nand\nResearch Scholar\nVisva-Bharati"
-speaker_image = ""
-speaker_image_webp = ""
+bio = "Assistant Professor\nGokhale Memorial Girls'College Kolkata \n&\nResearch Scholar\nVisva-Bharati"
+speaker_image = "/images/subham.jpg"
+speaker_image_webp = "/images/subham.webp"
 speaker_name = " Shubham Dutta "
 
 +++
