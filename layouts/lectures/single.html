@@ -20,7 +20,7 @@
         </div>
         {{ $speakers := .Params.speakers }}
         {{ if gt ( len $speakers) 0 }}
-          <div class="mb-2 mt-2">
+          <div class="mb-2 card-speaker mt-2">
             <h4>
               Speakers
             </h4>
@@ -28,14 +28,31 @@
             {{ $imagewbp := .speaker_image_webp }}
             {{ $image := .speaker_image }}
             {{ $name := .speaker_name }}
-              <div class="mb-2">
+            <div class="card mb-2">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  {{with .speaker_image}}
+                    <figure>
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    </figure>
+                  {{end}}
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{.speaker_name}}</h5>
+                    <p class="card-text">{{.bio}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- <div class="mb-2">
                 {{with .speaker_image}}
                   <div class="client-thumb speaker">
                     <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
                   </div>
                 {{end}}
                 <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
-              </div>
+              </div> -->
             {{end}}
           </div>
         {{end}}
