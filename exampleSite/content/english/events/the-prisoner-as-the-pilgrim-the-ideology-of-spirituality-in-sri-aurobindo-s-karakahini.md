@@ -9,7 +9,7 @@ event_start_date = 2021-01-30T13:30:00Z
 image = "/images/143118483_4208591375835071_3261656663032189671_n.jpg"
 image_webp = "/images/143118483_4208591375835071_3261656663032189671_n.webp"
 location = ""
-meeting_link = "https://www.youtube.com/watch?v=YZywS3lUiHU"
+meeting_link = "https://youtu.be/klo_iQEY--4"
 tags = ["Spirituality", "Prison Literature"]
 title = "The Prisoner as the Pilgrim: The ideology of spirituality in Sri Aurobindo's Karakahini."
 [[speakers]]
