@@ -52,6 +52,8 @@ pre = "#"
 url = "events"
 weight = 1
 [params]
+default_speaker_image_webp='images/profile.webp'
+default_speaker_image='images/profile.jpg'
 author = ""
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 enable_search = true

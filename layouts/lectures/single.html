@@ -1,7 +1,8 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-
+{{ $defaultimagewbp := .site.Params.default_speaker_image_webp }}
+{{ $defaultimage := .site.Params.default_speaker_image }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -34,6 +35,10 @@
                   {{with .speaker_image}}
                     <figure>
                       <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    </figure>
+                  {{else}}
+                    <figure>
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $defaultimagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $defaultimage | absURL }}'" alt="{{ $name }}">
                     </figure>
                   {{end}}
                 </div>
