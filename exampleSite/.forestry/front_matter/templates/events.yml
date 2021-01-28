@@ -107,5 +107,5 @@ fields:
   type: boolean
   label: disable download
 pages:
-- exampleSite/content/english/events/book-discussion-philosophical-posthumanism.md
 - exampleSite/content/english/events/postcolonialism-today.md
+- exampleSite/content/english/events/the-impact-of-covid-19-on-migration-a-reference-from-india.md
