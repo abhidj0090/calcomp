@@ -21,6 +21,6 @@ speaker_name = "Prof. S. Irudaya Rajan"
 +++
 59th Lecture of online lecture series organised by Calcutta Comparatists 1919
 
-It is our honor to host Dr S. Irudaya Rajan on our next lecture as he will be speaking on the migrant crisis sparked by the great pandemic of our times. Dr S. Irudaya Rajan is a leading voice in migration studies. He is currently the Chair Professor, Ministry of Overseas Indian Affairs (MOIA) Research Unit on International Migration at the Centre for Development Studies, Thiruvananthapuram, Kerala. He has more than two decades of research experience in Kerala, and has coordinated six major migration surveys in Kerala.
+It is our honor to host Dr S. Irudaya Rajan on our next lecture as he will be speaking on the migrant crisis sparked by the great pandemic of our times. Dr S. Irudaya Rajan is a leading voice on migration studies. He is currently the Chair Professor, Ministry of Overseas Indian Affairs (MOIA) Research Unit on International Migration at the Centre for Development Studies, Thiruvananthapuram, Kerala. He has more than two decades of research experience in Kerala, and has coordinated six major migration surveys in Kerala.
 
 Do join us for this lecture.
