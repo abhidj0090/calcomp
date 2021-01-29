@@ -21,6 +21,6 @@ speaker_name = "Prof. Homi K. Bhabha"
 +++
 On the 60th Lecture of online lecture series organized by Calcutta Comparatists 1919, we will be hosting the eminent Professor, Homi K. Bhabha, Anne F. Rothenberg Professor of the Humanities, Harvard University. Professor Homi K. Bhabha has kindly agreed to join us for an interactive session on the 1st of February.
 
-It is a singular honor to host Professor Homi K Bhabha on our platform. This event is our way of bringing together researchers and eminent professors around the world from across different disciplines and we will explore in this conversation some of the important questions about the post-colonial situation, identity, etc.
+It is a singular honor to host Professor Homi K Bhabha on our platform. This event is our way of bringing together researchers and eminent professors around the world from across different disciplines and we will explore in this conversation some of the important questions about the post-colonial world, identity, etc.
 
 Your presence is earnestly solicited.
