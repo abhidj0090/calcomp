@@ -4,7 +4,6 @@ calendar_filename = "59th Lecture of online lecture series organised by Calcutta
 description = "59th Lecture of online lecture series organised by Calcutta Comparatists 1919"
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2021-01-31T15:30:00Z
 event_start_date = 2021-01-31T13:30:00Z
 image = "/images/143595679_4210300935664115_522494127839544551_n.jpg"
