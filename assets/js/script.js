@@ -186,8 +186,10 @@ function showLive(){
 	var eTime = e.getHours()*60+e.getMinutes();
 
 	// compare nowTime and dateTime
-	if (newTime >= sTime && newTime <= eTime) {
-		$('.announcement').css('display','block');
-		//alert('Session is live')
+	if (s >= now){
+		if (newTime >= sTime && newTime <= eTime) {
+			$('.announcement').css('display','block');
+			//alert('Session is live')
+		}
 	}
 }
