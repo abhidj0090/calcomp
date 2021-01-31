@@ -19,4 +19,4 @@ speaker_image_webp = "/images/subham.webp"
 speaker_name = " Shubham Dutta "
 
 +++
-Subham Dutta will be talking about the prison writings of the Saint-Poet-Freedom Fighter, Rishi Aurobindo. Sri Aurobindo had a revelation of the supreme almighty, Krishna, while he was imprisoned by the British Raj. Join us in this lecture to know more about this freedom fighter who turned into a saint and who was also an amazing poet. His masterpieces of literature include _Savitri_, _The Life Divine, Secret of the Veda_, and many more. 
+Subham Dutta will be talking about the prison writings of the Saint-Poet-Freedom Fighter, Rishi Aurobindo. Sri Aurobindo had a revelation of the supreme almighty, Krishna, while he was imprisoned by the British Raj. Join us in this lecture to know more about this freedom fighter who turned into a saint and who was also an amazing poet. His masterpieces of literature include _Savitri_, _The Life Divine, Secret of the Veda_, and many more.
