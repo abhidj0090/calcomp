@@ -1,7 +1,6 @@
 +++
 date = 2021-01-29T18:30:00Z
 description = "58th Lecture of online lecture series organised by Calcutta Comparatists 1919"
-draft = true
 image = "/images/143118483_4208591375835071_3261656663032189671_n.jpg"
 image_webp = "/images/143118483_4208591375835071_3261656663032189671_n.webp"
 tags = ["Spirituality", "Prison Literature"]
