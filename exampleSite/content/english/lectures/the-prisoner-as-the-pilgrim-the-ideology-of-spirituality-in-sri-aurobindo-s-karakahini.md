@@ -13,3 +13,8 @@ speaker_image_webp = "/images/subham.webp"
 speaker_name = "Shubham Dutta"
 
 +++
+On the 58th lecture of our online lecture series Subham Dutta spoke about the prison writings of the Saint-Poet-Freedom Fighter, Rishi Aurobindo. Sri Aurobindo had a revelation of the supreme almighty, Krishna, while he was imprisoned by the British Raj
+
+Check out the recorded lecture
+
+{{< youtube klo_iQEY--4>}}
