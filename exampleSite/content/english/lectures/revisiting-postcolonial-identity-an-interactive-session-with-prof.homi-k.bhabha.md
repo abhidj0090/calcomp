@@ -1,7 +1,6 @@
 +++
 date = 2021-01-31T18:30:00Z
 description = "60th Lecture of online lecture series organised by Calcutta Comparatists 1919"
-draft = true
 image = "/images/144103755_4211978682163007_3326282163953816001_n.jpg"
 image_webp = "/images/a203a501-06df-4d1b-8d36-7309d56721b2.jpg"
 tags = ["Postcolonialism"]
