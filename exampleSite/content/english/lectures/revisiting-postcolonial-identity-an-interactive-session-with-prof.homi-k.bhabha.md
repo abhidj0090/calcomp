@@ -12,8 +12,8 @@ speaker_image_webp = "/images/homi-k-bhabha-1101.webp"
 speaker_name = "Prof. Homi K. Bhabha"
 
 +++
-on our 60th lecture of the online lecture series, it was our singular honor to host and interact with Prof. Homi K. Bhabha. Prof. Bhabha is a doyen in the field of postcolonial studies and our interaction covered many important issues pertaining to politics and culture.
+On our 60th lecture of the online lecture series, it was our singular honor to host and interact with Prof. Homi K. Bhabha. Prof. Bhabha is a doyen in the field of postcolonial studies and our interaction covered many important issues pertaining to politics and culture.
 
- Check out the recorded lecture
+Check out the recorded lecture
 
-{{< youtube 9IgjQm4nS4>}}
+{{< youtube -9IgjQm4nS4>}}
