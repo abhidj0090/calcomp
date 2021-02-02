@@ -4,12 +4,12 @@ description = ""
 draft = true
 image = "/images/143595679_4210300935664115_522494127839544551_n.jpg"
 image_webp = "/images/143595679_4210300935664115_522494127839544551_n-1.webp"
-tags = []
+tags = ["COVID 19", "Migration"]
 title = "COVID Led Migrant Crisis"
 [[speakers]]
-bio = ""
-speaker_image = ""
-speaker_image_webp = ""
-speaker_name = ""
+bio = "Professor Centre for Development Studies Thiruvananthapuram, Kerala"
+speaker_image = "/images/10_prof-rajan.jpg"
+speaker_image_webp = "/images/10_prof-rajan.webp"
+speaker_name = "Prof. S. Irudaya Rajan"
 
 +++
