@@ -12,7 +12,7 @@ speaker_image_webp = "/images/10_prof-rajan.webp"
 speaker_name = "Prof. S. Irudaya Rajan"
 
 +++
-on our 59th lecture of the online lecture series it was an honor to host Dr S. Irudaya Rajan as he spoke on the migrant crisis sparked by the great pandemic of our times.
+On our 59th lecture of the online lecture series it was an honor to host Dr S. Irudaya Rajan as he spoke on the migrant crisis sparked by the great pandemic of our times.
 
 Check out the recorded lecture
 
