@@ -15,26 +15,6 @@ team:
     social:
     - icon: ti-facebook
       link: https://www.facebook.com/Tsu.por.na
-  - name: Suman Pal
-    image_webp: "/images/team/suman_newww.webp"
-    image: "/images/team/suman_newww.jpg"
-    designation: Coordinator & Co-founder
-    content: Suman is currently pursuing his MPhil from the department of Comparative
-      Indian Language and Literature, University of Calcutta. He has a couple of publications
-      under his belt while occasionally working as a actor and theater artist. Also
-      he is a big fan of heavy metal, EDM and Ghazals.
-    social:
-    - icon: ti-facebook
-      link: https://www.facebook.com/su5m5a1n9p9a6l
-  - name: Punam Mukherjee
-    image_webp: "/images/team/Poonam.webp"
-    image: "/images/team/Poonam.jpg"
-    designation: Creative Member & Co-founder
-    content: "Poonam is a Mphil Research scholar at the department of Bengali, University
-      of Calcutta.  \n"
-    social:
-    - icon: ti-facebook
-      link: https://www.facebook.com/punam.mukherjee.9440
   - name: Kingshuk Bandyopadhyay
     image_webp: "/images/team/Kinshuk.webp"
     image: "/images/team/Kinshuk.jpg"
@@ -81,3 +61,14 @@ team:
     social:
     - icon: ti-facebook
       link: https://www.facebook.com/aratrikaganguly
+  - name: Suman Pal
+    image_webp: "/images/team/suman_newww.webp"
+    image: "/images/team/suman_newww.jpg"
+    designation: Coordinator & Co-founder
+    content: Suman is currently pursuing his MPhil from the department of Comparative
+      Indian Language and Literature, University of Calcutta. He has a couple of publications
+      under his belt while occasionally working as a actor and theater artist. Also
+      he is a big fan of heavy metal, EDM and Ghazals.
+    social:
+    - icon: ti-facebook
+      link: https://www.facebook.com/su5m5a1n9p9a6l
