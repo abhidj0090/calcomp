@@ -4,6 +4,13 @@ testimonial:
   bg_image: images/library-lights.jpg
   bg_image_webp: images/library-lights.webp
   testimonial_item:
+  - name: Dr. Francesca Ferrando
+    designation: Adjunct Assistant Professor NYU Liberal Studies New York University
+    image: images/client/ferrando.jpg
+    image_webp: images/client/ferrando.webp
+    date: ''
+    content: 'Exciting, Inspiring, Unique: Giving a talk, live, in dialogue with Calcutta
+      Comparatists 1919 was Pure Existential Joy!'
   - name: Prof. Kakali Dhara Mandal
     designation: H.O.D, Dept. of Folklore, University of Kalyani
     image: images/client/Kakali.jpg
