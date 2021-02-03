@@ -6,8 +6,8 @@ testimonial:
   testimonial_item:
   - name: Dr. Francesca Ferrando
     designation: Adjunct Assistant Professor NYU Liberal Studies New York University
-    image: images/ferrando.jpg
-    image_webp: images/ferrando.webp
+    image: images/client/ferrando.jpg
+    image_webp: images/client/ferrando.webp
     date: ''
     content: 'Exciting, Inspiring, Unique: Giving a talk, live, in dialogue with Calcutta
       Comparatists 1919 was Pure Existential Joy!'
