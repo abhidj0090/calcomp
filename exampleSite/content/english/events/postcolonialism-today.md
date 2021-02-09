@@ -14,8 +14,8 @@ tags = ["Post Colonial Studies", "Neocolonialism"]
 title = "Postcolonialism Today"
 [[speakers]]
 bio = "FAHA, Professor Emeritus School of the Arts and Media UNSW Sydney, Australia"
-speaker_image = "/images/bill-profile-1.jpg"
-speaker_image_webp = "/images/bill-profile-1.webp"
+speaker_image = "/images/bill_with_glasses-1.jpg"
+speaker_image_webp = "/images/bill_with_glasses.webp"
 speaker_name = "Prof. Bill Ashcroft"
 
 +++
