@@ -10,7 +10,7 @@ image = "/images/5f6839b1-cb34-4475-a922-15bf0dcbddf5.jpg"
 image_webp = "/images/5f6839b1-cb34-4475-a922-15bf0dcbddf5.webp"
 location = "Kolkata, IN"
 meeting_link = ""
-tags = ["Post Colonial Studies", "Neocolonialism"]
+tags = ["Neocolonialism", "Postcolonialism"]
 title = "Postcolonialism Today"
 [[speakers]]
 bio = "FAHA, Professor Emeritus School of the Arts and Media UNSW Sydney, Australia"
