@@ -19,7 +19,7 @@ speaker_image_webp = ""
 speaker_name = "Kalyan Kumar Das"
 
 +++
-Calcutta Comparatists1919 presents to you the 62nd lecture of the CC1919 lecture series.  
-  
+Calcutta Comparatists1919 presents to you the 62nd lecture of the lecture series.
+
 This time we will be hosting Professor Kalyan Kumar Das on our platform. Professor Das is well known for his provocative arguments and articulations in the field of Dalit Studies.  
 He will be speaking on our platform on Caste and Hindutva in Dalit autobiographies which will surely be captivating for participants.
