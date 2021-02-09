@@ -14,8 +14,8 @@ tags = ["Dalit", "Autobiography"]
 title = "Ambedkar contra Savarkar: Caste and Hindutva in Dalit Autobiographies"
 [[speakers]]
 bio = "Assistant Professor\nDept.of English\nPresidency University"
-speaker_image = ""
-speaker_image_webp = ""
+speaker_image = "/images/kalyan.jpg"
+speaker_image_webp = "/images/kalyan.webp"
 speaker_name = "Kalyan Kumar Das"
 
 +++
