@@ -19,4 +19,8 @@ speaker_image_webp = "/images/bill-glasses.webp"
 speaker_name = "Prof. Bill Ashcroft"
 
 +++
-Eminent Professor. Bill Ashcroft will be joining us on the 13th of February. For those of you who are unaware Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of _The Empire Writes Back_, which was really the first text to systematically examine the field of post-colonial studies. He has authored multiple books some of whom have been translated into various languages making him a household & prominent name in the field of post-colonial studies.
+Eminent Professor. Bill Ashcroft will be joining us on the 13th of February. 
+
+Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of _The Empire Writes Back_, which was really the first text to systematically examine the field of post-colonial studies. He has authored multiple books some of whom have been translated into various languages making him a household & prominent name in the field of post-colonial studies.
+
+Please join us for a wonderful session.
