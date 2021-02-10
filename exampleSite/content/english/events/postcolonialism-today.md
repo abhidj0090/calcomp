@@ -21,7 +21,7 @@ speaker_name = "Prof. Bill Ashcroft"
 +++
 It is our honor to host Eminent Professor. Bill Ashcroft on the 13th of February for the 61st lecture of our lecture series.
 
-Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of _The Empire Writes Back_, which was really the first text to systematically examine the field of post-colonial studies. He has authored multiple books some of whom have been translated into various languages making him a household & prominent name in the field of post-colonial studies.
+Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of The Empire Writes Back, which was really the first text to systematically examine the field of post-colonial studies. He has authored multiple books some of whom have been translated into various languages making him a household & prominent name in the field of post-colonial studies.
 
 Please join us for a wonderful session.
 
