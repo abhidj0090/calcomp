@@ -33,30 +33,6 @@ Meeting ID: 881 9231 1958
 
 Passcode: 818713
 
-One tap mobile
-
-\+13126266799,,88192311958#,,,,*818713# US (Chicago)
-
-\+13462487799,,88192311958#,,,,*818713# US (Houston)
-
-Dial by your location
-
-\+1 312 626 6799 US (Chicago)
-
-\+1 346 248 7799 US (Houston)
-
-\+1 646 558 8656 US (New York)
-
-\+1 669 900 9128 US (San Jose)
-
-\+1 253 215 8782 US (Tacoma)
-
-\+1 301 715 8592 US (Washington DC)
-
-Meeting ID: 881 9231 1958
-
-Passcode: 818713
-
 Find your local number: [https://us02web.zoom.us/u/kidWJh5vj](https://us02web.zoom.us/j/88192311958... "https://us02web.zoom.us/j/88192311958...")
 
 Unfortunately we can only accommodate 100 participants in zoom. If you are unable to enter the meeting then check our official [FACEBOOK PAGE](https://www.facebook.com/CalcuttaComparatists1919 "Facebook Page") and [YOUTUBE PAGE](https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q "Youtube Channel") as the event will be streamed live on those platforms.
