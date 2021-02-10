@@ -19,8 +19,44 @@ speaker_image_webp = "/images/bill-glasses.webp"
 speaker_name = "Prof. Bill Ashcroft"
 
 +++
-Eminent Professor. Bill Ashcroft will be joining us on the 13th of February. 
+It is our honor to host Eminent Professor. Bill Ashcroft on the 13th of February for the 61st lecture of our lecture series.
 
 Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of _The Empire Writes Back_, which was really the first text to systematically examine the field of post-colonial studies. He has authored multiple books some of whom have been translated into various languages making him a household & prominent name in the field of post-colonial studies.
 
 Please join us for a wonderful session.
+
+Zoom Meeting Details
+
+[https://us02web.zoom.us/j/88192311958...](https://us02web.zoom.us/j/88192311958... "https://us02web.zoom.us/j/88192311958...")
+
+Meeting ID: 881 9231 1958
+
+Passcode: 818713
+
+One tap mobile
+
+\+13126266799,,88192311958#,,,,*818713# US (Chicago)
+
+\+13462487799,,88192311958#,,,,*818713# US (Houston)
+
+Dial by your location
+
+ +1 312 626 6799 US (Chicago)
+
+ +1 346 248 7799 US (Houston)
+
+ +1 646 558 8656 US (New York)
+
+ +1 669 900 9128 US (San Jose)
+
+ +1 253 215 8782 US (Tacoma)
+
+ +1 301 715 8592 US (Washington DC)
+
+Meeting ID: 881 9231 1958
+
+Passcode: 818713
+
+Find your local number: [https://us02web.zoom.us/u/kidWJh5vj](https://us02web.zoom.us/j/88192311958... "https://us02web.zoom.us/j/88192311958...")
+
+Unfortunately we can only accommodate 100 participants in zoom. If you are unable to enter the meeting then check our official FACEBOOK PAGE and YOUTUBE PAGE as the event will be streamed live on those platforms.
