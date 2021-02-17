@@ -1,11 +1,11 @@
 +++
-author = "Aratrika Ganguly"
-author_bio = "Aratrika Ganguly is one of the founder members of CC1919 and currently is a research scholar at the dept. of Comparative Indian Language and Literature"
+author = "Sutadripa Choudhury"
+author_bio = "Sutadripa is currently pursuing her PhD in English Literature from St.Xavier's University, Kolkata, and her interest centers around Bangla Dalit Literature."
 date = 2020-11-22T06:52:36Z
 description = "An interview with Manohar Mouli Biswas on the question of Dalit Struggles in Benagli Society"
 draft = true
-image = "/images/bruno-7kpvcsybzdi-unsplash.jpg"
-image_webp = "/images/bruno-7kpvcsybzdi-unsplash.webp"
+image = "/images/sutadripa_blog.jpg"
+image_webp = "/images/sutadripa_blog.webp"
 tags = ["Dalit"]
 title = "An interview with Manohar Mouli Biswas on the question of Dalit Struggles in Benagli Society"
 
