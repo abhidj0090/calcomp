@@ -2,12 +2,12 @@
 author = "Aratrika Ganguly"
 author_bio = "Aratrika Ganguly is one of the founder members of CC1919 and currently is a research scholar at the dept. of Comparative Indian Language and Literature"
 date = 2020-11-22T06:52:36Z
-description = "ative Study of Tagore's 'Dharma' and Gandhi's 'Sudharo'."
+description = "An interview with Manohar Mouli Biswas on the question of Dalit Struggles in Benagli Society"
 draft = true
 image = "/images/bruno-7kpvcsybzdi-unsplash.jpg"
 image_webp = "/images/bruno-7kpvcsybzdi-unsplash.webp"
-tags = ["Gandhian Studies"]
-title = "A Comparative Study of Tagore's Dharma and Gandhi's Sudharo-(copy)"
+tags = ["Dalit"]
+title = "An interview with Manohar Mouli Biswas on the question of Dalit Struggles in Benagli Society"
 
 +++
 The eminent Nobel Laureate, Rabindranath Tagore (1861-1941), on his visit to China during 1924 delivered some very important and these lectures have been collected as _Talks in China_ (1924). Before Tagore delivered his lecture, the President of the Universities association Peking, Liang Chi Chao, gave his inaugural lecture. During this he said 
