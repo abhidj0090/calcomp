@@ -18,4 +18,4 @@ Prof. Bill Ashcroft is a founding exponent of post-colonial theory, co-author of
 
 Check out the recorded lecture
 
-{{< youtube u8GNiB8LnCc&t=243s>}}
+{{< youtube u8GNiB8LnCc>}}
