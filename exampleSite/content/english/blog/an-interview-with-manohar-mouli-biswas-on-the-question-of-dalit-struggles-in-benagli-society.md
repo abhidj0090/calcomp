@@ -3,7 +3,6 @@ author = "Sutadripa Choudhury"
 author_bio = "Sutadripa is currently pursuing her PhD in English Literature from St.Xavier's University, Kolkata, and her interest centers around Bangla Dalit Literature."
 date = 2021-02-17T06:52:36Z
 description = "ative Study of Tagore's 'Dharma' and Gandhi's 'Sudharo'."
-draft = true
 image = "/images/sutadripa_blog.jpg"
 image_webp = "/images/sutadripa_blog.webp"
 tags = ["Dalit"]
