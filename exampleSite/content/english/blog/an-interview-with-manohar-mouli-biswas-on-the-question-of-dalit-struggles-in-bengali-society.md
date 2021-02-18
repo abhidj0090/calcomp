@@ -29,4 +29,4 @@ Q. Can you enlighten us on any particular incident concerning insult to any marg
 
 A. Indeed, I remember the horrific incident concerning a Dalit girl named Chuni Kotal. She was verbally abused by her own teacher at college in front of her classmates for coming from a Dalit background. She eventually committed suicide and the people responsible for her death were not convicted. This is the situation of Dalits in Bengal when it comes to education. The upper castes can never tolerate a Dalit individual climbing up the social ladder.
 
-{{< figure src="/images/pic-sutadripa.jpg" class="mb-50">}}
+{{< figure src="/images/pic-sutadripa.jpg" class="fig mb-50">}}
