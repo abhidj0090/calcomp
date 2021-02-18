@@ -188,3 +188,7 @@ blockquote {
         opacity: 1;
     }
 }
+.fig img{
+    max-width: 100%;
+    height: auto;
+}
