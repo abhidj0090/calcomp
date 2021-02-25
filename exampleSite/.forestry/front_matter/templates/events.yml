@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/diasporic-subjectivity-changing-contours-of-jhumpa-lahiri-s-works.md
