@@ -3,7 +3,7 @@ all_day_event = false
 calendar_filename = "63rd Online Lecture organized by Calcutta Comparatists 1919"
 description = "63rd Online Lecture organized by Calcutta Comparatists 1919"
 disable_download = false
-disable_link = false
+disable_link = true
 event_end_date = 2021-02-28T15:30:00Z
 event_start_date = 2021-02-28T13:30:00Z
 image = "/images/153669875_3732924530159786_6653308742438556015_n.jpg"
@@ -14,8 +14,8 @@ tags = ["Diaspora", "Jhumpa Lahiri"]
 title = "Diasporic Subjectivity: Changing Contours of Jhumpa Lahiri's works"
 [[speakers]]
 bio = "Assistant Professor of English\nRaiganj University"
-speaker_image = ""
-speaker_image_webp = ""
+speaker_image = "/images/102405581_172422997588660_515655002774996384_n.jpg"
+speaker_image_webp = "/images/102405581_172422997588660_515655002774996384_n.webp"
 speaker_name = "Dr. Auritra Munshi"
 
 +++
