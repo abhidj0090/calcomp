@@ -19,4 +19,4 @@ speaker_image_webp = "/images/75496040_10218881894585746_893887568809033728_n.we
 speaker_name = "Dr. Jatisankar Mondal "
 
 +++
-In our 64th Online Lecture, we will be hosting Dr. **Jatisankar Mondal** on our platform. He is an exponent of Dalit literature. He will be speaking Bangla Dalit writings. 
+In our 64th Online Lecture, we will be hosting Dr. **Jatisankar Mondal** on our platform. He is an exponent of Dalit literature. He will be speaking on Bangla Dalit writings.
