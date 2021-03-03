@@ -4,6 +4,7 @@ calendar_filename = "64th Online Lecture organized by Calcutta Comparatists 1919
 description = "64th Online Lecture organized by Calcutta Comparatists 1919"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-03-01T15:30:00Z
 event_start_date = 2021-03-01T13:30:00Z
 image = "/images/155463037_3751968984922007_4984410694809467722_n.jpg"
