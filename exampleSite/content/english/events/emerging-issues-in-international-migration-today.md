@@ -9,7 +9,7 @@ event_start_date = 2021-03-15T13:30:00Z
 image = "/images/b3624586-9b73-4d6b-afae-e2805f0baf9f.jpg"
 image_webp = "/images/b3624586-9b73-4d6b-afae-e2805f0baf9f.webp"
 location = ""
-meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+meeting_link = "https://www.youtube.com/watch?v=ZnUtPu2Af0U"
 tags = ["Migration"]
 title = "Emerging Issues in International Migration Today"
 [[speakers]]
