@@ -4,6 +4,7 @@ calendar_filename = "66th online lecture"
 description = "66th online lecture"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-03-15T15:30:00Z
 event_start_date = 2021-03-15T13:30:00Z
 image = "/images/b3624586-9b73-4d6b-afae-e2805f0baf9f.jpg"
