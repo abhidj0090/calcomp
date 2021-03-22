@@ -24,5 +24,3 @@ Professor Damrosch will be speaking on "Literary Studies in Post-Postcolonial Er
 Catch him live on 31st March 2021 from our Official YouTube Channel-
 
 https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q
-
-SUBSCRIBE AND PRESS THE BELL ICON TO GET NOTIFICATIONS ABOUT PROF. DAMROSCH'S LECTURE. 
