@@ -20,7 +20,7 @@
                 {{with .speaker_image}}
                   <div class="client-thumb up-speaker">
                     <figure>
-                      <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                      <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" title="{{ $name }}" alt="{{ $name }}">
                     </figure>
                   </div>
                 {{end}}

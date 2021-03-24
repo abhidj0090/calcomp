@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                   {{with .speaker_image}}
                     <figure>
-                      <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" title="{{ $name }}" alt="{{ $name }}">
                     </figure>
                   {{else}}
                     <figure>
