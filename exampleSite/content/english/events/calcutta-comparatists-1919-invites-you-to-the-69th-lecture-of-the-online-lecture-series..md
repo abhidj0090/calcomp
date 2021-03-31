@@ -4,7 +4,6 @@ calendar_filename = "Calcutta Comparatists 1919 invites you to the 69th lecture 
 description = "Calcutta Comparatists 1919 invites you to the 69th lecture of the online lecture series."
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2021-04-03T15:30:00Z
 event_start_date = 2021-04-03T13:30:00Z
 image = "/images/167285116_776589886308210_586848729348395473_n.jpg"
