@@ -106,5 +106,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/literary-studies-in-post-postcolonial-era.md
