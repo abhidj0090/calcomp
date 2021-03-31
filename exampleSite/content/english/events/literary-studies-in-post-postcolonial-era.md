@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists 1919 presents to you the 68th lecture
 description = "Calcutta Comparatists 1919 presents to you the 68th lecture of CC1919 lecture series."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-03-31T17:00:00Z
 event_start_date = 2021-03-31T15:00:00Z
 image = "/images/163528910_4365515056809368_7679053995104648975_n.jpg"
