@@ -19,10 +19,12 @@ speaker_image_webp = "/images/154178014_3681564228578529_1514475672969050129_n.w
 speaker_name = " Rajarshee Gupta"
 
 +++
-Calcutta Comparatists 1919 invites you to the 69th lecture of the online lecture series.  
-Topic: The 'Double Trouble': The Doppelganger Motif in Satyajit Ray's Fiction  
+Calcutta Comparatists 1919 invites you to the 69th lecture of the online lecture series.
+
+  
+Topic: The 'Double Trouble': The Doppelganger Motif in Satyajit Ray's Fiction.   
 Speaker: **Rajarshee Gupta**, Assistant Professor, Department of English, Subhas Chandra Bose Centenary College  
 Date: 3rd April 2021  
 Time: 7 pm IST  
-The video will be streaming live on our youtube channel- Calcutta Comparatists 1919.  
-Please subscribe to our channel.
+  
+For further updates about this session please subscribe to our official  YouTube channel.
