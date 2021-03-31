@@ -12,7 +12,7 @@ image_webp = "/images/167285116_776589886308210_586848729348395473_n.webp"
 location = ""
 meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 tags = ["Satyajit Ray"]
-title = "Calcutta Comparatists 1919 invites you to the 69th lecture of the online lecture series. "
+title = "The 'Double Trouble': The Doppelganger Motif in Satyajit Ray's Fiction"
 [[speakers]]
 bio = "Assistant Professor, \nDepartment of English,\nSubhas Chandra Bose Centenary College"
 speaker_image = "/images/154178014_3681564228578529_1514475672969050129_n.jpg"
