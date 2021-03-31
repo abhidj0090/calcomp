@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/calcutta-comparatists-1919-invites-you-to-the-69th-lecture-of-the-online-lecture-series..md
