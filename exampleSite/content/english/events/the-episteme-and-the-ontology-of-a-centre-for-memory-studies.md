@@ -13,7 +13,7 @@ meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 tags = ["Memory Studies"]
 title = " The Episteme and the Ontology of a Centre for Memory Studies"
 [[speakers]]
-bio = "Assistant Professor (English)\nFaculty Coordinator, Memory Studies Research Network\nIndian Institute of Technology Madras"
+bio = "Assistant Professor (English),\nFaculty Coordinator, Memory Studies Research Network,\nIndian Institute of Technology Madras"
 speaker_image = "/images/72152834_10159060013997846_7050354030890975232_n.jpg"
 speaker_image_webp = "/images/72152834_10159060013997846_7050354030890975232_n.webp"
 speaker_name = "Prof. Merin Simi Raj"
