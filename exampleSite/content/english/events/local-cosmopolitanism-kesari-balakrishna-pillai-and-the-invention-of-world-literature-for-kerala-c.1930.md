@@ -9,7 +9,7 @@ event_start_date = 2021-04-06T06:30:00Z
 image = "/images/whatsapp-image-2021-04-01-at-12-16-08-am.jpeg"
 image_webp = "/images/whatsapp-image-2021-04-01-at-12-16-08-am.webp"
 location = ""
-meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+meeting_link = "https://youtu.be/xwpXyDEnTSc"
 tags = ["Cosmopolitanism", "World Literature"]
 title = "Local cosmopolitanism: “Kesari” Balakrishna Pillai and the invention of world literature for Kerala c. 1930"
 [[speakers]]
