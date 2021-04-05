@@ -9,7 +9,7 @@ event_start_date = 2021-04-07T05:00:00Z
 image = "/images/img-20210330-wa0026.jpg"
 image_webp = "/images/img-20210330-wa0026.webp"
 location = ""
-meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+meeting_link = "https://www.youtube.com/watch?v=ItD3Ai7V1AM"
 tags = ["Memory Studies"]
 title = " The Episteme and the Ontology of a Centre for Memory Studies"
 [[speakers]]
