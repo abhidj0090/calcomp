@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Biogrophies
 - type: directory
-  path: bios
+  path: exampleSite/content/english/bios
   label: Biographies
   create: all
   match: "**/*"
