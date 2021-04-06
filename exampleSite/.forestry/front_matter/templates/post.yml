@@ -37,3 +37,5 @@ fields:
   default: []
   label: Tags
   description: Tag any keyword related to this content
+pages:
+- bios/Krishnakanta Sandikoi/_index.md
