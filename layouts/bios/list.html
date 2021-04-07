@@ -13,11 +13,13 @@
           <div class="border-meghna"></div>
         </div>
       </div>
-      {{"<!-- /section title -->" | safeHTML}}
-      {{ $paginator := .Paginate .Pages }}
-      {{ range where $paginator.Pages "Section" "bios"  }}
-      {{ .Render "bio_article" }}
-      {{ end }}
+      {{.Content}}
+        <ul class="my-posts">
+            {{ range .Data.Pages }}
+                <li>{{.Title}}</li>
+            {{ end }}
+        </ul>
+     
       <div class="col-12">
         {{ template "_internal/pagination.html" . }}
       </div>
