@@ -15,7 +15,7 @@
       </div>
       {{.Content}}
         <ul class="my-posts">
-            {{ range  where .Data.Pages "section" "bios" }}
+            {{ range where .Data.Pages "Section" "==" "bios" }}
                 <li>{{.Title}}</li>
             {{ end }}
         </ul>
