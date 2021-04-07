@@ -3,7 +3,6 @@ author = ""
 author_bio = ""
 date = ""
 description = "chapter 1"
-draft = true
 image = ""
 image_webp = ""
 tags = []

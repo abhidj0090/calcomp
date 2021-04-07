@@ -38,5 +38,4 @@ fields:
   label: Tags
   description: Tag any keyword related to this content
 pages:
-- exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/chapter-1.md
