@@ -15,7 +15,7 @@
       </div>
       {{.Content}}
         <ul class="my-posts">
-            {{ range .Data.Pages }}
+            {{ range .Content.Pages }}
                 <li>{{.Title}}</li>
             {{ end }}
         </ul>
