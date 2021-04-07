@@ -9,12 +9,12 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          <h2>Latest<span class="color"> Biographies</span></h2>
+          <h2><span class="color">Biographies</span></h2>
           <div class="border-meghna"></div>
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}
-      {{ $paginator := .Paginate .Data.Pages }}
+      {{ $paginator := .Paginate .Pages }}
       {{ range $paginator.Pages }}
       {{ .Render "bio_article" }}
       {{ end }}
