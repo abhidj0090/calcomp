@@ -15,7 +15,7 @@
       </div>
       {{"<!-- /section title -->" | safeHTML}}
       {{ $paginator := .Paginate .Pages }}
-      {{ range $paginator.Pages }}
+      {{ range wher $paginator.Pages where "Section" "bios"  }}
       {{ .Render "bio_article" }}
       {{ end }}
       <div class="col-12">
