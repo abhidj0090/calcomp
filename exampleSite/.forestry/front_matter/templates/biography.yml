@@ -26,3 +26,5 @@ fields:
     maxSize: 64
   label: Author Image webp
   description: Webp image of the author
+pages:
+- exampleSite/content/english/bios/kant-handique.md
