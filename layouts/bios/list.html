@@ -3,7 +3,7 @@
 {{ partial "navigation.html" . }}
 
 {{"<!-- Start Bio Section -->" | safeHTML}}
-<section id="blog" class="section">
+<section id="bios" class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -16,29 +16,26 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
-          {{if gt (len .Image) 0}}
-          <div class="card mb-2">
+            <div class="card mb-2">
               <div class="row no-gutters">                
-                <div class="col-md-4">                  
+                  <div class="col-md-4">                  
                     <figure>
-                      <img class="img-fluid lozad" data-src="{{.Image_webp}}" onerror="this.onerror=null;this.src='{{.Image}}'" title="{{.Title}}" alt="{{.Title}}" src="{{.Image_webp}}" data-loaded="true">
+                      <img class="img-fluid lozad" data-src="{{ .Image_webp }}" onerror="this.onerror=null;this.src='{{ .Image }}'" title="{{.Title}}" alt="{{.Title}}" src="{{.Image_webp}}" data-loaded="true">
                     </figure>                 
-                </div>
-                <div class="col-md-4">  
+                  </div>
+                  <div class="col-md-4">  
                     <figure>
                       <img class="img-fluid lozad" data-src="{{.Biography_image_webp}}" onerror="this.onerror=null;this.src='{{.Biography_image}}'" title="{{.Author}}" alt="{{.Author}}" src="{{.Biography_image_webp}}" data-loaded="true">
                     </figure>              
+                  </div>
                 </div>
               </div>
-            </div>
-        </div>
-        {{end}}
+          </div>
       </div>
       {{ $paginator := .Paginate .Pages }}
       {{ range where $paginator.Pages "Section" "==" "bios"  }}
       {{ .Render "bio_article" }}
-      {{ end }}
-     
+      {{ end }}   
       <div class="col-12">
         {{ template "_internal/pagination.html" . }}
       </div>
