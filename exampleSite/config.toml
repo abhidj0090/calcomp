@@ -38,6 +38,7 @@ url = "blog"
 weight = 3
 [[menu.main]]
 name = "Biographies"
+pre = "#"
 url = "bios"
 weight = 1
 [[menu.main]]
