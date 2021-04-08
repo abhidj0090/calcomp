@@ -9,19 +9,19 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          <h2><span class="color">{{.Title}}</span></h2>
+          <h2><span class="color">{{ .Title }}</span></h2>
           <div class="border-meghna"></div>
         </div>
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
-          {{if gt (len .image) 0}}
+          {{if gt (len .Image) 0}}
           <div class="card mb-2">
               <div class="row no-gutters">                
                 <div class="col-md-4">                  
                     <figure>
-                      <img class="img-fluid lozad" data-src="{{.image_webp}}" onerror="this.onerror=null;this.src='{{.image}}'" title="{{.Title}}" alt="{{.Title}}" src="{{.image_webp}}" data-loaded="true">
+                      <img class="img-fluid lozad" data-src="{{.Image_webp}}" onerror="this.onerror=null;this.src='{{.Image}}'" title="{{.Title}}" alt="{{.Title}}" src="{{.Image_webp}}" data-loaded="true">
                     </figure>                 
                 </div>
                 <div class="col-md-4">  
