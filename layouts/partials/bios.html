@@ -20,9 +20,9 @@
 			 <div class="post-single-content">
           		{{ $content }}
         	</div>
-			{{ range first 3 (where .Pages "Section" "==" "bios")}}
+			<!-- {{ range first 3 (where .Pages "Section" "==" "bios")}}
 			{{ .Render "bio_article"}}
-			{{ end }}
+			{{ end }} -->
 			<div class="all-post text-center col-lg-12">
 				<a class="btn btn-main" href="{{ `bios` | absLangURL }}">View Biographies</a>
 			</div>
