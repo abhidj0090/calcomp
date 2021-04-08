@@ -5,6 +5,7 @@
 {{$bg_image := $data.bios.bios.bg_image}}
 {{$bg_image_webp := $data.bios.bios.bg_image_webp}}
 {{$content := $data.bios.bios.content}}
+{{$button := $data.bios.bios.button}}
 {{"<!-- Start bios Section -->" | safeHTML}}
 <section id="bios" class="section section-bg" >
 	<div class="container">
@@ -23,7 +24,7 @@
 			{{ .Render "bio_article"}}
 			{{ end }} -->
 			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main" href="{{ `bios` | absLangURL }}">View Biographies</a>
+				<a class="btn btn-main" href="{{ `bios` | absLangURL }}">{{$button}}</a>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 		</div>
