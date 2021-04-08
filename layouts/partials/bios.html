@@ -1,4 +1,6 @@
 {{ if gt site.RegularPages 0}}
+
+{{ with $data.cta.cta}}
 {{"<!-- Start bios Section -->" | safeHTML}}
 <section id="bios" class="section" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
 <img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" data-src="{{ .bg_image_webp | absURL }}" />
@@ -14,6 +16,7 @@
 			 <div class="post-single-content">
           		{{ .content }}
         	</div>
+{{end}}
 			{{ range first 3 (where site.RegularPages "Section" "==" "bios")}}
 			{{ .Render "bio_article"}}
 			{{ end }}
