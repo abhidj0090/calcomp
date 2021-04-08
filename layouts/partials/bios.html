@@ -20,7 +20,7 @@
 			 <div class="post-single-content">
           		{{ $content }}
         	</div>
-			{{ range first 3 (where site.RegularPages "Section" "==" "bios")}}
+			{{ range first 3 (where .Pages "Section" "==" "bios")}}
 			{{ .Render "bio_article"}}
 			{{ end }}
 			<div class="all-post text-center col-lg-12">
