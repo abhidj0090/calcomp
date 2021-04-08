@@ -1,0 +1,24 @@
+{{ if gt site.RegularPages 0}}
+{{"<!-- Start Upcoming Section -->" | safeHTML}}
+<section id="events" class="section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeInDown">
+					<h2><span class="color">Biographies</span</h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			 <div class="post-single-content">
+          		Calcutta Comparatists 1919 brings to you the National Online Biography Series, which is based on the Government of India’s “Ek Bharat, Shrestha Bharat” scheme. In this series, we will recall those who have expressed their strong views on Indian culture and literature through their writings long before independence. In this way, we will be able to increase our interaction by remembering and practicing the lives and creations of these eminent scholars and writers of different Indian languages and this biography series aims to enhance promote mutual understanding between people from different states by reading life and works of eminent scholars and writers in different languages.
+        	</div>
+			<div class="all-post text-center col-lg-12">
+				<a class="btn btn-main" href="{{ `bios` | absLangURL }}">View Biographies</a>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+		</div>
+	</div>
+</section>
+{{"<!-- /upcoming -->" | safeHTML}}
+{{ end }}
