@@ -1,10 +1,10 @@
 {{ if gt site.RegularPages 0}}
 
 {{ $data := index site.Data site.Language.Lang }}
-{{$title = $data.bios.bios.title}}
-{{$bg_image = $data.bios.bios.bg_image}}
-{{$bg_image_webp = $data.bios.bios.bg_image_webp}}
-{{$content = $data.bios.bios.content}}
+{{$title := $data.bios.bios.title}}
+{{$bg_image := $data.bios.bios.bg_image}}
+{{$bg_image_webp := $data.bios.bios.bg_image_webp}}
+{{$content := $data.bios.bios.content}}
 {{"<!-- Start bios Section -->" | safeHTML}}
 <section id="bios" class="section" style='background-image: url("{{ $bg_image_webp | absURL }}")'>
 <img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ $bg_image | absURL }})'" data-src="{{ $bg_image_webp | absURL }}" />
