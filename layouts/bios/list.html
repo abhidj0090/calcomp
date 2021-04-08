@@ -16,7 +16,7 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
-          {{if (isset .Image)}}
+          {{if gt (len .Image) 0}}
           <div class="card mb-2">
               <div class="row no-gutters">                
                 <div class="col-md-4">                  
