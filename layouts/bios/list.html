@@ -32,6 +32,7 @@
                 </div>
               </div>
           {{end}}
+        </div>
       </div>
       {{ $paginator := .Paginate .Pages }}
       {{ range where $paginator.Pages "Section" "==" "bios"  }}
