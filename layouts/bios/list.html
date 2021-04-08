@@ -16,6 +16,7 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
+          {{if gt (len .Params.Image) 0}}
             <div class="card mb-2">
               <div class="row no-gutters">                
                   <div class="col-md-4">                  
@@ -31,6 +32,7 @@
                 </div>
               </div>
           </div>
+          {{end}}
       </div>
       {{ $paginator := .Paginate .Pages }}
       {{ range where $paginator.Pages "Section" "==" "bios"  }}
