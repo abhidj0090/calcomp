@@ -1,7 +1,7 @@
 +++
 author = "Basudev Das"
 author_bio = ""
-biography_image = "/images/basudev.webp"
+biography_image = "/images/basudev2-1.jpg"
 biography_image_webp = "/images/basudev2.webp"
 date = 2021-04-07T18:30:00Z
 description = "Biography of Krishnakant Handique"
