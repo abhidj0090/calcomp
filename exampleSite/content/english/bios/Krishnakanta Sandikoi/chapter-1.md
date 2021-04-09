@@ -8,7 +8,7 @@ description = "chapter 1"
 image = ""
 image_webp = ""
 tags = []
-title = "Chapter 1"
+title = "প্রথম অধ্যায়"
 
 +++
 ‘সন্দিকৈ নামধেয়ায় কৃ্ষ্ণকান্তায় বিদুষে।
