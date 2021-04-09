@@ -192,3 +192,10 @@ blockquote {
     max-width: 100%;
     height: auto;
 }
+.bio_author_image figure{
+    display: inline-block;
+    border-radius: 74%;
+    overflow: hidden;
+    width: 80%;
+    border: 2px solid #2c9091;
+}
