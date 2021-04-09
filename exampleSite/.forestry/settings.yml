@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Biogrophies
+- type: directory
+  path: exampleSite/content/english/bios
+  label: Biographies
+  create: all
+  match: "**/*"
+- type: heading
   label: Events
 - type: directory
   path: exampleSite/content/english/events

@@ -1,0 +1,38 @@
+---
+label: Biography
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the biography
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: Author of the description
+- name: author_image
+  type: file
+  config:
+    maxSize: 64
+  label: Author Image
+  description: Image of the author
+- name: author_image_webp
+  type: file
+  config:
+    maxSize: 64
+  label: Author Image webp
+  description: Webp image of the author
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: meta description
