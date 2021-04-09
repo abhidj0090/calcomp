@@ -14,20 +14,22 @@
         </div>
       </div>
       <div class="col-lg-8 offset-lg-2">
+        {{if gt (len .Params.Image) 0}}            
+        <div class="bio_image">                  
+          <figure>
+            <img class="img-fluid lozad" data-src="{{ .Params.Image_webp }}" onerror="this.onerror=null;this.src='{{ .Params.Image }}'" title="{{.Title}}" alt="{{.Title}}" src="{{.Params.Image_webp}}" data-loaded="true">
+          </figure>                 
+        </div>
+        {{end}}
         <div class="post-single-content">
           {{ .Content }}
-          {{if gt (len .Params.Image) 0}}            
-            <div class="col-md-4 client-thumb">                  
-              <figure>
-                <img class="img-fluid lozad" data-src="{{ .Params.Image_webp }}" onerror="this.onerror=null;this.src='{{ .Params.Image }}'" title="{{.Title}}" alt="{{.Title}}" src="{{.Params.Image_webp}}" data-loaded="true">
-              </figure>                 
-            </div>
-            <div class="col-md-4 client-thumb">  
+          {{if gt (len .Params.Biography_image) 0}}  
+            <div class="bio_author_image client-thumb">  
               <figure>
                 <img class="img-fluid lozad" data-src="{{.Params.Biography_image_webp}}" onerror="this.onerror=null;this.src='{{.Params.Biography_image}}'" title="{{.Params.Author}}" alt="{{.Params.Author}}" src="{{.Params.Biography_image_webp}}" data-loaded="true">
               </figure>              
             </div>
-          {{end}}
+            {{end}}
         </div>
       </div>
       {{ $paginator := .Paginate .Pages }}
