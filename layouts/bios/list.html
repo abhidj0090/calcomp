@@ -23,7 +23,7 @@
         {{end}}
         <div class="post-single-content">
           {{ .Content }}
-          {{if gt (len .Params.Biography_image_webp) 0}}  
+          {{if gt (len .Params.Image) 0}} 
             <div class="bio_author_image client-thumb">  
               <figure>
                 <img class="img-fluid lozad" data-src="{{.Params.Biography_image_webp}}" onerror="this.onerror=null;this.src='{{.Params.Biography_image}}'" title="{{.Params.Author}}" alt="{{.Params.Author}}" src="{{.Params.Biography_image_webp}}" data-loaded="true">
