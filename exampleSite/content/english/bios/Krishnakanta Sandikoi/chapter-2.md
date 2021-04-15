@@ -5,7 +5,6 @@ biography_image = ""
 biography_image_webp = ""
 date = 2021-04-07T18:30:00Z
 description = "chapter 1"
-draft = true
 image = ""
 image_webp = ""
 tags = []
