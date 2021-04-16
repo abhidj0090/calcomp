@@ -3,7 +3,7 @@ date = 2021-03-31T15:00:00Z
 description = "Calcutta Comparatists 1919 presents to you the 68th lecture of CC1919 lecture series."
 image = "/images/165869835_4393234490704091_9000484541095095845_n-1.jpg"
 image_webp = "/images/165869835_4393234490704091_9000484541095095845_n-1.webp"
-tags = ["Post Colonialism", "Comparative Literature"]
+tags = ["Postcolonialism", "Comparative Literature"]
 title = "\"Literary Studies in Post-Postcolonial Era\""
 [[speakers]]
 bio = "Chair, Department of Comparative Literature\nErnest Bernbaum Professor of Comparative Literature\nDirector, Institute for World Literature\nHarvard University"
