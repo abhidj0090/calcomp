@@ -106,5 +106,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/the-episteme-and-the-ontology-of-a-centre-for-memory-studies.md
