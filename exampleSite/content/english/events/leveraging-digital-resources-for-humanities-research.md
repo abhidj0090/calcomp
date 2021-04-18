@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists1919 presents to you the 72nd lecture 
 description = ""
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-04-17T15:30:00Z
 event_start_date = 2021-04-17T13:30:00Z
 image = "/images/173642432_259077905919103_8307049264196078513_n.jpg"
