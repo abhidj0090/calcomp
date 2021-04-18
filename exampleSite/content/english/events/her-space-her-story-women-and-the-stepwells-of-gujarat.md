@@ -19,7 +19,7 @@ speaker_image_webp = "/images/11779884_762666663468_7177158281508146859_o-1.webp
 speaker_name = "Prof. Purnima Mehta Bhatt"
 
 +++
-Calcutta Comparatists1919 invites you to the 74th lecture of the CC1919 lecture series.
+Calcutta Comparatists1919 invites you to the 73rd lecture of the CC1919 lecture series.
 
 Speaker: Prof. Purnima Mehta Bhatt, Professor of History, Anthropology and Interdisciplinary Studies (Emerita) at Hood College, USA. Dr. Bhatt’s current research interests focus on the historical and contemporary roles of women in Asia and Africa; global perspectives on women, power, and politics; women’s leadership in peace movements; the impact of globalization on women; and more recently, the African presence in India.
 
