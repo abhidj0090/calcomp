@@ -107,4 +107,5 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/identity-problems-of-the-indian-diaspora-residing-in-the-caribbean-countries.md
 - exampleSite/content/english/events/leveraging-digital-resources-for-humanities-research.md
