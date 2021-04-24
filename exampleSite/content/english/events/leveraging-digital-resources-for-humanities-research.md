@@ -1,14 +1,13 @@
 +++
 all_day_event = false
-calendar_filename = "Calcutta Comparatists1919 presents to you the 72nd lecture of the cc1919 lecture series."
+calendar_filename = "Calcutta Comparatists1919 presents to you the 74th lecture of the cc1919 lecture series."
 description = ""
 disable_download = false
 disable_link = false
-draft = true
-event_end_date = 2021-04-17T15:30:00Z
-event_start_date = 2021-04-17T13:30:00Z
-image = "/images/173642432_259077905919103_8307049264196078513_n.jpg"
-image_webp = "/images/173642432_259077905919103_8307049264196078513_n.webp"
+event_end_date = 2021-04-25T15:30:00Z
+event_start_date = 2021-04-25T13:30:00Z
+image = "/images/whatsapp-image-2021-04-23-at-22-55-03.jpeg"
+image_webp = "/images/whatsapp-image-2021-04-23-at-22-55-03.webp"
 location = ""
 meeting_link = "https://youtu.be/Ko4EId5BRRo"
 tags = ["Digital Humanities"]
@@ -20,6 +19,6 @@ speaker_image_webp = "/images/735858_10200392947410992_1677350204_o.webp"
 speaker_name = " Shiladitya Bhattacharya"
 
 +++
-Calcutta Comparatists1919 presents to you the 72nd lecture of the CC1919 lecture series.
+Calcutta Comparatists1919 presents to you the 74th lecture of the CC1919 lecture series.
 
-This Saturday we will have with us Shiladitya Bhattacharya, Research Scholar, JNU for an academic session on "Leveraging Digital Resources for Humanities Research."
+This Sunday we will have with us Shiladitya Bhattacharya, Research Scholar, JNU for an academic session on "Leveraging Digital Resources for Humanities Research."
