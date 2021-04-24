@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists1919 invites you to the 74th lecture o
 description = "Calcutta Comparatists1919 invites you to the 74th lecture of the CC1919 lecture series."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-04-19T15:30:00Z
 event_start_date = 2021-04-19T13:30:00Z
 image = "/images/174682742_4453589034668636_8588494410070785458_n.jpg"
