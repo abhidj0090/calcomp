@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists1919 presents to you the 74th lecture 
 description = ""
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-04-25T15:30:00Z
 event_start_date = 2021-04-25T13:30:00Z
 image = "/images/whatsapp-image-2021-04-23-at-22-55-03.jpeg"
