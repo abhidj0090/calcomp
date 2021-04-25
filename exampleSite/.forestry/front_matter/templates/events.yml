@@ -107,5 +107,4 @@ fields:
   type: boolean
   label: disable download
 pages:
-- exampleSite/content/english/events/leveraging-digital-resources-for-humanities-research.md
 - exampleSite/content/english/events/thinking-with-edward-said-decolonization-race-and-the-western-humanities.md
