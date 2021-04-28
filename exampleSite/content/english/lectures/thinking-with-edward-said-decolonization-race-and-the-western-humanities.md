@@ -1,7 +1,6 @@
 +++
 date = 2021-04-27T08:30:00Z
 description = "Calcutta Comparatists1919 invites you to the 75th lecture of the CC1919 lecture series."
-draft = true
 image = "/images/whatsapp-image-2021-04-24-at-12-03-43.jpeg"
 image_webp = "/images/whatsapp-image-2021-04-24-at-12-03-43.webp"
 tags = ["Decolonisation", "Edward Said", "Colonialism", "Race", "Western Humanities"]
