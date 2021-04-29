@@ -106,5 +106,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/heteroglossia-in-cosmopolitan-perspective-jhumpa-lahiri-s-leap-across-to-italian.md
