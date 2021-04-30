@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/a-wholesome-alternative-questioning-neoliberal-capitalism-in-satyajit-ray-s-fiction.md
