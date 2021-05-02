@@ -34,7 +34,7 @@ sections:
   label: Post (en)
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - post
 - type: directory
