@@ -32,7 +32,7 @@ sections:
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
-  create: documents
+  create: all
   match: "**/*"
   new_doc_ext: '20191203072044'
   templates:
