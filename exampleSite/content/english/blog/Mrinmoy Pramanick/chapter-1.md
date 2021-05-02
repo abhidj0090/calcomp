@@ -5,6 +5,7 @@ biography_image = ""
 biography_image_webp = ""
 date = 2021-05-01T18:30:00Z
 description = "Mrinmoy Pramanick - an autobiography - chapter 1"
+draft = true
 image = ""
 image_webp = ""
 tags = []
