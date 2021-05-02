@@ -34,7 +34,7 @@ sections:
   label: Post (en)
   create: all
   match: "**/*"
-  new_doc_ext: '20191203072044'
+  new_doc_ext: ''
   templates:
   - post
 - type: directory
