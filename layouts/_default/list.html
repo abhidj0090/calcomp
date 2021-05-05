@@ -18,13 +18,12 @@
             <h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
                 {{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span>
             </h2>
-          {{end}}
-          {{with .Params.Image}}            
-            <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
-          {{else}}
             <div class="border-meghna"></div>
           {{end}}
         </div>
+        {{with .Params.Image}}            
+          <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
+        {{end}}
         {{if gt (len .Content) 0}}  
         <div class="col-lg-8 offset-lg-2">
           <div class="post-single-content">
