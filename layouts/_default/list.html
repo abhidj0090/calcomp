@@ -21,8 +21,10 @@
             <div class="border-meghna"></div>
           {{end}}
         </div>
-        {{with .Params.Image}}            
-          <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
+        {{with .Params.Image}}   
+          <div class="col-lg-8 offset-lg-2 text-center">         
+            <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
+          </div>
         {{end}}
         {{if gt (len .Content) 0}}  
         <div class="col-lg-8 offset-lg-2">
