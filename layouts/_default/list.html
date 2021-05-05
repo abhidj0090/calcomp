@@ -35,6 +35,7 @@
           {{ .Content }}
         </div>
       </div>
+      {{end}}
       {{"<!-- /section title -->" | safeHTML}}
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
