@@ -2,7 +2,7 @@
   <div class="post-block">
     <div class="media-wrapper">
       {{with .Params.Image_webp}}
-        <img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
+        <img class="img-fluid lozad" data-src="{{ . | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
       {{end}}
     </div>
 
