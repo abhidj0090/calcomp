@@ -9,9 +9,24 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          <h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-              {{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span></h2>
-          <div class="border-meghna"></div>
+          {{ if gt ( len .Title 0 )}}
+            <div class="title text-center wow fadeInDown">
+              <h2><span class="color">{{ .Title }}</span></h2>
+              <div class="border-meghna"></div>
+            </div>
+          {{else}}
+            <h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+                {{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span>
+            </h2>
+          {{end}}
+          {{if gt (len .Params.Image) 0}}            
+            <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+          {{else}}
+            <div class="border-meghna"></div>
+          {{end}}
+          {{if gt (len .Content) 0}}           
+            {{ .Content }}
+          {{end}}
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}
