@@ -25,14 +25,14 @@
             <div class="border-meghna"></div>
           {{end}}
         </div>
-      </div>
-      {{if gt (len .Content) 0}}  
-      <div class="col-lg-8 offset-lg-2">
-        <div class="post-single-content">
-          {{ .Content }}
+        {{if gt (len .Content) 0}}  
+        <div class="col-lg-8 offset-lg-2">
+          <div class="post-single-content">
+            {{ .Content }}
+          </div>
         </div>
+        {{end}}
       </div>
-      {{end}}
       {{"<!-- /section title -->" | safeHTML}}
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
