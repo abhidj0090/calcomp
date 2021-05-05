@@ -29,6 +29,12 @@
           {{end}}
         </div>
       </div>
+      {{if gt (len .Content) 0}}  
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          {{ .Content }}
+        </div>
+      </div>
       {{"<!-- /section title -->" | safeHTML}}
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
@@ -37,6 +43,16 @@
       <div class="col-12">
         {{ template "_internal/pagination.html" . }}
       </div>
+      {{with .Params.Author_bio}}
+      <div class="mt-2">
+        {{ . }}
+      </div>
+      {{end}}
+      {{if gt (len .Content) 0}}  
+        {{ if site.Params.post_share }}
+          {{ partial "post-share.html" . }}
+        {{ end }}
+      {{end}}
     </div>
   </div>
 </section>
