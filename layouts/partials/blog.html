@@ -15,9 +15,10 @@ style='background-image: url("/images/typewritermain.webp")'>
 			{{"<!-- /section title -->" | safeHTML}}
 
 			{{ range first 3 ( where site.Pages "Section" "==" "blog" )}}
-				{{if (in .Params.featured "true") }}
+				<!-- {{if (in .Params.featured "true") }}
 					{{ .Render "article"}}
-				{{end}}
+				{{end}} -->
+				{{ .Render "article"}}
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
