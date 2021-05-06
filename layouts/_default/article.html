@@ -1,7 +1,11 @@
+{{ $imagewbp := .Params.Image_webp }}
+{{ $image := .Params.Image }}
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
   <div class="post-block">
     <div class="media-wrapper">
-      <img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
+      {{with .Params.Image}}
+        <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'">
+      {{end}}
     </div>
 
     <div class="content">
