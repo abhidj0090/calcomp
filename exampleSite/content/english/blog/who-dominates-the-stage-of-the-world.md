@@ -3,6 +3,7 @@ author = "Nabodita Ganguly"
 author_bio = "Nabodita is currently pursuing her masters degree in mass media from Symbiosis Pune."
 date = 2020-10-30T06:52:36Z
 description = "I really enjoyed studying As You Like It, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage"
+featured = true
 image = "/images/rights.jpg"
 image_webp = "/images/rights.webp"
 tags = ["Feminism", "Gender Equality"]
