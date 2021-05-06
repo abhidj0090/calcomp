@@ -49,6 +49,10 @@ fields:
   default: []
   label: Tags
   description: Tag any keyword related to this content
+- name: featured
+  type: boolean
+  label: featured
+  description: tag as featured
 pages:
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/chapter-1.md
