@@ -16,7 +16,7 @@ style='background-image: url("/images/typewritermain.webp")'>
 			{{ $counter := 0 }}
 			{{ range ( where .Site.Pages "Section" "==" "blog" )}}
 			{{ $counter = add $counter 1 }}
-				{{if and (in .Params.featured "true") ($counter<3) }}
+				{{if and (in .Params.featured "true") ($counter "<" 3) }}
 					{{ .Render "article"}}
 				{{end}}
 				<!-- {{ .Render "article"}} -->
