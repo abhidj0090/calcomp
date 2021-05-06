@@ -17,10 +17,6 @@ style='background-image: url("/images/typewritermain.webp")'>
 			{{ range $paginator.Pages }}
 			{{ .Render "article" }}
 			{{ end }}
-			<!-- {{ $pages := site.Data }}
-			{{ range first 3 (where $pages.Pages "Section" "==" "blog")}}
-			{{ .Render "article"}}
-			{{ end }} -->
 
 			<div class="all-post text-center col-lg-12">
 				<a class="btn btn-main" href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
