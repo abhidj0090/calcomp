@@ -13,8 +13,8 @@ style='background-image: url("/images/typewritermain.webp")'>
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
-
-			{{ range first 3 (where .Pages "Section" "==" "blog")}}
+			{{ $pages := .site.Data }}
+			{{ range first 3 (where $Pages.Pages "Section" "==" "blog")}}
 			{{ .Render "article"}}
 			{{ end }}
 
