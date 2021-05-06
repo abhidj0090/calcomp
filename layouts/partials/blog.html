@@ -13,10 +13,10 @@ style='background-image: url("/images/typewritermain.webp")'>
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
-			{{ $paginator := .Paginate .Pages }}
-			{{ range where $paginator.Pages "Section" "==" "blog"  }}
-			{{ .Render "article" }}
-			{{ end }}   
+
+			{{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
+			{{ .Render "article"}}
+			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
 				<a class="btn btn-main" href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
