@@ -13,12 +13,13 @@ style='background-image: url("/images/typewritermain.webp")'>
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
-
-			{{ range first 3 ( where .Site.Pages "Section" "==" "blog" ) (in .Params.featured "true") }}
-				<!-- {{if (in .Params.featured "true") }}
+			{{ $counter := 0 }}
+			{{ range ( where .Site.Pages "Section" "==" "blog" )}}
+			{{ $counter = add $counter 1 }}
+				{{if and (in .Params.featured "true") ($counter<3) }}
 					{{ .Render "article"}}
-				{{end}} -->
-				{{ .Render "article"}}
+				{{end}}
+				<!-- {{ .Render "article"}} -->
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
