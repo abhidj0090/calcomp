@@ -14,7 +14,7 @@ style='background-image: url("/images/typewritermain.webp")'>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 ( where site.RegularPagesRecursive "Section" "==" "blog" )}}
+			{{ range first 3 ( where .site.RegularPagesRecursive "Section" "==" "blog" )}}
 				<!-- {{if (in .Params.featured "true") }}
 					{{ .Render "article"}}
 				{{end}} -->
