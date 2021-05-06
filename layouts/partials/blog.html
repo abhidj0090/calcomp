@@ -14,11 +14,11 @@ style='background-image: url("/images/typewritermain.webp")'>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range ( where .Site.Pages "Section" "==" "blog" )}}
-				{{if (in .Params.featured "true") }}
+			{{ range first 3 ( where .Site.Pages "Section" "==" "blog" ) (in .Params.featured "true") }}
+				<!-- {{if (in .Params.featured "true") }}
 					{{ .Render "article"}}
-				{{end}}
-				<!-- {{ .Render "article"}} -->
+				{{end}} -->
+				{{ .Render "article"}}
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
