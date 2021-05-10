@@ -43,8 +43,10 @@
         {{ template "_internal/pagination.html" . }}
       </div>
       {{with .Params.Author_bio}}
-      <div class="mt-2">
-        {{ . }}
+      <div class="col-lg-8 offset-lg-2">
+        <div class="mt-2">
+          {{ . }}
+        </div>
       </div>
       {{end}}
       {{if gt (len .Content) 0}}  
