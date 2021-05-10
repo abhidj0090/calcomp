@@ -53,6 +53,10 @@ fields:
   type: boolean
   label: featured
   description: tag as featured
+- name: chapter
+  type: boolean
+  label: chapter
+  description: do not display summary
 pages:
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/chapter-1.md
