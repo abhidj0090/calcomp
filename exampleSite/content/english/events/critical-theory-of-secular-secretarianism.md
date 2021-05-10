@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists1919 presents to you the 78th lecture 
 description = "Calcutta Comparatists1919 presents to you the 78th lecture of the CC1919 lecture series."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-05-07T15:30:00Z
 event_start_date = 2021-05-07T13:30:00Z
 image = "/images/whatsapp-image-2021-05-01-at-23-50-35.jpeg"
@@ -26,4 +27,4 @@ Though this is indeed a hard time for all of us and we are trying to stay calm a
 
 Therefore, for our next event, we are bringing to you a talk on "Critical Theory of Secular Secretarianism" by Professor Ajay Gudavarthy. Professor Gudavarthy has kindly agreed to join us on 7th May and we will be hosting him live from our YouTube channel.
 
-Professor Gudavarthy has been working on this area for few years and last year he published a book entitled Secular Secretarianism. The talk will be based on this very informative and important text. 
+Professor Gudavarthy has been working on this area for few years and last year he published a book entitled Secular Secretarianism. The talk will be based on this very informative and important text.
