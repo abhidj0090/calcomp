@@ -36,3 +36,7 @@ fields:
       format: markdown
   label: description
   description: meta description
+- name: bangla
+  type: boolean
+  label: bangla
+  description: is the content in bengali?
