@@ -1,5 +1,6 @@
 {{ $imagewbp := .Params.Image_webp }}
 {{ $image := .Params.Image }}
+{{ $class := "some value" }}
 {{ if (in .Params.Bangla "true") }}
   {{ $class = "bangla" }}
 {{ else }}
