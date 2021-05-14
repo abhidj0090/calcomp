@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-{{ $class := "some value"  /*Initializing necessary for Hugo*/ }}
+{{ $class := "some value" }}
 {{ if (in .Params.Bangla "true") }}
   {{ $class = "bangla" }}
 {{ else }}
