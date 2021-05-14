@@ -44,7 +44,7 @@
 	{{ $styles := resources.Get "css/style.css" | minify }}
 	<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-	{{"<!-- Kalpurush Stylesheet -->"}}
+	{{"<!-- Kalpurush Stylesheet -->"|safeHTML}}
 	<link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
 	
 	{{ "<!--Favicon-->" | safeHTML }}
