@@ -57,6 +57,10 @@ fields:
   type: boolean
   label: chapter
   description: do not display summary
+- name: bangla
+  type: boolean
+  label: bangla
+  description: is the content is bengali?
 pages:
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/chapter-1.md
