@@ -1,7 +1,7 @@
 +++
 author = "Basudev Das"
 author_bio = ""
-bangla = true
+bangla = false
 biography_image = "/images/basudev2-1.jpg"
 biography_image_webp = "/images/basudev2.webp"
 chapter = false
