@@ -1,9 +1,14 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-
+{{ $class := "some value" }}
+{{ if (in .Params.Bangla "true") }}
+  {{ $class = "bangla" }}
+{{ else }}
+  {{ $class = "some value" }}
+{{ end }}
 {{"<!-- Start Blog Section -->" | safeHTML}}
-<section id="blog" class="section">
+<section id="blog" class="section {{$class}}">
   <div class="container">
     <div class="row">
       <div class="col-12">
