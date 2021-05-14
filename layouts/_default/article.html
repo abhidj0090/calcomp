@@ -1,6 +1,11 @@
 {{ $imagewbp := .Params.Image_webp }}
 {{ $image := .Params.Image }}
-<article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+{{ if (in .Params.Bangla "true") }}
+  {{ $class = "bangla" }}
+{{ else }}
+  {{ $class = "some value" }}
+{{ end }}
+<article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4 {{$class}}" data-wow-duration="500ms">
   <div class="post-block">
     <div class="media-wrapper">
       {{with .Params.Image}}
