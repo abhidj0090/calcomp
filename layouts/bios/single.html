@@ -1,8 +1,13 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-
-<section class="section">
+{{ $class := "some value"  /*Initializing necessary for Hugo*/ }}
+{{ if (in .Params.Bangla "true") }}
+  {{ $class = "bangla" }}
+{{ else }}
+  {{ $class = "some value" }}
+{{ end }}
+<section class="section {{$class}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">

@@ -208,3 +208,6 @@ blockquote {
     width: 80%;
     border: 2px solid #2c9091;
 }
+body .bangla{
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+}
