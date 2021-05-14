@@ -214,6 +214,6 @@ body .bangla *{
 .bangla .post-single-content{
     font-size: 25px;
 }
-.bangla article .post-block .content h3{
+.bangla article .post-block .content h3 *{
     font-size: 25px;
 }
