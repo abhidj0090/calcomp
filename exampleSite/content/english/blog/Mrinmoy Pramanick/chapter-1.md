@@ -1,6 +1,7 @@
 +++
 author = "Mrinmoy Pramanick"
 author_bio = "Dr. Mrinmoy Pramanick is an Assistant Professor in the Department of Comparative Indian Language and Literature, University of Calcutta. He did his Ph.D. from the University of Hyderabad on Translation and Imagination of Indian Literature and World Literature.  His areas of research interest are Comparative Indian Literature, Translation, World Literature, Dalit Literature, Migration Studies, Southeast Asia, etc."
+bangla = true
 biography_image = ""
 biography_image_webp = ""
 chapter = true
