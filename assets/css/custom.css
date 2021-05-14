@@ -211,3 +211,6 @@ blockquote {
 body .bangla *{
     font-family: 'Kalpurush', Arial, sans-serif !important;
 }
+.bangla .post-single-content{
+    font-size: 25px;
+}
