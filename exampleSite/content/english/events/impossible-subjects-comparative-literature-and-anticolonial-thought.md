@@ -22,6 +22,6 @@ Though this is indeed a hard time for all of us and we are trying to stay calm a
 
 Our next speaker is Prof. [Daniel Elam](https://www.facebook.com/jdelam?__cft__%5B0%5D=AZVjMilFw4SWxI7AHe-gH5HBhKMl-nmsv6Gl87bL4RhsL_Nu3c5exa9fECZT8B3p57Jril51Fx8DAmDT9seHo7oIaMlN3pW_OE4OQT244ofWKw&__tn__=-%5DK-R). Prof. Elam has agreed to join us and deliver a lecture on 'Impossible Subjects: Comparative Literature and Anticolonial Thought'. He will be talking about comparative literature as a 'necessary and impossible' project, with reference to anticolonialism and philology in the early twentieth century. This talk will be based on his book- Impossible and Necessary. Do visit his website to learn more about his works. : www.jdelam.com
 
-Abstract of the Lecture:
+[Abstract of the Lecture](/media/Elam-Intro.pdf "Abstract of the lecture")
 
 Date & Time of the Lecture: 18/05/2021 and 7 PM IST
