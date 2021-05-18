@@ -1,4 +1,4 @@
-<!-- <nav aria-label="breadcrumb">
+<nav aria-label="breadcrumb">
     <ol class="breadcrumb"> 
         {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
     </ol>
@@ -9,78 +9,7 @@
 {{ else if not .p1.IsHome }}
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
-<li{{ if eq .p1 .p2 }} class="active"{{ end }}>
+<li{{ if eq .p1 .p2 }} class="breadcrumb-item active" {{else}} class="breadcrumb-item"{{ end }}>
     <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
 </li>
-{{ end }} -->
-{{ $url := replace .Permalink (printf "%s" .Site.BaseURL) ""}}
-{{ .Scratch.Add "path" .Site.BaseURL }}
-{{ .Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "Home"))}}
-{{ .Scratch.Add "permalink" .Permalink }}
-{{ .Scratch.Add "title" .Title }}
-{{ $pScratch := .Scratch }}
-
-{{ range $index, $element := split $url "/" }}
-  {{ $pScratch.Add "path" $element }}
-  {{ $pScratch.Add "path" "/" }}
-  {{ if ne $element "" }}
-    {{ if eq ($pScratch.Get "path") ($pScratch.Get "permalink") }}
-        {{ $pScratch.Add "breadcrumb" (slice (dict "url" ($pScratch.Get "path") "name" ($pScratch.Get "title")))}}
-    {{ else }}
-        {{ $pScratch.Add "breadcrumb" (slice (dict "url" ($pScratch.Get "path") "name" (humanize .)))}}
-    {{ end }}
-  {{ end }}
 {{ end }}
-
-<script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {{ range $index, $breadcrumb := .Scratch.Get "breadcrumb" }}
-        {{ if ne $index 0 }},{{ end }}
-          {
-            "@type": "ListItem",
-            "position": {{ add $index 1 }},
-            "name": "{{ $breadcrumb.name }}",
-            {{ if ne $breadcrumb.url ($pScratch.Get "permalink") }}
-              "item": {{ printf "%s" $breadcrumb.url }},
-            {{ end }}
-          }
-      {{ end }}
-      ]
-    }
-    {{ range $index, $category :=  .Params.categories }}
-      ,
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "{{$.Site.BaseURL}}",
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Categories",
-            "item": "{{$.Site.BaseURL}}categories/",
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "{{ humanize . }}",
-            "item": "{{$.Site.BaseURL}}categories/{{.}}",
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "{{ $pScratch.Get "title" }}",
-          },
-        ]
-      }
-    {{ end }}
-    ]
-</script>
