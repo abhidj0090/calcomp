@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/impossible-subjects-comparative-literature-and-anticolonial-thought.md
