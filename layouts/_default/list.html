@@ -8,6 +8,7 @@
   {{ $class = "some value" }}
 {{ end }}
 {{"<!-- Start Blog Section -->" | safeHTML}}
+{{ partial "breadcrumbs.html" . }}
 <section id="blog" class="section {{$class}}">
   <div class="container">
     <div class="row">
