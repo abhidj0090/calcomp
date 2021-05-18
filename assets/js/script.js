@@ -142,7 +142,10 @@ jQuery(function ($) {
 	if(event.length>0){
 		showLive();
 	}
-
+	var upevent = $(".up-announcement *");
+	if(upevent.length>0){
+		showupLive();
+	}
 });
 
 /* ========================================================================= */
@@ -192,4 +195,25 @@ function showLive(){
 			//alert('Session is live')
 		}
 	}
+}
+
+function showupLive(){
+	$('.up-announcement').each(function () {
+
+		var now = new Date();
+		var s = new Date($(this).attr('data-startt'));
+		var e = new Date($(this).attr('data-endt'));
+
+		var newTime = now.getHours()*60+now.getMinutes();
+		var sTime = s.getHours()*60+s.getMinutes();
+		var eTime = e.getHours()*60+e.getMinutes();
+
+		// compare nowTime and dateTime
+		if (s.getDate()== now.getDate()){
+			if (newTime >= sTime && newTime <= eTime) {
+				$(this).css('display','block');
+				//alert('Session is live')
+			}
+		}	
+	});
 }

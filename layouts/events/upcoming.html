@@ -1,5 +1,8 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
     <div class="post-block">
+      <div class="up-announcement" style="display:none" data-startt="{{.Params.event_start_date }}" data-endt="{{.Params.event_end_date }}">
+        <span class="up-announcement-text">This session is now live <a href="{{.Params.meeting_link}}" class="btn btn-main" target="_blank">Join</a></span>
+      </div>
       {{ $imagewbp := .Params.Image_webp }}
       {{ $image := .Params.Image }}
       {{with .Params.Image_webp}}
