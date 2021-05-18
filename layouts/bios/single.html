@@ -7,6 +7,7 @@
 {{ else }}
   {{ $class = "some value" }}
 {{ end }}
+{{ partial "breadcrumbs.html" . }}
 <section class="section {{$class}}">
   <div class="container">
     <div class="row">
