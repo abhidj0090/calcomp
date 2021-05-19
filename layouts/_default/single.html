@@ -34,7 +34,7 @@
         {{end}}
         {{ if (in .Params.next "true") }}
           {{ $i := .Params.index }}
-          {{ $i := add$i 1 }}
+          {{ $i := add $i 1 }}
           {{$filename := .File.BaseFileName | humanize}}
           {{$link := replaceRE "[0-9]" $i $filename 1 }}
           {{$link}}
