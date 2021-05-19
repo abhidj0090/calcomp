@@ -27,6 +27,19 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
+        {{ if (in .Params.previous "true") }}
+          {{ $i := .Params.index }}
+          {{ $i := sub $i 1 }}
+          <a class="previous" href="{{.Permalink}}">Previous</a>
+        {{end}}
+        {{ if (in .Params.next "true") }}
+          {{ $i := .Params.index }}
+          {{ $i := add$i 1 }}
+          {{$filename := .File.BaseFileName | humanize}}
+          {{$link := replaceRE "[0-9]" $i $filename 1 }}
+          {{$link}}
+          <a class="next" href="{{.Permalink}}">Next</a>
+        {{end}}
         <div class="mt-2">
           {{ .Params.Author_bio }}
         </div>
@@ -39,16 +52,6 @@
               {{end}}
             </ul>
           </div>
-        {{end}}
-        {{ if (in .Params.previous "true") }}
-          {{ $i := .Params.index }}
-          {{ $i := sub $i 1 }}
-          <a class="previous" href="{{.Permalink}}">Previous</a>
-        {{end}}
-        {{ if (in .Params.next "true") }}
-          {{ $i := .Params.index }}
-          {{ $i := add $i 1 }}
-          <a class="next" href="{{.Permalink}}">Next</a>
         {{end}}
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
