@@ -35,8 +35,9 @@
         {{ if (in .Params.next "true") }}
           {{ $i := .Params.index }}
           {{ $i := add $i 1 }}
-          {{$filename := .File.BaseFileName | humanize}}
-          {{$link := (replaceRE "[0-9]" $i $filename) }}
+          {{$filename := .File.BaseFileName }}
+          {{$next := (replaceRE "[0-9]" $i $filename) }}
+          {{$link := replace .Permalink .File.BaseFileName $next}}
           <p>{{$link}}</p>
           <a class="next" href="{{.Permalink}}">Next</a>
         {{end}}
