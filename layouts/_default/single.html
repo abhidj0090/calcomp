@@ -36,7 +36,7 @@
             {{$filename := .File.BaseFileName }}
             {{$previous := (replaceRE "[0-9]" $i $filename) }}
             {{$link := replace .Permalink .File.BaseFileName $previous}}           
-            <li class="page-item"></li><a class="page-link" href="{{$link}}" >Previous</a></li>
+            <li class="page-item"><a class="page-link" href="{{$link}}" >Previous</a></li>
           {{end}}
           {{ if (in .Params.next "true") }}
             {{ $i := .Params.index }}
