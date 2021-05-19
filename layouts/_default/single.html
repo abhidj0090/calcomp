@@ -28,8 +28,8 @@
           {{ .Content }}
         </div>
         {{ if or (in .Params.previous "true") (in .Params.next "true") }}
-        <nav aria-label="chapter Page navigation example">
-          <ul class="pagination">
+        <nav aria-label="Page navigation example">
+          <ul class="chapter pagination">
           {{ if (in .Params.previous "true") }}
             {{ $i := .Params.index }}
             {{ $i := sub $i 1 }}
