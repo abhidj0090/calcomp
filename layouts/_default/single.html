@@ -42,12 +42,12 @@
         {{end}}
         {{ if (in .Params.previous "true") }}
           {{ $i := .Params.index }}
-          {{ $i := $i - 1 }}
+          {{ $i := sub $i 1 }}
           <a class="previous" href="{{.Permalink}}">Previous</a>
         {{end}}
         {{ if (in .Params.next "true") }}
           {{ $i := .Params.index }}
-          {{ $i := $i + 1 }}
+          {{ $i := add $i 1 }}
           <a class="next" href="{{.Permalink}}">Next</a>
         {{end}}
         {{ if site.Params.post_share }}
