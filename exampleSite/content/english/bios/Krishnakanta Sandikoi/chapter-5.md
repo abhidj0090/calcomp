@@ -6,10 +6,13 @@ biography_image = ""
 biography_image_webp = ""
 chapter = true
 date = 2021-05-12T18:30:00Z
-description = "chapter 5 "
+description = "A Biography of Krishnakant Handique - chapter 5"
 featured = false
 image = ""
 image_webp = ""
+index = 5
+next = false
+previous = true
 tags = []
 title = "পঞ্চম অধ্যায়"
 
