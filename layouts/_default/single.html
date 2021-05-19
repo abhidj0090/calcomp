@@ -37,7 +37,7 @@
           {{ $i := add $i 1 }}
           {{$filename := .File.BaseFileName | humanize}}
           {{$link := (replaceRE "[0-9]" $i $filename) }}
-          {{$link}}
+          <p>{{$link}}</p>
           <a class="next" href="{{.Permalink}}">Next</a>
         {{end}}
         <div class="mt-2">
