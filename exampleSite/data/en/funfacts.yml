@@ -6,10 +6,10 @@ funfacts:
   counter_item:
   - title: Lectures Organised
     icon: ti-blackboard
-    count: "60"
+    count: "79"
   - title: Positive feedback
     icon: ti-thumb-up
-    count: "50"
+    count: "60"
   - title: Hours of Serious Chit Chat
     icon: ti-comment-alt
-    count: "120"
+    count: "150"
