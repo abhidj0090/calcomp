@@ -10,6 +10,9 @@ description = "Mrinmoy Pramanick - an autobiography - chapter 1"
 featured = false
 image = ""
 image_webp = ""
+index = 1
+next = true
+previous = false
 tags = []
 title = "প্রদীপের বন্ধুরা"
 
