@@ -236,3 +236,6 @@ body .bangla *{
 .up-announcement-text{
     animation: blinkingText 1s infinite;
 }
+.chapter .page-item .page-link{
+    width: fit-content;
+}

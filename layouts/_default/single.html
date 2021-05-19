@@ -27,21 +27,27 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
-        {{ if (in .Params.previous "true") }}
-          {{ $i := .Params.index }}
-          {{ $i := sub $i 1 }}
-          {{$filename := .File.BaseFileName }}
-          {{$previous := (replaceRE "[0-9]" $i $filename) }}
-          {{$link := replace .Permalink .File.BaseFileName $previous}}
-          <a class="previous" href="{{$link}}">Previous</a>
-        {{end}}
-        {{ if (in .Params.next "true") }}
-          {{ $i := .Params.index }}
-          {{ $i := add $i 1 }}
-          {{$filename := .File.BaseFileName }}
-          {{$next := (replaceRE "[0-9]" $i $filename) }}
-          {{$link := replace .Permalink .File.BaseFileName $next}}
-          <a class="next" href="{{$link}}">Next</a>
+        {{ if or (in .Params.previous "true") (in .Params.next "true") }}
+        <nav aria-label="chapter Page navigation example">
+          <ul class="pagination">
+          {{ if (in .Params.previous "true") }}
+            {{ $i := .Params.index }}
+            {{ $i := sub $i 1 }}
+            {{$filename := .File.BaseFileName }}
+            {{$previous := (replaceRE "[0-9]" $i $filename) }}
+            {{$link := replace .Permalink .File.BaseFileName $previous}}           
+            <li class="page-item"></li><a class="page-link" href="{{$link}}" >Previous</a></li>
+          {{end}}
+          {{ if (in .Params.next "true") }}
+            {{ $i := .Params.index }}
+            {{ $i := add $i 1 }}
+            {{$filename := .File.BaseFileName }}
+            {{$next := (replaceRE "[0-9]" $i $filename) }}
+            {{$link := replace .Permalink .File.BaseFileName $next}}
+            <li class="page-item"><a class="page-link" href="{{$link}}">Next</a></li>
+          {{end}}
+          </ul>
+        </nav>
         {{end}}
         <div class="mt-2">
           {{ .Params.Author_bio }}
