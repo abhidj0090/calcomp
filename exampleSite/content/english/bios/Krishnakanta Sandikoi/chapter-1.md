@@ -6,10 +6,13 @@ biography_image = ""
 biography_image_webp = ""
 chapter = true
 date = 2021-04-07T18:30:00Z
-description = "chapter 1"
+description = "A Biography of Krishnakant Handique - chapter 1"
 featured = false
 image = ""
 image_webp = ""
+index = 1
+next = true
+previous = false
 tags = []
 title = "প্রথম অধ্যায়"
 
