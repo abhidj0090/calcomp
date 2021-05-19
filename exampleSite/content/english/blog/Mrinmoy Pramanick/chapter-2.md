@@ -10,6 +10,9 @@ description = "Mrinmoy Pramanick - an autobiography - chapter 2"
 featured = false
 image = ""
 image_webp = ""
+index = 2
+next = false
+previous = true
 tags = []
 title = "দাদুর রেডিও"
 
