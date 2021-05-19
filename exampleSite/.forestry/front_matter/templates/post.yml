@@ -44,6 +44,24 @@ fields:
   name: description
   label: description
   description: meta description
+- name: index
+  type: number
+  description: Which chapter is this ?
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: index
+- name: previous
+  type: boolean
+  label: previous
+  description: Does this have a previous chapter ?
+- name: next
+  type: boolean
+  label: next
+  description: 'Does this have a next chapter ? '
 - name: tags
   type: tag_list
   default: []
