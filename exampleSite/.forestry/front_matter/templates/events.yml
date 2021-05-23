@@ -106,5 +106,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/the-world-turn-d-upside-down-reflections-on-world-literature.md
