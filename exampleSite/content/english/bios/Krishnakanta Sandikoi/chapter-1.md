@@ -12,7 +12,7 @@ image = ""
 image_webp = ""
 index = 1
 next = true
-previous = false
+previous = true
 tags = []
 title = "প্রথম অধ্যায়"
 
