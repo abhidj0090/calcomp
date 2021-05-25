@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/an-attack-on-the-commons-species-extinction-in-jehirul-hussain-s-raang-kukuror-tupi.md
