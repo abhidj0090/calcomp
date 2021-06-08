@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/hamder-baaat-shunte-hobek-resistance-and-assertion-of-identity-in-the-literature-of-the-tea-tribes-of-assam.md
