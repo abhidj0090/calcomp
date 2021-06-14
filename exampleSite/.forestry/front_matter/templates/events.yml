@@ -106,3 +106,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/why-i-wrote-why-i-am-not-a-hindu-in-the-early-1990s-where-are-we-now.md
