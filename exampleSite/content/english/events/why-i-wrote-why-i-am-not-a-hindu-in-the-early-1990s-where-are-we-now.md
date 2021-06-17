@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists 1919 brings to you the 84th lecture o
 description = "Calcutta Comparatists 1919 brings to you the 84th lecture of the CC1919 online lecture series."
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-06-15T15:00:00Z
 event_start_date = 2021-06-15T13:00:00Z
 image = "/images/img-20210614-wa0004.jpg"
