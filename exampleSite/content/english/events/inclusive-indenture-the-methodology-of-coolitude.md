@@ -13,7 +13,7 @@ meeting_link = "https://youtu.be/1_-5zCpw13g"
 tags = ["Coolitude", "Coolie", "Indentured Labour", "Migration", "Diaspora"]
 title = "Inclusive indenture, the methodology of coolitude."
 [[speakers]]
-bio = "Theorist and Semiologist\nMauritian and French Poet"
+bio = "Theorist and Semiologist,\nMauritian and French Poet"
 speaker_image = "/images/330121_2721994172842_1865556361_o.jpg"
 speaker_image_webp = "/images/330121_2721994172842_1865556361_o.webp"
 speaker_name = "Dr. Khal Torabully"
