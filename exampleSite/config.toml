@@ -115,7 +115,7 @@ link = "plugins/google-map/map.js"
 enable = false
 preloader = "images/favicon.png"
 [[params.social]]
-icon = "ti-facebook"
+icon = "fa fa-facebook"
 link = "https://www.facebook.com/CalcuttaComparatists1919"
 [[params.social]]
 icon = "ti-twitter-alt"
