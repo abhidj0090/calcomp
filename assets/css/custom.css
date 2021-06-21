@@ -259,6 +259,9 @@ body .bangla *{
     transition: all 0.3s ease;
     font-size: 30px;
 }
+.mobile-share .social-share a, .mobile-share .social-share i {
+    font-size: 40px;
+}
 @media only screen and (max-width : 768px) {
     .mobile-share{
         display:block;
