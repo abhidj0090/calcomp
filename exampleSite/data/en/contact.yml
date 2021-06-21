@@ -6,7 +6,7 @@ contact:
   content: Feel free to mail us or drop us a note, we would be happy to hear from
     you.
   contact_list:
-  - icon: ti-email
+  - icon: fas fa-envelope
     info: 'Email: calcomparatists@gmail.com'
   contact_form:
     enable: true
