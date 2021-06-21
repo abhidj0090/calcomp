@@ -53,14 +53,14 @@
         {{ . }}
       </div>
       {{end}}
-      {{if gt (len .Content) 0}}  
-        {{ if site.Params.post_share }}
-          {{ partial "post-share.html" . }}
-        {{ end }}
-      {{end}}
     </div>
   </div>
 </section>
+{{if gt (len .Content) 0}}  
+{{ if site.Params.post_share }}
+  {{ partial "post-share.html" . }}
+{{ end }}
+{{end}}
 {{"<!-- /blog -->" | safeHTML}}
 
 {{ end }}
