@@ -84,7 +84,7 @@
 	</a>
 
 	<!-- Sharingbutton Telegram -->
-	<a class="resp-sharing-button__link" href="https://t.me/share/url?text={{ .Title }}&amp;url={{ $url }}"
+	<a class="resp-sharing-button__link" href="https://t.me/share/url?text={{ .Title }}&amp;url={{ $url }}{{.Permalink | absLangURL }}"
 		target="_blank" rel="noopener" aria-label="">
 		<i class="share-icons fab fa-telegram"></i>
 		<!-- <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small">
