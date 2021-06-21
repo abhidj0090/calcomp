@@ -8,8 +8,8 @@ funfacts:
     icon: fas fa-chalkboard
     count: "79"
   - title: Positive feedback
-    icon: ti-thumb-up
+    icon: fas fa-thumbs-up
     count: "60"
   - title: Hours of Serious Chit Chat
-    icon: ti-comment-alt
+    icon: fas fa-comment
     count: "150"
