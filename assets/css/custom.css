@@ -249,7 +249,7 @@ body .bangla *{
     -webkit-transform: translateY(-70%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding-bottom: 350px;
+    padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
 .social-share a, .social-share i {
