@@ -252,7 +252,7 @@ body .bangla *{
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
-.desktop-share .social-share a, .social-share i {
+.desktop-share .social-share a, .desktop-share .social-share i {
     display: block;
     text-align: center;
     padding: 5px;
