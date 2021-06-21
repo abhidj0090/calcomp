@@ -126,7 +126,7 @@ blockquote {
 .subscription a:hover{
     color: #2c9091;
 }
-.tags .ti-tag{
+.tags .fa-tag{
     float: left;
 }
 .call-to-action h2,.call-to-action p {
