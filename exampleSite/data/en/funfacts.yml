@@ -5,11 +5,11 @@ funfacts:
   bg_image_webp: images/book-wal.webp
   counter_item:
   - title: Lectures Organised
-    icon: fas fa-chalkboard
+    icon: fas fa-chalkboard-teacher
     count: "79"
   - title: Positive feedback
     icon: fas fa-thumbs-up
     count: "60"
   - title: Hours of Serious Chit Chat
-    icon: fas fa-comment
+    icon: fas fa-comment-alt
     count: "150"
