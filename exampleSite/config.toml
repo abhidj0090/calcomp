@@ -115,14 +115,14 @@ link = "plugins/google-map/map.js"
 enable = false
 preloader = "images/favicon.png"
 [[params.social]]
-icon = "fa fa-facebook"
+icon = "fab fa-facebook"
 link = "https://www.facebook.com/CalcuttaComparatists1919"
 [[params.social]]
-icon = "ti-twitter-alt"
+icon = "fab fa-twitter"
 link = "https://twitter.com/1919Calcutta?s=09"
 [[params.social]]
-icon = "ti-youtube"
+icon = "fab fa-youtube"
 link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 [[params.social]]
-icon = "ti-instagram"
+icon = "fab fa-instagram"
 link = "https://www.instagram.com/invites/contact/?i=1n2k0271ntjlf&utm_content=io0z4gk"
