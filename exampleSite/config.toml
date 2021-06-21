@@ -64,7 +64,7 @@ description = "A platform for scholars of Humanities and Social Sciences. And of
 enable_search = true
 google_analytics_id = "G-7HCHJKCH4M"
 logo = "images/logo.jpg"
-noevent = "There are no upcoming events at this moment please subscribe to our <span class=\"color subscription\"><a href=\"https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q\"><i class=\"ti-youtube\"></i></a></span> channel or follow our <span class=\"color subscription\"><a href=\"https://www.facebook.com/CalcuttaComparatists1919\"><i class=\"ti-facebook\"></i></a></span> page for more information"
+noevent = "There are no upcoming events at this moment please subscribe to our <span class=\"color subscription\"><a href=\"https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q\"><i class=\"fab fa-youtube\"></i></a></span> channel or follow our <span class=\"color subscription\"><a href=\"https://www.facebook.com/CalcuttaComparatists1919\"><i class=\"fab fa-facebook\"></i></a></span> page for more information"
 post_share = true
 shortname = "CC1919"
 staticAddress = "https://www.calcomp.org"
