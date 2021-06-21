@@ -5,7 +5,7 @@ funfacts:
   bg_image_webp: images/book-wal.webp
   counter_item:
   - title: Lectures Organised
-    icon: ti-blackboard
+    icon: fas fa-chalkboard
     count: "79"
   - title: Positive feedback
     icon: ti-thumb-up
