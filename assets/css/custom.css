@@ -252,13 +252,12 @@ body .bangla *{
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
-.desktop-share .social-share a, .desktop-share .social-share i {
+.desktop-share .social-share i {
     display: block;
     text-align: center;
     padding: 5px;
     transition: all 0.3s ease;
-    /* color: white; */
-    font-size: 20px;
+    font-size: 30px;
 }
 @media only screen and (max-width : 768px) {
     .mobile-share{
