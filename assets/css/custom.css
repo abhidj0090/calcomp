@@ -242,3 +242,20 @@ body .bangla *{
 .share-icons.fab{
     font-size: xx-large;
 }
+.social-share {
+    position: fixed;
+    top: 65%;
+    left: 80%;
+    -webkit-transform: translateY(-70%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* padding-bottom: 50%; */
+}
+.social-share a, .social-share i {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    /* color: white; */
+    font-size: 20px;
+}
