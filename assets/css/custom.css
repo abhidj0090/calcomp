@@ -260,3 +260,19 @@ body .bangla *{
     /* color: white; */
     font-size: 20px;
 }
+@media only screen and (max-width : 768px) {
+    .mobile-share{
+        display:block;
+    }
+    .desktop-share{
+        display: none;
+    }
+}
+@media only screen and (min-width : 769px) {
+    .mobile-share{
+        display:none;
+    }
+    .desktop-share{
+        display: block;
+    }
+}

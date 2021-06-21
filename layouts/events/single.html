@@ -76,13 +76,6 @@
             {{end}}
           </ul>
         </div>
-        {{ if site.Params.post_share }}
-        {{ partial "post-share.html" . }}
-        {{ end }}
-        <!-- comments -->
-        <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
-        </div>
       </div>
         <div class="col-lg-8 event-btns offset-lg-2">
           {{if not .Params.disable_link}}
@@ -103,4 +96,22 @@
     </div>
   </div>
 </section>
+{{ if site.Params.post_share }}
+  <div class="desktop-share">>
+    {{ partial "post-share.html" . }}
+  </div>
+  <section class="mobile-share">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {{ partial "post-share.html" . }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+<!-- comments -->
+<div class="mt-5">
+  {{ template "_internal/disqus.html" . }}
+</div>
 {{ end }}

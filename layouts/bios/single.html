@@ -64,7 +64,18 @@
   </div>
 </section>
 {{ if site.Params.post_share }}
-{{ partial "post-share.html" . }}
+  <div class="desktop-share">>
+    {{ partial "post-share.html" . }}
+  </div>
+  <section class="mobile-share">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {{ partial "post-share.html" . }}
+        </div>
+      </div>
+    </div>
+  </section>
 {{ end }}
 <!-- comments -->
 <div class="mt-5">
