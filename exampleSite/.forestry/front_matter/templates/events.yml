@@ -107,4 +107,5 @@ fields:
   type: boolean
   label: disable download
 pages:
-- exampleSite/content/english/events/the-world-turn-d-upside-down-reflections-on-world-literature.md
+- exampleSite/content/english/events/gramsci-s-hegemony-contemporary-relevance.md
+- exampleSite/content/english/events/inclusive-indenture-the-methodology-of-coolitude.md
