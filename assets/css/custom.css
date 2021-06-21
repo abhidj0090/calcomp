@@ -242,7 +242,7 @@ body .bangla *{
 .share-icons.fab{
     font-size: xx-large;
 }
-.social-share {
+.desktop-share .social-share {
     position: fixed;
     top: 65%;
     left: 80%;
@@ -252,7 +252,7 @@ body .bangla *{
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
-.social-share a, .social-share i {
+.desktop-share .social-share a, .social-share i {
     display: block;
     text-align: center;
     padding: 5px;
