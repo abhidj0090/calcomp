@@ -239,3 +239,6 @@ body .bangla *{
 .chapter .page-item .page-link{
     width: fit-content;
 }
+.share-icons.fab{
+    font-size: xx-large;
+}
