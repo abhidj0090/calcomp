@@ -146,7 +146,8 @@ jQuery(function ($) {
 	if(upevent.length>0){
 		showupLive();
 	}
-	$.ajax({url: "/my_functions/fetch_likes", success: function(result){
+	var currentURL = window.location.href;
+	$.ajax({url: "/.netlify/functions/fetch_likes?slug="+currentURL, success: function(result){
 		console.log(result);
 	  }});
 });
