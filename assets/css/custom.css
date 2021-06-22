@@ -253,6 +253,7 @@ body .bangla *{
     /* padding-bottom: 50%; */
 }
 .desktop-likes .likes {
+    margin: .5em;
     position: fixed;
     top: 45%;
     left: 80%;
