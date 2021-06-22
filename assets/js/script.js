@@ -149,7 +149,7 @@ jQuery(function ($) {
 
 	var hasLikes = $(".likes *");
 		if(hasLikes.length>0){
-		var currentURL = slugify(window.location.href);
+		var currentURL = slugify(window.location.pathname);
 
 		$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, success: function(result){
 			console.log(result);
@@ -158,10 +158,9 @@ jQuery(function ($) {
 });
 function slugify(Text) {
     return Text
-        .toLowerCase()
-        .replace(/ /g,'-')
-        .replace(/[^\w-]+/g,'')
-        ;
+	.split("/")
+	.filter(function (c) { return c.length;})
+	.pop();
   }
 /* ========================================================================= */
 /*	Download event
