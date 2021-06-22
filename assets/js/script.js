@@ -146,7 +146,7 @@ jQuery(function ($) {
 	if(upevent.length>0){
 		showupLive();
 	}
-	$.ajax({url: "/my_functions/fetch_likes_for_blog?slug=${this.$route.params.slug}", success: function(result){
+	$.ajax({url: "/my_functions/fetch_likes", success: function(result){
 		console.log(result);
 	  }});
 });
