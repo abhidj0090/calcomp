@@ -252,6 +252,17 @@ body .bangla *{
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
+.desktop-likes .likes {
+    position: fixed;
+    top: 45%;
+    left: 80%;
+    -webkit-transform: translateY(-70%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-bottom: 400px;
+    /* padding-bottom: 50%; */
+}
+
 .desktop-share .social-share a, .desktop-share .social-share i {
     display: block;
     text-align: center;
@@ -269,12 +280,24 @@ body .bangla *{
     .desktop-share{
         display: none;
     }
+    .mobile-likes{
+        display:block;
+    }
+    .desktop-likes{
+        display: none;
+    }
 }
 @media only screen and (min-width : 769px) {
     .mobile-share{
         display:none;
     }
     .desktop-share{
+        display: block;
+    }
+    .mobile-likes{
+        display:none;
+    }
+    .desktop-likes{
         display: block;
     }
 }
