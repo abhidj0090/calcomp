@@ -252,7 +252,7 @@ body .bangla *{
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
 }
-.desktop-likes {
+.desktop-likes .likes {
     position: fixed;
     top: 45%;
     left: 80%;
@@ -263,7 +263,7 @@ body .bangla *{
     /* padding-bottom: 50%; */
 }
 
-.desktop-share .social-share a, .desktop-share .social-share i, .desktop-likes i {
+.desktop-share .social-share a, .desktop-share .social-share i, .desktop-likes .likes i {
     display: block;
     text-align: center;
     transition: all 0.3s ease;
