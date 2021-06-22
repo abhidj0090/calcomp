@@ -266,7 +266,6 @@ body .bangla *{
 .desktop-share .social-share a, .desktop-share .social-share i, .desktop-likes i {
     display: block;
     text-align: center;
-    padding: 5px;
     transition: all 0.3s ease;
     font-size: 30px;
 }
