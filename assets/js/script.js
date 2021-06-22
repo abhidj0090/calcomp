@@ -146,12 +146,27 @@ jQuery(function ($) {
 	if(upevent.length>0){
 		showupLive();
 	}
-	var currentURL = window.location.href;
-	$.ajax({url: "/.netlify/functions/fetch_likes?slug="+currentURL, success: function(result){
-		console.log(result);
-	  }});
-});
 
+	var hasLikes = $(".likes *");
+		if(hasLikes.length>0){
+		var currentURL = slugify(window.location.href);
+
+		$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, success: function(result){
+			console.log(result);
+		}});
+	}
+});
+function slugify(string) {
+	return string
+	  .toString()
+	  .trim()
+	  .toLowerCase()
+	  .replace(/\s+/g, "-")
+	  .replace(/[^\w\-]+/g, "")
+	  .replace(/\-\-+/g, "-")
+	  .replace(/^-+/, "")
+	  .replace(/-+$/, "");
+  }
 /* ========================================================================= */
 /*	Download event
 /* ========================================================================= */
