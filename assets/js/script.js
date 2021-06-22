@@ -156,16 +156,12 @@ jQuery(function ($) {
 		}});
 	}
 });
-function slugify(string) {
-	return string
-	  .toString()
-	  .trim()
-	  .toLowerCase()
-	  .replace(/\s+/g, "-")
-	  .replace(/[^\w\-]+/g, "")
-	  .replace(/\-\-+/g, "-")
-	  .replace(/^-+/, "")
-	  .replace(/-+$/, "");
+function slugify(Text) {
+    return Text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
   }
 /* ========================================================================= */
 /*	Download event
