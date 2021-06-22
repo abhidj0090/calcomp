@@ -255,13 +255,16 @@ body .bangla *{
 .desktop-likes .likes {
     margin: .5em;
     position: fixed;
-    top: 45%;
+    top: 47%;
     left: 80%;
     -webkit-transform: translateY(-70%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding-bottom: 400px;
     /* padding-bottom: 50%; */
+}
+.nolikes{
+    margin:.2em;
 }
 
 .desktop-share .social-share a, .desktop-share .social-share i, .desktop-likes .likes i {
