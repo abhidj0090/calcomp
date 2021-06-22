@@ -229,3 +229,12 @@ function showupLive(){
 		}	
 	});
 }
+function registerLike(){
+	var currentURL = slugify(window.location.pathname);
+	$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, success: function(result){
+		var data = JSON.parse(result); 
+		if (data.likes>0){
+			$('.nolikes').html(data.likes);
+		}
+	}});
+}

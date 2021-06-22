@@ -304,3 +304,7 @@ body .bangla *{
         display: block;
     }
 }
+.likes i:hover{
+    color:teal;
+    cursor: pointer;
+}
