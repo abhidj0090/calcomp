@@ -152,7 +152,10 @@ jQuery(function ($) {
 		var currentURL = slugify(window.location.pathname);
 
 		$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, success: function(result){
-			console.log(result);
+			var data = JSON.parse(json);
+			if (data.likes>0){
+				${'nolikes'}.html(data.likes);
+			}
 		}});
 	}
 });

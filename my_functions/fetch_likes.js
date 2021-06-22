@@ -23,7 +23,7 @@ exports.handler = async (event) => {
   if (!doesDocExist) {
     await client.query(
       q.Create(q.Collection('likes'), {
-        data: { slug: slug, likes: 1 },
+        data: { slug: slug, likes: 0 },
       })
     );
   }
