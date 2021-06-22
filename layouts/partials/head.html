@@ -65,11 +65,11 @@
 	{{if site.Params.enable_search}}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/faunadb@latest/dist/faunadb.js"></script>
+
 	<script type="text/javascript">
 		algoliasearchNetlify({
 			appId: 'XABV8RICMT',
-			apiKey: '72183f87f6b5299bc8c1cacbc6c5fd77',
+			apiKey: '{{ getenv "ALGOLIA_API_KEY" }}',
 			siteId: '6dafc965-54ca-4030-a099-b8ed81d51eac',
 			branch: 'master',
 
@@ -79,16 +79,6 @@
 				inputSelector: '.js-search',        // CSS selector of your search input(s)
 			}
 		});
-		var faunadb = window.faunadb
-  		var q = faunadb.query
-  		var client = new faunadb.Client({
-    	secret: 'fnAEMUBeGRACBa-N5RO9iV9oHbnO1h3tWy6-kc6x',
-    	domain: 'db.fauna.com',
-   	 	scheme: 'https',
-  		})
-		client.query(
-			q.ToDate('2018-06-06')
-		)
   .then(function (res) { console.log('Result:', res) })
   .catch(function (err) { console.log('Error:', err) })
 	</script>
