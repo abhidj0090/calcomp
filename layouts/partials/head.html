@@ -81,7 +81,8 @@
 		});
 		var isstaging = '{{ site.Params.staging }}'
 	</script>
-		
+	{{ $branch := getenv "HUGO_GIT_COMMIT_REF" }}
+	{{$branch}}
 	{{end}}
 	{{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
 	{{ $custom := resources.Get "css/custom.css" | minify }}
