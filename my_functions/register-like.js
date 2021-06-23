@@ -9,7 +9,7 @@ exports.handler = async (event) => {
   const isstaging = data.staging;
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
-  const { slug } = data.slug;
+  const slug = data.slug;
   if (!slug) {
     return {
       statusCode: 400,
