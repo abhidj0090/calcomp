@@ -308,3 +308,6 @@ body .bangla *{
     color:teal;
     cursor: pointer;
 }
+.fa-tag:before{
+    font-family: 'Font Awesome 5 Free';
+}
