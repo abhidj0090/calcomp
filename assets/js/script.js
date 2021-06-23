@@ -152,7 +152,7 @@ jQuery(function ($) {
 		fetchLikes();
 	}
 });
-function slugify(Text) {
+function slugify(text) {
 	return text
     .toString()                     // Cast to string
     .toLowerCase()                  // Convert the string to lowercase letters
