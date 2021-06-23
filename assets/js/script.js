@@ -227,7 +227,7 @@ function showupLive(){
 }
 function fetchLikes(){
 	var currentURL = slugify(window.location.pathname);
-	var staging = isstaging==='true'?true:false;
+	var staging = window.location.href.indexOf.of('staging.calcomp.org')!==-1?true:false;
 	const data={
 		'staging':staging,
 		'slug':currentURL
@@ -246,7 +246,7 @@ function fetchLikes(){
 }
 function registerLike(){
 	var currentURL = slugify(window.location.pathname);
-	var staging = isstaging==='true'?true:false;
+	var staging = window.location.href.indexOf.of('staging.calcomp.org')!==-1?true:false;
 	const data={
 		'staging':staging,
 		'slug':currentURL
