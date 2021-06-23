@@ -39,6 +39,7 @@ exports.handler = async (event, context) => {
     body: JSON.stringify({
       likes: document.data.likes,
       process:process.env,
+      context:context
     }),
   };
 };
