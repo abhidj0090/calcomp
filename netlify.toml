@@ -14,11 +14,6 @@
 package = "netlify-plugin-is-website-vulnerable" 
 
 [[plugins]]
-package = 'netlify-plugin-contextual-env'
-  [plugins.inputs]
-  mode = 'prefix'
-
-[[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
