@@ -221,7 +221,7 @@ function showupLive(){
 		}	
 	});
 }
-function fetchlikes(){
+function fetchLikes(){
 	var currentURL = slugify(window.location.pathname);
 	var staging = isstaging==='true'?true:false;
 	const data={
