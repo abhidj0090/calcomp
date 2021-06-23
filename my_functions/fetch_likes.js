@@ -15,7 +15,8 @@ exports.handler = async (event) => {
       }),
     };
   }
-  const isstaging = event.body.staging;
+  const data = JSON.parse(event.body)
+  const isstaging = data.staging;
   console.log('staging', isstaging)
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'

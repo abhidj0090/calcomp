@@ -15,7 +15,8 @@ exports.handler = async (event) => {
       }),
     };
   }
-  const isstaging = event.body.staging;
+  const data = JSON.parse(event.body)
+  const isstaging = data.staging;
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
   const doesDocExist = await client.query(
