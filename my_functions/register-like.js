@@ -15,21 +15,23 @@ exports.handler = async (event) => {
       }),
     };
   }
-
+  const isstaging = event.body.staging;
+  const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
+  const db = isstaging?'likes':'likes_prod'
   const doesDocExist = await client.query(
-    q.Exists(q.Match(q.Index('likes_by_slug'), slug))
+    q.Exists(q.Match(q.Index(index), slug))
   );
   
   if (!doesDocExist) {
     await client.query(
-      q.Create(q.Collection('likes'), {
+      q.Create(q.Collection(db), {
         data: { slug: slug, likes: 1 },
       })
     );
   }
 
   const document = await client.query(
-    q.Get(q.Match(q.Index('likes_by_slug'), slug))
+    q.Get(q.Match(q.Index(index), slug))
   );
 
   await client.query(
@@ -41,7 +43,7 @@ exports.handler = async (event) => {
   );
 
   const updatedDocument = await client.query(
-    q.Get(q.Match(q.Index('likes_by_slug'), slug))
+    q.Get(q.Match(q.Index(index), slug))
   );
 
   return {

@@ -148,15 +148,8 @@ jQuery(function ($) {
 	}
 
 	var hasLikes = $(".likes *");
-		if(hasLikes.length>0){
-		var currentURL = slugify(window.location.pathname);
-
-		$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, success: function(result){
-			var data = JSON.parse(result); 
-			if (data.likes>0){
-				$('.nolikes').html(data.likes);
-			}
-		}});
+	if(hasLikes.length>0){
+		fetchLikes();
 	}
 });
 function slugify(Text) {
@@ -228,9 +221,26 @@ function showupLive(){
 		}	
 	});
 }
+function fetchlikes(){
+	var currentURL = slugify(window.location.pathname);
+	var staging = isstaging==='true'?true:false;
+	const data={
+		'staging':staging
+	}
+	$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, data: data, contentType: 'application/json', success: function(result){
+		var data = JSON.parse(result); 
+		if (data.likes>0){
+			$('.nolikes').html(data.likes);
+		}
+	}});
+}
 function registerLike(){
 	var currentURL = slugify(window.location.pathname);
-	$.ajax({url: "/.netlify/functions/register-like?slug=" + currentURL, success: function(result){
+	var staging = isstaging==='true'?true:false;
+	const data={
+		'staging':staging
+	}
+	$.ajax({url: "/.netlify/functions/register-like?slug=" + currentURL, data: data, contentType: 'application/json', success: function(result){
 		var data = JSON.parse(result); 
 		if (data.likes>0){
 			$('.nolikes').html(data.likes);
