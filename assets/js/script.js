@@ -227,7 +227,7 @@ function fetchLikes(){
 	const data={
 		'staging':staging
 	}
-	$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, data: data, contentType: 'application/json', success: function(result){
+	$.ajax({url: "/.netlify/functions/fetch_likes?slug=" + currentURL, data: JSON.stringify(data), contentType: 'application/json', success: function(result){
 		var data = JSON.parse(result); 
 		if (data.likes>0){
 			$('.nolikes').html(data.likes);
@@ -240,7 +240,7 @@ function registerLike(){
 	const data={
 		'staging':staging
 	}
-	$.ajax({url: "/.netlify/functions/register-like?slug=" + currentURL, data: data, contentType: 'application/json', success: function(result){
+	$.ajax({url: "/.netlify/functions/register-like?slug=" + currentURL, data: JSON.stringify(data), contentType: 'application/json', success: function(result){
 		var data = JSON.parse(result); 
 		if (data.likes>0){
 			$('.nolikes').html(data.likes);
