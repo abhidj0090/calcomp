@@ -229,7 +229,7 @@ function fetchLikes(){
 	}
 	fetch("/.netlify/functions/fetch_likes?slug=" + currentURL,
 	{
-		method: "GET",
+		method: "POST",
 		body: JSON.stringify(data)
 	})
 	.then(function(res){ return res.json(); })
@@ -253,7 +253,7 @@ function registerLike(){
 	}
 	fetch("/.netlify/functions/register-like?slug=" + currentURL,
 	{
-		method: "GET",
+		method: "POST",
 		body: JSON.stringify(data)
 	})
 	.then(function(res){ return res.json(); })
