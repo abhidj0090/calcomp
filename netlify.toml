@@ -7,7 +7,7 @@
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
   
-[context.staging.environment]
+[context.branch-deploy]
 	STAGING = "true"
 
 [[plugins]]
