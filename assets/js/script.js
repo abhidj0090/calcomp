@@ -224,7 +224,6 @@ function showupLive(){
 		if (s.getDate()== now.getDate()){
 			if (newTime >= sTime && newTime <= eTime) {
 				$(this).css('display','block');
-				//alert('Session is live')
 			}
 		}	
 	});
