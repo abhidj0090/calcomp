@@ -17,6 +17,9 @@
 	package = "netlify-plugin-is-website-vulnerable" 
 
 [[plugins]]
+	package = "netlify-plugin-inline-functions-env"
+
+[[plugins]]
 	package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
