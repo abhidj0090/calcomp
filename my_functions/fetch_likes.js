@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
     secret: process.env.FAUNAdj_SECRET_KEY,
   });
   const data = JSON.parse(event.body)
-  const isstaging = data.staging;
+  const isstaging = contxt==="branch-deploy"?true:false;
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
   const slug = data.slug;
@@ -38,8 +38,7 @@ exports.handler = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      likes: document.data.likes,
-      contxt : contxt
+      likes: document.data.likes
     }),
   };
 };

@@ -7,9 +7,6 @@
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
   
-[context.branch-deploy.environment]
-  STAGING = "true"
-
 [[plugins]]
 	package = "netlify-plugin-hugo-cache-resources"
 
