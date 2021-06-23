@@ -1,7 +1,6 @@
 // Credit to Josh Comeau for coming up with the idea - Edited by Abhinaba
 const faunadb = require('faunadb');
 exports.handler = async (event, context) => {
-  const envcontext = process.env.CONTEXT
   const q = faunadb.query;
   const client = new faunadb.Client({
     secret: process.env.FAUNAdj_SECRET_KEY,
@@ -39,7 +38,7 @@ exports.handler = async (event, context) => {
     statusCode: 200,
     body: JSON.stringify({
       likes: document.data.likes,
-      process:envcontext,
+      process:process.env,
     }),
   };
 };
