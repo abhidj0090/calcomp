@@ -16,6 +16,7 @@ exports.handler = async (event) => {
     };
   }
   const isstaging = event.body.staging;
+  console.log('staging', isstaging)
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
   const doesDocExist = await client.query(
