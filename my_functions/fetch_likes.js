@@ -1,7 +1,7 @@
 // Credit to Josh Comeau for coming up with the idea - Edited by Abhinaba
 const faunadb = require('faunadb');
 exports.handler = async (event, context) => {
-  alert(context)
+  console.log(context);
   const q = faunadb.query;
   const client = new faunadb.Client({
     secret: process.env.FAUNAdj_SECRET_KEY,
@@ -18,7 +18,6 @@ exports.handler = async (event, context) => {
   }
   const data = JSON.parse(event.body)
   const isstaging = data.staging;
-  console.log('staging', isstaging)
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
   const doesDocExist = await client.query(
