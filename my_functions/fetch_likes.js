@@ -1,6 +1,7 @@
 // Credit to Josh Comeau for coming up with the idea - Edited by Abhinaba
 const faunadb = require('faunadb');
-exports.handler = async (event) => {
+exports.handler = async (event, context) => {
+  alert(context)
   const q = faunadb.query;
   const client = new faunadb.Client({
     secret: process.env.FAUNAdj_SECRET_KEY,
