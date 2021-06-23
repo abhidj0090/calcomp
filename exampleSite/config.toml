@@ -61,17 +61,17 @@ author = ""
 default_speaker_image = "images/profile.jpg"
 default_speaker_image_webp = "images/profile.webp"
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
+enable_likes = false
 enable_search = true
 google_analytics_id = "G-7HCHJKCH4M"
 logo = "images/logo.jpg"
 noevent = "There are no upcoming events at this moment please subscribe to our <span class=\"color subscription\"><a href=\"https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q\"><i class=\"fab fa-youtube\"></i></a></span> channel or follow our <span class=\"color subscription\"><a href=\"https://www.facebook.com/CalcuttaComparatists1919\"><i class=\"fab fa-facebook\"></i></a></span> page for more information"
 post_share = true
 shortname = "CC1919"
+staging = false
 staticAddress = "https://www.calcomp.org"
 twitterSite = "@1919Calcutta"
 youtube = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
-enable_likes = true
-staging=true
 [params.cookies]
 enable = false
 expire_days = 2
