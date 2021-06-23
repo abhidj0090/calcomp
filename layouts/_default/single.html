@@ -66,6 +66,7 @@
     </div>
   </div>
 </section>
+{{ if site.Params.enable_likes }}
 <section class="mobile-likes likes">
   <div class="container">
     <div class="row">
@@ -81,6 +82,7 @@
     </span></i>
   </div>
 </div>
+{{end}}
 {{ if site.Params.post_share }}
   <div class="desktop-share">
     {{ partial "post-share.html" . }}

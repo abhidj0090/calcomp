@@ -70,6 +70,7 @@ shortname = "CC1919"
 staticAddress = "https://www.calcomp.org"
 twitterSite = "@1919Calcutta"
 youtube = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+enableLikes = "true"
 [params.cookies]
 enable = false
 expire_days = 2

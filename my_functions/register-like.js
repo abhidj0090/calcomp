@@ -1,4 +1,4 @@
-// Credit to Josh Comeau
+// Credit to Josh Comeau for coming up with the idea - Edited by Abhinaba
 const faunadb = require('faunadb');
 exports.handler = async (event) => {
   const q = faunadb.query;
