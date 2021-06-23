@@ -107,4 +107,5 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/a-study-on-growth-and-development-of-bodo-language.md
 - exampleSite/content/english/events/gramsci-s-hegemony-contemporary-relevance.md
