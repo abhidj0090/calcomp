@@ -2,10 +2,6 @@
 const faunadb = require('faunadb');
 exports.handler = async (event, context) => {
   const q = faunadb.query;
-  const data = JSON.parse(event.body)
-  const isstaging = data.staging;
-  const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
-  const db = isstaging?'likes':'likes_prod'
   const client = new faunadb.Client({
     secret: process.env.FAUNAdj_SECRET_KEY,
   });
@@ -19,6 +15,10 @@ exports.handler = async (event, context) => {
       }),
     };
   }
+  const data = JSON.parse(event.body)
+  const isstaging = data.staging;
+  const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
+  const db = isstaging?'likes':'likes_prod'
   const doesDocExist = await client.query(
     q.Exists(q.Match(q.Index(index), slug))
   );
@@ -39,7 +39,7 @@ exports.handler = async (event, context) => {
     statusCode: 200,
     body: JSON.stringify({
       likes: document.data.likes,
-      process:process
+      process:process,
     }),
   };
 };
