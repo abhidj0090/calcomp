@@ -229,10 +229,9 @@ function fetchLikes(){
 	var currentURL = slugify(window.location.pathname);
 	var staging = isstaging==='true'?true:false;
 	const data={
-		'staging':staging,
-		'slug':currentURL
+		'staging':staging
 	}
-	fetch("/.netlify/functions/fetch_likes",
+	fetch("/.netlify/functions/fetch_likes?slug=" + currentURL,
 	{
 		method: "POST",
 		body: JSON.stringify(data)
@@ -254,10 +253,9 @@ function registerLike(){
 	var currentURL = slugify(window.location.pathname);
 	var staging = isstaging==='true'?true:false;
 	const data={
-		'staging':staging,
-		'slug':currentURL
+		'staging':staging
 	}
-	fetch("/.netlify/functions/register-like",
+	fetch("/.netlify/functions/register-like?slug=" + currentURL,
 	{
 		method: "POST",
 		body: JSON.stringify(data)

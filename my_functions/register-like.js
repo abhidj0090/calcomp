@@ -4,13 +4,13 @@ exports.handler = async (event) => {
   const q = faunadb.query;
   const data = JSON.parse(event.body)
   const isstaging = data.staging;
-  const slug = data.slug;
   const index = isstaging?'likes_by_slug':'likes_by_slug_prod'
   const db = isstaging?'likes':'likes_prod'
   const client = new faunadb.Client({
     secret: process.env.FAUNAdj_SECRET_KEY,
   });
 
+  const { slug } = event.queryStringParameters;
   if (!slug) {
     return {
       statusCode: 400,
