@@ -308,7 +308,7 @@ body .bangla *{
         display: block;
     }
 }
-@media only screen and (min-width : 769px) and (max-device-width : 1366px)   {
+@media only screen and (min-width : 769px) and (max-device-width : 1600px)   {
     .desktop-likes .likes {
         padding-bottom: 500px;
     }
