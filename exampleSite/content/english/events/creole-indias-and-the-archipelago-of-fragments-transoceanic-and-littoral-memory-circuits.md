@@ -21,6 +21,9 @@ speaker_name = "Monsieur Ari Gautier"
 [[speakers.links]]
 icon = "fas fa-user"
 link = "https://arigautier.com/?fbclid=IwAR0j2AaZ56dbUfJOQf9WjVzgR67hZHQbqOlIGwIe97QpjCWDbLAGA-rTZqA"
+[[speakers.links]]
+icon = "fab fa-twitter-square"
+link = "https://twitter.com/gautierarin"
 [[speakers]]
 bio = "Department of English, King’s College, London"
 social_header = "Know more"
