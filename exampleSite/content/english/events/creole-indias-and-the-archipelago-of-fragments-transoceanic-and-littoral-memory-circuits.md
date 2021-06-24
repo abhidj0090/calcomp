@@ -4,13 +4,12 @@ calendar_filename = "Calcutta Comparatists 1919 brings to you the 88th online le
 description = "Calcutta Comparatists 1919 brings to you the 88th online lecture of the CC19 lecture series."
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2021-06-26T15:30:00Z
 event_start_date = 2021-06-26T13:30:00Z
-image = "/images/whatsapp-image-2021-06-24-at-01-35-18.jpeg"
-image_webp = "/images/whatsapp-image-2021-06-24-at-01-35-18.webp"
+image = "/images/whatsapp-image-2021-06-24-at-12-57-42.jpeg"
+image_webp = "/images/whatsapp-image-2021-06-24-at-12-57-42.webp"
 location = ""
-meeting_link = ""
+meeting_link = "https://www.youtube.com/watch?v=-q-drpGXScY"
 tags = ["Creole", "Multicultural", "Transoceanic", "Archipelago"]
 title = "Creole Indias and the Archipelago of Fragments: Transoceanic and littoral memory circuits"
 [[speakers]]
