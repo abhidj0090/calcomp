@@ -13,7 +13,7 @@ meeting_link = "https://www.youtube.com/watch?v=-q-drpGXScY"
 tags = ["Creole", "Multicultural", "Transoceanic", "Archipelago"]
 title = "Creole Indias and the Archipelago of Fragments: Transoceanic and littoral memory circuits"
 [[speakers]]
-bio = "French novelist from Pondicherry of Indo-Malagasy origin, based in Oslo"
+bio = "French novelist from Pondicherry of Indo-Malagasy origin, based in Oslo\nKnow more about Ari here:\nhttps://arigautier.com/?fbclid=IwAR0j2AaZ56dbUfJOQf9WjVzgR67hZHQbqOlIGwIe97QpjCWDbLAGA-rTZqA"
 speaker_image = "/images/95383796_10157553701437734_6245829591751983104_n.jpg"
 speaker_image_webp = "/images/95383796_10157553701437734_6245829591751983104_n.webp"
 speaker_name = "Monsieur Ari Gautier"
