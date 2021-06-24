@@ -6,7 +6,7 @@
 {{ if (in .Params.Bangla "true") }}
   {{ $class = "bangla" }}
 {{ else }}
-  {{ $class = "some value" }}
+  {{ $class = "" }}
 {{ end }}
 {{ partial "breadcrumbs.html" . }}
 <section class="section {{$class}}">
@@ -70,7 +70,7 @@
 <section class="mobile-likes">
   <div class="container likes">
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-8 offset-lg-2">
         <i class="fas fa-thumbs-up" onclick="registerLike()"><span class="nolikes"></span></i>
       </div>
     </div>
@@ -93,7 +93,7 @@
   <section class="mobile-share">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-8 offset-lg-2">
           {{ partial "post-share.html" . }}
         </div>
       </div>

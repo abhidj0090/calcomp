@@ -227,9 +227,7 @@ function showupLive(){
 }
 function fetchLikes(){
 	var currentURL = slugify(window.location.pathname);
-	var staging = isstaging==='true'?true:false;
 	const data={
-		'staging':staging,
 		'slug':currentURL
 	}
 	fetch("/.netlify/functions/fetch_likes",
@@ -246,9 +244,7 @@ function fetchLikes(){
 }
 function registerLike(){
 	var currentURL = slugify(window.location.pathname);
-	var staging = isstaging==='true'?true:false;
 	const data={
-		'staging':staging,
 		'slug':currentURL
 	}
 	fetch("/.netlify/functions/register-like",

@@ -5,7 +5,7 @@
 {{ if (in .Params.Bangla "true") }}
   {{ $class = "bangla" }}
 {{ else }}
-  {{ $class = "some value" }}
+  {{ $class = "" }}
 {{ end }}
 {{ partial "breadcrumbs.html" . }}
 <section class="section {{$class}}">
@@ -64,7 +64,7 @@
   </div>
 </section>
 {{ if site.Params.post_share }}
-  <div class="desktop-share">>
+  <div class="desktop-share">
     {{ partial "post-share.html" . }}
   </div>
   <section class="mobile-share">
