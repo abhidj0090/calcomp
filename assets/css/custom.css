@@ -343,3 +343,6 @@ body .bangla *{
 .speaker-socials{
     padding:0px;
 }
+.speaker-socials i{
+    font-size:25px;
+}
