@@ -297,7 +297,7 @@ body .bangla *{
         padding: 100px 0px 0px 0px;
     }
 }
-@media only screen and (max-height : 490px)  {
+@media only screen and (max-height : 799px)  {
     .mobile-share{
         display:block;
     }
@@ -314,7 +314,7 @@ body .bangla *{
         padding: 100px 0px 0px 0px;
     }
 }
-@media only screen and (min-width : 1025px) {
+@media only screen and (min-width : 1025px) and (min-height : 800px) {
     .mobile-share{
         display:none;
     }
