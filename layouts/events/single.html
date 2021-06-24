@@ -50,9 +50,11 @@
                     {{with .social_header}}
                     <p class="card-text">{{.}}</p>
                     {{end}}
-                    {{ range .links }}
-                      <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-                    {{end}}
+                    <ul class="speaker-socials">
+                      {{ range .links }}
+                        <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                      {{end}}
+                    </ul>
                   </div>
                 </div>
               </div>
