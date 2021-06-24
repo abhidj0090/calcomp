@@ -50,9 +50,9 @@
                     {{with .social_header}}
                       <p class="card-text">{{.}}</p>
                     {{end}}
-                    {{ $social_links := false }}
+                    {{ $social_links := "false" }}
                     {{with .links}}
-                      {{ $social_links := true }}
+                      {{ $social_links := "true" }}
                     {{end}}
                     {{ if (in $social_links "true") }}
                       <ul class="speaker-socials">
