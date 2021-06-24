@@ -49,13 +49,10 @@
                     {{with .social_header}}
                       <p class="card-text">{{.}}</p>
                     {{end}}
-                    {{ $speaker_socials := .links }}
-                    {{ if gt ( len $speaker_socials) 0 }}
+                    {{ if  (isset .links) }}
                       <ul class="speaker-socials">
-                        {{ range $speaker_socials }}
-                          {{ $social_icon := .icon }}
-                          {{ $social_link := .link }}
-                          <li class="list-inline-item"><a target="_blank" href="{{ $social_link | safeURL }}"><i class="{{ $social_icon }}"></i></a></li>
+                        {{ range $links }}
+                          <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                         {{end}}
                       </ul>
                     {{end}}
