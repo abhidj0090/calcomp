@@ -18,7 +18,7 @@ speaker_image = "/images/95383796_10157553701437734_6245829591751983104_n.jpg"
 speaker_image_webp = "/images/95383796_10157553701437734_6245829591751983104_n.webp"
 speaker_name = "Monsieur Ari Gautier"
 [[speakers]]
-bio = "Department of English,\nKing’s College,\nLondon"
+bio = "Department of English,\nKing’s College,\nLondon\nKnow more about Ananya here: https://www.kcl.ac.uk/people/professor-ananya-jahanara-kabir?fbclid=IwAR1E5saJFv02kSiQ1DYMETwfBgFwMwMsRHtquDYYqCeUKTJp93rn1XP3c28\n"
 speaker_image = "/images/ananya-jahanara-kabir.jpg"
 speaker_image_webp = "/images/ananya-jahanara-kabir.webp"
 speaker_name = "Professor Ananya Jahanara Kabir  "
