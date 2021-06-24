@@ -69,6 +69,33 @@ fields:
       schema:
         format: markdown
     label: bio
+  - name: social_header
+    type: text
+    config:
+      required: false
+    label: social header
+    description: Social media header
+  - name: links
+    type: field_group_list
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: icon
+      description: icon
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+      description: link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: links
+    description: social media links
   config:
     min: 
     max: 
