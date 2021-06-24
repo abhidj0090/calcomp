@@ -52,8 +52,8 @@
                     {{end}}
                     {{ if  (isset .links) }}
                       <ul class="speaker-socials">
-                        {{ range $links }}
-                          <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                        {{ range .links }}
+                          <li cla.s="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                         {{end}}
                       </ul>
                     {{end}}
