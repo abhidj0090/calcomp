@@ -280,7 +280,7 @@ body .bangla *{
 .mobile-likes .likes i{
     font-size: 30px;
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px), screen and (max-height: 490px) {
     .mobile-share{
         display:block;
     }
@@ -294,7 +294,7 @@ body .bangla *{
         display: none;
     }
 }
-@media only screen and (min-width : 769px), screen and (max-height: 490px) {
+@media only screen and (min-width : 769px) {
     .mobile-share{
         display:none;
     }
