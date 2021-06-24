@@ -6,7 +6,7 @@
 {{ if (in .Params.Bangla "true") }}
   {{ $class = "bangla" }}
 {{ else }}
-  {{ $class = "some value" }}
+  {{ $class = "" }}
 {{ end }}
 {{ partial "breadcrumbs.html" . }}
 <section class="section {{$class}}">
