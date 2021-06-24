@@ -46,6 +46,19 @@
                   <div class="card-body">
                     <h5 class="card-title">{{.speaker_name}}</h5>
                     <p class="card-text">{{.bio}}</p>
+                    {{with .social_header}}
+                      <p class="card-text">{{.}}</p>
+                    {{end}}
+                    {{ $speaker_socials := .links }}
+                    {{ if gt ( len $speaker_socials) 0 }}
+                      <ul class="speaker-socials">
+                        {{ range $speaker_socials }}
+                          {{ $social_icon := .icon }}
+                          {{ $social_link := .link }}
+                          <li class="list-inline-item"><a target="_blank" href="{{ $social_link | safeURL }}"><i class="{{ $social_icon }}"></i></a></li>
+                        {{end}}
+                      </ul>
+                    {{end}}
                   </div>
                 </div>
               </div>
