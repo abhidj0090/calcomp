@@ -47,6 +47,12 @@
                   <div class="card-body">
                     <h5 class="card-title">{{.speaker_name}}</h5>
                     <p class="card-text">{{.bio}}</p>
+                    {{with .social_header}}
+                    <p class="card-text">{{.}}</p>
+                    {{end}}
+                    {{ range .links }}
+                      <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                    {{end}}
                   </div>
                 </div>
               </div>
