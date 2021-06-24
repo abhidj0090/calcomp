@@ -22,7 +22,7 @@ speaker_name = "Monsieur Ari Gautier"
 icon = "fas fa-user"
 link = "https://arigautier.com/?fbclid=IwAR0j2AaZ56dbUfJOQf9WjVzgR67hZHQbqOlIGwIe97QpjCWDbLAGA-rTZqA"
 [[speakers]]
-bio = "Department of English, King’s College,London"
+bio = "Department of English, King’s College, London"
 social_header = "Know more"
 speaker_image = "/images/ananya-jahanara-kabir.jpg"
 speaker_image_webp = "/images/ananya-jahanara-kabir.webp"
