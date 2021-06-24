@@ -4,22 +4,21 @@ calendar_filename = "Calcutta Comparatists 1919 brings to you the 88th online le
 description = "Calcutta Comparatists 1919 brings to you the 88th online lecture of the CC19 lecture series."
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2021-06-26T15:30:00Z
 event_start_date = 2021-06-26T13:30:00Z
-image = "/images/whatsapp-image-2021-06-24-at-01-35-18.jpeg"
-image_webp = "/images/whatsapp-image-2021-06-24-at-01-35-18.webp"
+image = "/images/whatsapp-image-2021-06-24-at-12-57-42.jpeg"
+image_webp = "/images/whatsapp-image-2021-06-24-at-12-57-42.webp"
 location = ""
-meeting_link = ""
+meeting_link = "https://www.youtube.com/watch?v=-q-drpGXScY"
 tags = ["Creole", "Multicultural", "Transoceanic", "Archipelago"]
 title = "Creole Indias and the Archipelago of Fragments: Transoceanic and littoral memory circuits"
 [[speakers]]
-bio = "French novelist from Pondicherry of Indo-Malagasy origin, based in Oslo"
+bio = "French novelist from Pondicherry of Indo-Malagasy origin, based in Oslo\nKnow more about Ari here:\nhttps://arigautier.com/?fbclid=IwAR0j2AaZ56dbUfJOQf9WjVzgR67hZHQbqOlIGwIe97QpjCWDbLAGA-rTZqA"
 speaker_image = "/images/95383796_10157553701437734_6245829591751983104_n.jpg"
 speaker_image_webp = "/images/95383796_10157553701437734_6245829591751983104_n.webp"
 speaker_name = "Monsieur Ari Gautier"
 [[speakers]]
-bio = "Department of English,\nKing’s College,\nLondon"
+bio = "Department of English,\nKing’s College,\nLondon\nKnow more about Ananya here: https://www.kcl.ac.uk/people/professor-ananya-jahanara-kabir?fbclid=IwAR1E5saJFv02kSiQ1DYMETwfBgFwMwMsRHtquDYYqCeUKTJp93rn1XP3c28\n"
 speaker_image = "/images/ananya-jahanara-kabir.jpg"
 speaker_image_webp = "/images/ananya-jahanara-kabir.webp"
 speaker_name = "Professor Ananya Jahanara Kabir  "
