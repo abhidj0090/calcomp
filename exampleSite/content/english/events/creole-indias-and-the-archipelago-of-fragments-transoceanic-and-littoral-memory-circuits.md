@@ -27,8 +27,8 @@ link = "https://twitter.com/gautierari"
 [[speakers]]
 bio = "Department of English, King’s College, London"
 social_header = "Know more"
-speaker_image = "/images/ananya-jahanara-kabir.jpg"
-speaker_image_webp = "/images/ananya-jahanara-kabir.webp"
+speaker_image = "/images/ananya-1.jpg"
+speaker_image_webp = "/images/ananya-webp.webp"
 speaker_name = "Professor Ananya Jahanara Kabir  "
 [[speakers.links]]
 icon = "fas fa-user"
