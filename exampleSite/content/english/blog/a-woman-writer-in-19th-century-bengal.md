@@ -6,7 +6,7 @@ biography_image = ""
 biography_image_webp = ""
 chapter = false
 date = 2021-06-27T18:30:00Z
-description = "19th Century Bengali Women's poetry, their views and perceptions on Various Social Issues by Manaswita Sanyal"
+description = "19th Century Bengali Women's poetry, their views & perceptions on Various Social Issues by Manaswita Sanyal"
 featured = true
 image = "/images/blog-manswita2-1.jpg"
 image_webp = "/images/blog-manswita2.webp"
@@ -14,7 +14,7 @@ index = 0
 next = false
 previous = false
 tags = ["Poetry", "Feminism", "Gender Studies", "19th Century Bengal"]
-title = "Nineteenth Century Bengali Women's Poetry - Views and Perceptions on Social Issues"
+title = "Nineteenth Century Bengali Women's Poetry - Views & Perceptions on Social Issues"
 
 +++
 In the 19th century Bengal, it was very hard to correlate women as a poet or as a writer. At that period the image of a Bengali woman as a silenced, dependent, marginalized spending _her_ day in housekeeping and other domestic chores has been cited everywhere. The reformed Bengali babu tried his best to remold his woman, who would be modern in outlook, at the same time be traditional in _her_ inner nature. _Her_ attire, education, and whereabouts were prescribed by bhodrolok babu whose reformist zeal was riddled with many contradictions.
