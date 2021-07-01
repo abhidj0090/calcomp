@@ -134,4 +134,5 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/being-and-or-becoming-the-dalit-feminist-way.md
 - exampleSite/content/english/events/creole-indias-and-the-archipelago-of-fragments-transoceanic-and-littoral-memory-circuits.md
