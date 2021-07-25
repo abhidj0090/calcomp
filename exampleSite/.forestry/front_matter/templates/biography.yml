@@ -40,5 +40,3 @@ fields:
   type: boolean
   label: bangla
   description: is the content in bengali?
-pages:
-- exampleSite/content/english/bios/Jagadish Gupta/jagadish-gupta.md
