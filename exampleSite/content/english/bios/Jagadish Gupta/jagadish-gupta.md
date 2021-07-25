@@ -7,7 +7,6 @@ biography_image_webp = "/images/client/subhadeep.jpg"
 chapter = false
 date = 2021-07-24T18:30:00Z
 description = ""
-draft = true
 featured = false
 image = "/images/jagadishguptapic.jpg"
 image_webp = "/images/jp.webp"
