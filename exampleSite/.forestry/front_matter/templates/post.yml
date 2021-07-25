@@ -80,6 +80,7 @@ fields:
   label: bangla
   description: is the content is bengali?
 pages:
+- exampleSite/content/english/bios/Jagadish Gupta/_index.md
 - exampleSite/content/english/bios/Jagadish Gupta/episode-i-bengali-avant-garde-movement.md
 - exampleSite/content/english/bios/Jagadish Gupta/jagadish-gupta.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
