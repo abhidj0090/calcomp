@@ -14,7 +14,7 @@ index = 0
 next = false
 previous = false
 tags = []
-title = "_index"
+title = "Jagadish Gupta"
 
 +++
 Dr Subhadeep Ray writes a memoir of the Indian poet, novelist and short story writer Jagadish Gupta
