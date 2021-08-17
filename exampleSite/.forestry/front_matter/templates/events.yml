@@ -133,5 +133,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/visions-of-transformation-remembering-mahasweta-devi.md
