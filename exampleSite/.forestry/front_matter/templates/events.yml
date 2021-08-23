@@ -133,3 +133,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/লিটল-ম্যাগাজিন-ও-সাহিত্য-বিষয়ক-আড্ডা.md
