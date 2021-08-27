@@ -13,7 +13,7 @@ team:
       She has also done a certificate course on ‘Translation as a Skill’ from CENTIL,
       Jadavpur University. '
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/Tsu.por.na
   - name: Kingshuk Bandyopadhyay
     image_webp: "/images/team/Kinshuk.webp"
@@ -25,7 +25,7 @@ team:
       University of Calcutta.  A habitual poet author of 'Libido Tomar Jotno Lalon'
       doubling up as a theatre artist occasionally.
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/kingshuk.bandyopadhyay
   - name: Jemima Nasrin
     image_webp: "/images/team/Jemima2.webp"
@@ -37,7 +37,7 @@ team:
       seminars. Her areas of interest include Culture Studies, South Asian History,
       Comparative Literature, Folk Literature etc
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/jemima.nasrin.144
   - name: Pratim Das
     image_webp: "/images/team/Pratim.webp"
@@ -47,7 +47,7 @@ team:
       Pratim is a PhD research scholar in the Dept. of Comparative Indian Language and Literature, University of Calcutta. His research area for PhD is Indian Travelogues on South East Asia. He did his MPhil from Dept. MIL & LS, University of Calcutta. His interest lies in the area of South East Asia,
       Travelogues, Coolie Literature, Migration, Dalit literature, Children’s Literature, Vaishnava Literature, Literary criticism, and Folk culture.
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/prat0293
   - name: Aratrika Ganguly
     image_webp: "/images/team/Aratrika.webp"
@@ -59,7 +59,7 @@ team:
       worked as a Project Fellow in a UGC-UPE-II project entitled ''South-East Asia:
       Colony and Beyond'' Investigated by Dr. Mrinmoy Pramanick.'
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/aratrikaganguly
   - name: Suman Pal
     image_webp: "/images/team/suman_newww.webp"
@@ -70,5 +70,5 @@ team:
       under his belt while occasionally working as a actor and theater artist. Also
       he is a big fan of heavy metal, EDM and Ghazals.
     social:
-    - icon: ti-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/su5m5a1n9p9a6l
