@@ -6,10 +6,10 @@ funfacts:
   counter_item:
   - title: Lectures Organised
     icon: fas fa-chalkboard-teacher
-    count: "79"
+    count: "93"
   - title: Positive feedback
     icon: fas fa-thumbs-up
-    count: "60"
+    count: "65"
   - title: Hours of Serious Chit Chat
     icon: fas fa-comment-alt
-    count: "150"
+    count: "172"
