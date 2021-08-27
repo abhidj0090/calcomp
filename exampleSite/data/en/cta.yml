@@ -1,17 +1,18 @@
 ---
 cta:
-  enable: false
+  enable: true
   overlay: true
-  bg_image: images/cta1.jpg
-  bg_image_webp: images/cta1.webp
-  title: Call for Articles
-  content: 'Submit your original paper in pdf or word format in English or Bengali
-    to calcomparatists@gmail.com. Please use the font Times New Roman 12 for your
-    English paper and Kalpurush 12 for the Bengali paper. Paper should be between
-    1500-2000 words. If found suitable your paper will be published on our official
-    website. Enrich us with your diverse knowledge and let us look forward to a mutually
-    beneficial academic relationship.  '
+  bg_image: images/assm-cert.jpg
+  bg_image_webp: images/assm-cert.webp
+  title: Online Certificate course in Assamese Language
+  content: "Friends and Folks! We are happy to announce that Calcutta Comparatists
+    1919 \nin collaboration with Jyoti Bharati , Alokdham organising an Online Certificate
+    course in Assamese Language. We are inviting applications from interested students,
+    teacher, scholar and other professionals.\n\nWe have very limited seats for the
+    first batch so hurry up click on the button below for registration\n\nFor further
+    queries drop a note to calcomparatists@gmail.com or\ndrop a message in 9635071307/8348140291.\n\nRegistration
+    Open till 5th September\n"
   button:
     enable: true
-    label: Reach us
-    link: "#contact"
+    label: Registration
+    link: https://forms.gle/zo9M9rqpbzyRSPPk6
