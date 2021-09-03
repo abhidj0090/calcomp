@@ -13,13 +13,13 @@ meeting_link = ""
 tags = ["African Literature", "Colonialism", "Postcolonialism", "Comparative Literature"]
 title = "Recasting the Centre: Towards a New Imagination"
 [[speakers]]
-bio = "Distinguished Professor,\nEnglish and Comparative Literature,\nSchool of Humanities, University of California, Irvine."
+bio = "Distinguished Professor, English and Comparative Literature, School of Humanities, University of California, Irvine."
 social_header = "Follow his website for more details on his work"
-speaker_image = "/images/ngugi_100819_0279_sz.jpg"
-speaker_image_webp = "/images/ngugi_100819_0279_sz.webp"
+speaker_image = "/images/ngugi.webp"
+speaker_image_webp = "/images/ngugi.jpg"
 speaker_name = "Professor Ngũgĩ wa Thiong'o"
 [[speakers.links]]
-icon = "fa-user"
+icon = "fas fa-user"
 link = "https://ngugiwathiongo.com/"
 
 +++
