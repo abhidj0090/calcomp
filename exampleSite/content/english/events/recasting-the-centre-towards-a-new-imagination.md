@@ -14,13 +14,16 @@ tags = ["African Literature", "Colonialism", "Postcolonialism", "Comparative Lit
 title = "Recasting the Centre: Towards a New Imagination"
 [[speakers]]
 bio = "Distinguished Professor, English and Comparative Literature, School of Humanities, University of California, Irvine."
-social_header = "Follow his website for more details on his work"
+social_header = "Read more about him through his website and social media"
 speaker_image = "/images/ngugi1.jpg"
 speaker_image_webp = "/images/ngugi1.webp"
 speaker_name = "Professor Ngũgĩ wa Thiong'o"
 [[speakers.links]]
 icon = "fas fa-user"
 link = "https://ngugiwathiongo.com/"
+[[speakers.links]]
+icon = "fas fa-twitter"
+link = "https://twitter.com/NgugiWaThiongo_"
 
 +++
 Calcutta Comparatists 1919 is inviting you to the 95th online webinar of the CC19 lecture series and we are extremely happy to announce that Professor Ngũgĩ wa Thiong'o has kindly agreed to join us for an interactive session. Though we have set a formal title for the topic, the conversation will not be limited to any one subject.
