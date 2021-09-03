@@ -34,6 +34,6 @@ His novels include: “A Grain of Wheat", "Petals of Blood” and “Wizard of t
 
 We will be organizing this lecture in zoom and therefore, interested participants are requested to register in google form as there will be very limited space in zoom.
 
-Link for Registration -
+Link for Registration - 
 
 https://forms.gle/PYs7WrAHv6rtMGdcA
