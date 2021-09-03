@@ -22,7 +22,7 @@ speaker_name = "Professor Ngũgĩ wa Thiong'o"
 icon = "fas fa-user"
 link = "https://ngugiwathiongo.com/"
 [[speakers.links]]
-icon = "fas fa-twitter"
+icon = "fab fa-twitter"
 link = "https://twitter.com/NgugiWaThiongo_"
 
 +++
