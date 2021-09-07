@@ -2,14 +2,14 @@
 all_day_event = false
 calendar_filename = "Calcutta Comparatists 1919 is inviting you to the 95th online webinar of the CC19 lecture series "
 description = "Calcutta Comparatists 1919 is inviting you to the 95th online webinar of the CC19 lecture series "
-disable_download = true
-disable_link = true
+disable_download = false
+disable_link = false
 event_end_date = 2021-09-08T21:00:00Z
 event_start_date = 2021-09-08T19:00:00Z
 image = "/images/241059723_4879094185451450_2431763417761301969_n.jpg"
 image_webp = "/images/241059723_4879094185451450_2431763417761301969_n.webp"
 location = ""
-meeting_link = ""
+meeting_link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 tags = ["African Literature", "Colonialism", "Postcolonialism", "Comparative Literature"]
 title = "Recasting the Centre: Towards a New Imagination"
 [[speakers]]
@@ -32,8 +32,8 @@ Professor Ngũgĩ wa Thiong'o is a Distinguished Professor of English and Compar
 
 His novels include: “A Grain of Wheat", "Petals of Blood” and “Wizard of the Crow.” His memoirs and autobiographies include, “Detained: A Writer’s Prison Diary, Dreams in a Time of War” and “In the House of the Interpreter” – a finalist for the National Book Critics Circle Award. Ngũgĩ has frequently been regarded as a likely candidate for the Nobel Prize in Literature. Ngũgĩ’s books have been translated into more than thirty languages and they continue to be the subject of books, critical monographs, and dissertations.
 
-We will be organizing this lecture in zoom and therefore, interested participants are requested to register in google form as there will be very limited space in zoom.
+Thank you, everyone, for this overwhelming response. We are also very excited about the event. However, our limited accommodation in zoom has ended. We are closing the google form now. Nevertheless, those who will not get access to zoom can watch the event live streaming on our YouTube Channel. Please subscribe and click the bell icon at 
 
-Link for Registration - 
+https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q
 
-https://forms.gle/PYs7WrAHv6rtMGdcA
+ for getting notifications about the live event.
