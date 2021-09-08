@@ -1,6 +1,6 @@
 ---
 cta:
-  enable: true
+  enable: false
   overlay: true
   bg_image: images/assm-cert.jpg
   bg_image_webp: images/assm-cert.webp
