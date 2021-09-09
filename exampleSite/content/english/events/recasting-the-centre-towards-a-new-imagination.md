@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists 1919 is inviting you to the 95th onli
 description = "Calcutta Comparatists 1919 is inviting you to the 95th online webinar of the CC19 lecture series "
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-09-08T21:00:00Z
 event_start_date = 2021-09-08T19:00:00Z
 image = "/images/241059723_4879094185451450_2431763417761301969_n.jpg"
