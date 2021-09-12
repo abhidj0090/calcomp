@@ -133,5 +133,3 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
-pages:
-- exampleSite/content/english/events/recasting-the-centre-towards-a-new-imagination.md
