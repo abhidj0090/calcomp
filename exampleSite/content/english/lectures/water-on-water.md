@@ -5,7 +5,7 @@ draft = true
 image = "/images/239456187_4261694967282737_6998721451592424881_n.jpg"
 image_webp = "/images/239456187_4261694967282737_6998721451592424881_n.webp"
 tags = ["বাংলা সাহিত্য", "Bangla Literature"]
-title = "water on water"
+title = "জলের উপর পানি না পানির উপর জল?"
 [[speakers]]
 bio = "Assistant Professor\nThe Bhawanipur Education Society College"
 links = []
