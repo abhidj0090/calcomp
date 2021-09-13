@@ -1,5 +1,5 @@
 +++
-date = 2021-09-29T13:30:00Z
+date = 2021-09-04T13:30:00Z
 description = "94th lecture of Calcutta Comparatists 1919"
 image = "/images/239456187_4261694967282737_6998721451592424881_n.jpg"
 image_webp = "/images/239456187_4261694967282737_6998721451592424881_n.webp"
