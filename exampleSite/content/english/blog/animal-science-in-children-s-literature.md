@@ -1,12 +1,13 @@
 +++
 author = "Kasturi Mukhopadhyay"
-author_bio = "Kasturi is an Assistant Professor working in The Bhawanipur Education Society College. "
+author_bio = "Kasturi is an Assistant Professor working in The Bhawanipur Education Society College "
 bangla = true
 biography_image = ""
 biography_image_webp = ""
 chapter = false
 date = 2021-09-12T06:30:00Z
-description = "An article on children's periodical Paswabali."
+description = "An article on children's periodical Paswabali"
+draft = true
 featured = true
 image = "/images/animals-children-black-and-white-watercolor-art-elicia-edijanto-7.jpg"
 image_webp = "/images/animals-children-black-and-white-watercolor-art-elicia-edijanto-7.webp"
