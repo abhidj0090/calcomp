@@ -1,6 +1,6 @@
 +++
 author = "Kasturi Mukhopadhyay"
-author_bio = "Kasturi is an Assistant Professor working in The Bhawanipur Education Society College "
+author_bio = "Kasturi is an Assistant Professor"
 bangla = false
 biography_image = ""
 biography_image_webp = ""
