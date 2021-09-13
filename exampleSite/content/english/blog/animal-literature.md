@@ -7,7 +7,6 @@ biography_image_webp = ""
 chapter = false
 date = 2021-09-13T06:30:00Z
 description = "An article on children's periodical Paswabali"
-draft = true
 featured = true
 image = "/images/animals-children-black-and-white-watercolor-art-elicia-edijanto-7.jpg"
 image_webp = "/images/animals-children-black-and-white-watercolor-art-elicia-edijanto-7.webp"
