@@ -18,4 +18,4 @@ speaker_name = "Kasturi Mukhopadhyay"
 
 Check out the recorded lecture
 
-{{< youtube nTZI41Rx46c>}}
+{{<youtube nTZI41Rx46c>}}
