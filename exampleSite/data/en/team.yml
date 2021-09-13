@@ -61,6 +61,8 @@ team:
     social:
     - icon: fab fa-linkedin
       link: https://www.linkedin.com/in/aratrika-ganguly/
+    - icon: fas fa-user
+      link: https://caluniv.academia.edu/AratrikaGanguly?from_navbar=true
     - icon: fab fa-facebook
       link: https://www.facebook.com/aratrikaganguly
   - name: Suman Pal
