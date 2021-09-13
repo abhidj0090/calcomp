@@ -1,7 +1,7 @@
 +++
 author = "Kasturi Mukhopadhyay"
 author_bio = "Kasturi is an Assistant Professor working in The Bhawanipur Education Society College "
-bangla = true
+bangla = false
 biography_image = ""
 biography_image_webp = ""
 chapter = false
@@ -13,7 +13,7 @@ image_webp = "/images/animals-children-black-and-white-watercolor-art-elicia-edi
 index = nil
 next = false
 previous = false
-tags = ["Animal Literature", "Bangla Literature", "Childrens Literature"]
+tags = ["Animal Literature", "Bangla Literature"]
 title = "পশ্বাবলি শিশুপাঠ্য অনুবাদে পশুবিজ্ঞান"
 
 +++
