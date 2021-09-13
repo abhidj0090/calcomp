@@ -1,0 +1,28 @@
++++
+author = "Dr Subhadeep Ray"
+author_bio = ""
+bangla = false
+biography_image = ""
+biography_image_webp = ""
+chapter = true
+date = 2021-09-11T18:30:00Z
+description = ""
+featured = false
+image = ""
+image_webp = ""
+index = 2
+next = false
+previous = true
+tags = []
+title = "Episode 2: Life and time of a typist cum an exceptional literary artist"
+
++++
+Jagadish Gupta was born in the month of July in 1886 – scholars have failed to find any definite date – in Kushtia in Nadia which is presently located in Bangladesh. His grandfather, Anandamohun Sengupta, was a renowned lawyer, and the Sengupta family had come originally from Faridpur in modern Bangladesh. Anandamohun had two sons, Kailashchandra and Prashannakumar, who themselves were well-established lawyers. Jagadishchandra was the youngest son of Kailashchandra and Soudamini Devi.
+
+After completing his primary study at Kushtia, Jagadish came to Kolkata to be admitted to the City Collegiate School, from where he passed the Matriculation Examination in 1905. He was then admitted to the then Ripon College – presently known as Surendranath College – in Kolkata, but he left his study halfway in 1907 to work as a professional stenographer and typist. Jagadish remained a typist by profession for most of his career and maintained a living that often dwindled from middle-class to lower-middle-class position, verging on poverty, with Charubala Devi, whom he had married in 1906. Although coming from a well-off family of colonial Bengal, academic and professional career of Jagadish put him in a socially vulnerable condition and in a problematic relationship with the affluent class of the early modernist authors. On the other hand, Jagadish’s portrayal of the marginalized lives becomes challengingly penetrating and develops into a structure of feeling that is unprecedented in the ‘main-stream’ Bengali literature. In this connection, it may be remembered that economic letdown haunted lives of at least two other pioneers of Bengali literary modernism: Jibanananda Das and Manik Bandyopadhyay; and an aversion to “the world of plenty” – to use the concluding phrase of Jibanananda’s “One Day Eight Years Ago” (“_Aat bachchar ager ekdin_”) – constructs their literary consciousness to a great extent.
+
+In 1908, Jagadish Gupta arrived in Suri, the head-quarter of the district of Birbhum in the current West Bengal, and started to serve the district-court as a typist. Although shifting from place to place in search of occupation, Jagadish Gupta’s writing career is mostly associated with Suri and its adjacent town, Bolpur. In the history of Bengali literature the role of Birbhum – a derivation of ‘_Birbhumi_’ meaning the land of heroes – has always been distinctly productive. In the first half of the nineteenth century this district was also the setting of arguably the first organized subaltern revolt against the colonial rule in India: ‘Santal Rebellion.’ Fighting against grim effects of the permanent settlement and acute colonial exploitation, the Tagore family, and particularly Rabindranath, tried hard to develop the sense of self determination among the tribal and toiling people of this mainly rural and agrarian district with a geologically primitive and hard land. This is interesting to note that while being in a close proximity to Shantiniketan – an abode for the cultivation of the uniformity between mind and body and the union of the universal and the individual self – Jagadish Gupta’s works reflected on the other within – our unfulfilled but indomitable desire for flesh and wealth – as well as on the economic determination in a sharply divided society. As in Jagadish’s short story “_Bonjhi Gunjomala_” (“Niece Gunjomala”) a middle-aged crippled widow sees the prospect of earning livelihood by selling her niece’s body. Women characters of Jagadish also dialectically reverse those of Saratchandra Chattopadhyay, another doyen of the contemporary literature.
+
+Jagadish took a permanent job for the first time in 1912 as a typist at the office of the executive engineer of Sambalpur in Odisha. Next he joined Patna High court in 1918 but left this lucrative job because of a difference of opinion with his British boss about English grammar. In the early twenties he made two unsuccessful business attempts to run a literary magazine and to manufacture ink for fountain pens, and finally returned to Bolpur and his old occupation of typing documents of individual clients in 1927. He stayed at Bolpur till 1944. This was the most productive phase of his literary career.
+
+Amazingly, a man of constantly shifting addresses, no economic stability and an unyielding mentality, this typist had been contributing to almost all the major literary journals of the colonial metropolis since the nineteen tens and became one of the leading writers of the ‘Kallol’ group in the mid-twenties. His exceptional treatment of the most uncanny and crude realities of commonplace social beings radically changed the course of Bengali literature. Significantly Bengali modernist fiction reached a new height in the period between 1928 and 1936, and Jagadish’s _Asadhu Siddhartha_ (_Dishonest Siddhartha_), 1929, remains one of the first modernist classics. In 1944, Jagadish Gupta moved to Kolkata, where he resided during the Independence and the Partition of India. The post-colonial state offered him a monthly pension whose amount was reduced later. Suffering from ill health he died in the year 1957. In Jagadish Gupta’s writing the modernist goal of emancipating the restrained self in conflict with the instrumental reason find a particular mode of expression derived from the borderline experiences of a struggling individual.
