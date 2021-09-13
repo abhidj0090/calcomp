@@ -8,7 +8,7 @@
   {{ $class = "" }}
 {{ end }}
 {{ partial "breadcrumbs.html" . }}
-<section class="section {{$class}}">
+<section class="section content_main {{$class}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
@@ -33,7 +33,7 @@
             {{ $i := .Params.index }}
             {{ $i := sub $i 1 }}
             {{$filename := .File.BaseFileName }}
-            {{$previous := (replaceRE "[0-9]" $i $filename) }}
+            {{$previous := (replaceRE "\+?\d+" $i $filename) }}
             {{$link := replace .Permalink .File.BaseFileName $previous}}           
             <li class="page-item"><a class="page-link" href="{{$link}}" >Previous</a></li>
           {{end}}
