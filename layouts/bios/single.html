@@ -33,7 +33,7 @@
             {{ $i := .Params.index }}
             {{ $i := sub $i 1 }}
             {{$filename := .File.BaseFileName }}
-            {{$previous := (replaceRE "\+?\d+" $i $filename) }}
+            {{$previous := (replaceRE /\\+?\d+/g $i $filename) }}
             {{$link := replace .Permalink .File.BaseFileName $previous}}           
             <li class="page-item"><a class="page-link" href="{{$link}}" >Previous</a></li>
           {{end}}
