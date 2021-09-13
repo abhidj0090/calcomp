@@ -5,7 +5,7 @@ draft = true
 image = "/images/baa1dabc-a19f-408e-9976-f612899a1f62.jpg"
 image_webp = "/images/baa1dabc-a19f-408e-9976-f612899a1f62.webp"
 tags = ["Little Magazine", "Archive", "Literature"]
-title = " Chat for Little Magazine and Literature"
+title = "লিটল ম্যাগাজিন ও সাহিত্য বিষয়ক আড্ডা "
 [[speakers]]
 bio = "Little Magazine Worker and Archivist"
 links = []
