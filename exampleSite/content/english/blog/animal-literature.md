@@ -13,7 +13,7 @@ image_webp = "/images/animals-children-black-and-white-watercolor-art-elicia-edi
 index = nil
 next = false
 previous = false
-tags = ["Animal Literature", "Bangla Literature"]
+tags = ["Bangla Literature"]
 title = "পশ্বাবলি শিশুপাঠ্য অনুবাদে পশুবিজ্ঞান"
 
 +++
