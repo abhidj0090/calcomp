@@ -7,6 +7,7 @@ biography_image_webp = ""
 chapter = false
 date = 2021-08-26T18:30:00Z
 description = "A Biography of Krishnakant Handique - chapter 10"
+draft = true
 featured = false
 image = ""
 image_webp = ""
