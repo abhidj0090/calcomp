@@ -15,7 +15,7 @@ index = 1
 next = true
 previous = false
 tags = []
-title = "chapter 1"
+title = "Episode I: Bengali avant garde movement "
 
 +++
 Jagadish Gupta, born as Jagadishchandra Sengupta (1886-1957), belongs to that rare of group of artists, whose unconventional and pioneering roles in changing the course of literary and cultural tradition have contributed to a sort of uneasiness in respect of the public reception of their works. A key figure in the transformation of Bengali literature from the nineteenth century romantic realism to the inter-Wars modernism, Gupta introduced a new kind of fictional narrative, whose skills were appreciated, with a sense of ‘shock’ regarding its content, by Rabindranath Tagore himself. Mainly a suburban writer with middle and lower-middle class life-style, although publishing in the leading periodicals of Kolkata, Gupta can be seen as an exceptional artist in many terms. As articulated by another architect of the Bengali modernist literature Premendra Mitra (1904-88), in his introduction to Gupta’s novel _Kālankita Tirtha_ (_The Disgraced Pilgrimage_), Gupta’s contemporary period never treated him with the kind of respectful attention that his works deserved. And Mitra correctly presumed that there was no certainty that the future reader would rectify this ignorance. Although little remembered and mostly overshadowed by three Bandyopadhyays – Bibhutibhusan (1894-1950), Tarashankar (1898-1971) and Manik (1908-1956) – and even his junior artists, Jagadish Gupta represents a very complex era of Bengali culture establishing its interconnection with the aesthetics of global modernity and preparing the ground for postcolonial art.
