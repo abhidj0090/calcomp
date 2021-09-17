@@ -4,7 +4,6 @@ calendar_filename = "CC1919 - 97th Lecture"
 description = "Calcutta Comparatists 1919 invites you to the 97th online lecture of the CC1919 lecture - Professor Ruth Vanita will speak on her experience of drawing on Urdu, Hindi, and English literatures to write her novel, Memory of Light"
 disable_download = false
 disable_link = false
-draft = true
 event_end_date = 2021-09-17T17:30:00Z
 event_start_date = 2021-09-17T15:30:00Z
 image = "/images/ruth_poster.jpg"
