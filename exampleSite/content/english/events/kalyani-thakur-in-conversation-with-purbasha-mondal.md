@@ -4,6 +4,7 @@ calendar_filename = "Calcutta Comparatists 1919 invites you to the 98th online l
 description = "Calcutta Comparatists 1919 invites you to the 98th online lecture of the CC1919 lecture series"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-09-23T15:30:00Z
 event_start_date = 2021-09-23T13:30:00Z
 image = "/images/0eece460-bf8c-43a3-ab82-3b838c5f6177.jpg"
