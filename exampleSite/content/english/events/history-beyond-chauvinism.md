@@ -14,11 +14,13 @@ tags = ["History ", "Historiography", "Chauvinism", "India"]
 title = "History Beyond Chauvinism"
 [[speakers]]
 bio = "Historian and Author"
-links = []
 social_header = ""
 speaker_image = "/images/ra_lagmm_400x400.jpg"
 speaker_image_webp = "/images/ra_lagmm_400x400.webp"
 speaker_name = "Ramachandra Guha"
+[[speakers.links]]
+icon = "fab fa-twitter"
+link = "https://twitter.com/Ram_Guha"
 
 +++
 It's been a year since some of us conceived the idea of a research forum that would bring brilliant minds together on a virtual platform. We gathered not only to discuss research work but also to open up a new arena for conversations and exchange of ideas and this is the true definition of Calcutta Comparatists 1919.
