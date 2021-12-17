@@ -133,3 +133,5 @@ fields:
 - name: disable_download
   type: boolean
   label: disable download
+pages:
+- exampleSite/content/english/events/the-plantation-s-outsides-agricultural-experimentation-and-the-work-of-settlement-in-kalimpong.md
