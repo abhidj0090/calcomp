@@ -4,6 +4,7 @@ calendar_filename = "102nd lecture of the CC19 lecture series organized by Calcu
 description = "102nd lecture of the CC19 lecture series organized by Calcutta Comparatists 1919 "
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-12-03T16:00:00Z
 event_start_date = 2021-12-03T14:00:00Z
 image = "/images/263288900_5172202539473945_482020576175032247_n.jpg"
