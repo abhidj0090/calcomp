@@ -4,6 +4,7 @@ calendar_filename = ""
 description = "It is our pleasure to welcome you all to the 104th online lecture organised by Calcutta Comparatists 1919"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2021-12-18T15:30:00Z
 event_start_date = 2021-12-18T13:30:00Z
 image = "/images/268258184_5228602143833984_868376588607824054_n.jpg"
