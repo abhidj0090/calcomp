@@ -11,7 +11,7 @@ image_webp = "/images/whatsapp-image-2021-12-27-at-7-32-08-pm.webp"
 location = "Gopiballavpur, Jhargram, West Bengal, India"
 meeting_link = ""
 speakers = []
-tags = ["Trnaslation", "Workshop", "Collaboration", "SubornoroikhikLanguage", "Bangla", "English"]
+tags = ["Workshop", "Collaboration", "Bangla", "English", "Subarnaraikhik", "Translation", "Poetry"]
 title = "Translation on Site/ উৎস- ভূমিতে অনুবাদ"
 
 +++
