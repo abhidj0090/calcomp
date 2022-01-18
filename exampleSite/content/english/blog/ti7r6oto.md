@@ -7,14 +7,13 @@ biography_image_webp = ""
 chapter = false
 date = 2022-01-17T18:30:00Z
 description = ""
-draft = true
-featured = false
-image = ""
-image_webp = ""
+featured = true
+image = "/images/gettyimages-503015661-612x612.jpg"
+image_webp = "/images/gettyimages-503015661-612x612.webp"
 index = 0
 next = false
 previous = false
-tags = []
+tags = ["Jean-Paul Sartre", "Literature", "Reading", "French Philosophy"]
 title = "Sartre's Idea of Freedom in What is Literature: A Guide For Literary Mind "
 
 +++
