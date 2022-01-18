@@ -134,4 +134,5 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/a-virtual-three-day-international-conference-on-comparative-literature-frames-methods-and-practice.md
 - exampleSite/content/english/events/translation-on-site.md
