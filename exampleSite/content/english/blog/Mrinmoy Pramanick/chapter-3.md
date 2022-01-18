@@ -7,7 +7,6 @@ biography_image_webp = ""
 chapter = true
 date = 2022-01-17T18:30:00Z
 description = "Mrinmoy Pramanick - an autobiography - chapter 3"
-draft = true
 featured = false
 image = ""
 image_webp = ""
