@@ -57,4 +57,4 @@ _There is **no registration fee** for the students, scholars and teachers of SND
 * **Dr Aruna Dubhashi, Head and Associate Professor, Dept. of Marathi, SNDTWU**
 * **Dr Dhrupadi Chattopadhyay, Head and Assistant Professor, Dept. of English, SNDTWU**
 * **Dr Manisha Ghatage, Assistant Professor, Dept. of English, SNDTWU**
-* **Dr Mrinmoy Pramanick, Assistant Professor, Calcutta University and President, Calcutta Comparatists 191**
+* **Dr Mrinmoy Pramanick, Assistant Professor, Calcutta University and President, Calcutta Comparatists 1919**
