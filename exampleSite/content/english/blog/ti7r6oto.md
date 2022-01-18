@@ -34,3 +34,5 @@ The first proposition is the refusal of the idea of the world being a creation f
 
 > So _Why Write_ or in whole **What is Literature** is such a beautiful piece of art that it almost provides a sense of exercising in your literary world with full responsibility and freedom, of creating and reviving any literary work with the collaborative approach of subjectivity and objectivity or a cool association among writers and readers.  
 > **As if literary dead was revived with the elixir of philosophical consciousness**.
+
+Banner Image Courtesy: gettyimages
