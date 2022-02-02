@@ -4,6 +4,7 @@ calendar_filename = "A Workshop on Translating Subarnaraikhik Poetry "
 description = "A Workshop on Translating Subarnaraikhik Poetry "
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2022-01-31T18:30:00Z
 event_start_date = 2022-01-28T18:30:00Z
 image = "/images/whatsapp-image-2021-12-27-at-7-32-08-pm.jpeg"
