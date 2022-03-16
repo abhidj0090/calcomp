@@ -5,6 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Team
+- type: directory
+  path: exampleSite/content/english/team
+  label: Team
+  create: all
+  match: "**/*"
+  templates:
+  - author
+- type: heading
   label: Biogrophies
 - type: directory
   path: exampleSite/content/english/bios

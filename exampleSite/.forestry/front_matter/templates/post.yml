@@ -81,7 +81,6 @@ fields:
   description: is the content is bengali?
 pages:
 - exampleSite/content/english/bios/Jagadish Gupta/_index.md
-- exampleSite/content/english/bios/Jagadish Gupta/chapter-1.md
 - exampleSite/content/english/bios/Jagadish Gupta/chapter-2.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/_index.md
 - exampleSite/content/english/bios/Krishnakanta Sandikoi/chapter-1.md
