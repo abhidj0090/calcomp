@@ -3,11 +3,20 @@ team:
   enable: true
   title: Our Team
   team_member:
-  - name: ''
-    image_webp: ''
-    image: ''
-    designation: ''
-    content: ''
+  - name: Sampayan Chakraborty
+    image_webp: "/images/team/sampayan.webp"
+    image: "/images/team/sampayan.jpg"
+    designation: Creative Member
+    content: Sampayan Chakraborty is currently doing his M.Phil in Comparative Indian
+      Literature from the Department of Modern Indian Languages and Literary Studies,
+      University of Delhi. He completed his Post-graduation from the Department of
+      Comparative Indian Language and Literature, University of Calcutta. He knows
+      Assamese, Nepali, Lepcha, Pali, Subornoroikhik Language. His research interests
+      are Comparative Indian Literature, Dalit , Adivasi and Tribal Literature, Literature
+      of West Bengal and North-East India and Graphic Novels and South East Asia.
+      He has done several Archival Work and Field Work throughout India. He worked
+      as a Content Writer in Radio Milan 90.4 FM. Writing Lyrics for the Songs is
+      his passion.
     social: ''
   - name: Avijit
     image_webp: "/images/team/avijit.webp"
