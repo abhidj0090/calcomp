@@ -3,6 +3,29 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Avijit
+    image_webp: "/images/team/avijit.webp"
+    image: "/images/team/avijit.jpg"
+    designation: Creative Member
+    content: 'Avijit is currently working as a Teaching Assistant for the Post Graduate
+      students of Bengali (GE Course, Comparative Indian Language and Literature)
+      at Bankim Sardar College, the University of Calcutta. He has received his MPhil
+      degree from the School of Women Studies, Jadavpur University. His research topic
+      was “Dalit Narir Atmajibani O Prantikatar Bhuswar.” He is currently working
+      as a Project Fellow in a project of Paschimbanga Dalit Sahitya Akademi, named,
+      “Dalit Sangathan Ebong Bangali Daliter Andolon O Porichoyer Akkhyan.” He has
+      also worked on a project, named, “Academic Publishing in India: Issues and Challenges”,
+      as a Project Fellow in Jadavpur University Press. In a Research Project named
+      “South-East Asia: Colony and Beyond”, he has served as a Hiring Fellow. He has
+      participated in various National and International Conferences and has published
+      several articles. His areas of research interests are Partition Literature,
+      Translation Studies, Folk Literature, Folk Narrative, Literature of Chhitmahal,
+      and History of Literary Magazines and Journals. He has also translated the essays
+      and interviews of several renowned Dalit Authors of India. He also holds experience
+      in Book Publishing. One of his translation works has been published in the edited
+      volume by Mrinmoy Pramanick, named, ‘Dalit Chetana: Dalit Darshan: Kathay Kathay
+      Sharankumar Limbale.’'
+    social: ''
   - name: 'Shreya Datta '
     image_webp: "/images/team/shreya.webp"
     image: "/images/team/shreya.jpg"
