@@ -146,7 +146,7 @@ blockquote {
 }
 .card-speaker .card{
     background-color: inherit;
-    border: 2px solid teal;
+    border: 2px solid teal !important;
 }
 .card-speaker .card .row{
     margin:10px;
@@ -154,7 +154,7 @@ blockquote {
 .card-speaker .card .row figure img{
     border-radius: 5px;
 }
-.up-speaker{
+.up-speaker {
     display: inline-block;
 }
 .up-speaker figure{
@@ -163,6 +163,9 @@ blockquote {
     overflow: hidden;
     width: 70%;
     border: 2px solid #2c9091;
+}
+#team .card{
+    width:70%;
 }
 .announcement{
     background: teal;
