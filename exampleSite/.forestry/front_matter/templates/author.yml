@@ -21,6 +21,3 @@ fields:
   - type: text
     name: link
     label: link
-pages:
-- exampleSite/content/english/team/aratrika-ganguly.md
-- exampleSite/content/english/team/pratim.md
