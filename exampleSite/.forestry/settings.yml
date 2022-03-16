@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: team
+  label: Team
+  match: "**/*"
 - type: heading
   label: Biogrophies
 - type: directory
