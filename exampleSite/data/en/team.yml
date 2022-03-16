@@ -2,6 +2,7 @@
 team:
   enable: true
   title: Our Team
+  image:"/images/meeting.jfif"
   team_member:
   - name: Dr. Mrinmoy Pramanik
     image_webp: "/images/team/pramanik.webp"
