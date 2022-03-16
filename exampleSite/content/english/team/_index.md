@@ -1,8 +1,7 @@
 +++
-draft = true
 email = ""
 image = ""
 social = []
-title = "index"
+title = "_index"
 
 +++
