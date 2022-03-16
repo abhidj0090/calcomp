@@ -4,8 +4,8 @@ team:
   title: Our Team
   team_member:
   - name: Ayan Ghish
-    image_webp: ''
-    image: ''
+    image_webp: "/images/team/ayan.webp"
+    image: "/images/team/pramanik.webp"
     designation: Creative Member
     content: Ayan is a PhD Research Scholar (JRF) in the Department of English, Pondicherry
       University. His research area for PhD is Children Literature in Translation.
