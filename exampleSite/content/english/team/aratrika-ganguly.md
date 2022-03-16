@@ -1,5 +1,4 @@
 +++
-draft = true
 email = ""
 image = "/images/team/Aratrika.webp"
 title = "Aratrika Ganguly"
