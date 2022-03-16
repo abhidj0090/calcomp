@@ -3,6 +3,23 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Dr. Mrinmoy Pramanik
+    image_webp: ''
+    image: ''
+    designation: President
+    content: 'Dr. Mrinmoy Pramanik is the Former Head and Assistant Professor of the
+      Department of Comparative Indian Language and Literature, University of Calcutta.
+      He is the first to translate Sharan Kumar Limbale''s work in Bengali. Limbale''s
+      one of the most important works Dalit Sahityache Saundaryasastra has been translated
+      by him in Bengali, named, Dalit Nandantatwa. He has recenly edited a book, Dalit
+      Chetana, Dalit Darshan : Kathay Kathay Sharan Kumar Limbale. His research interst
+      lies in Translation Studies, Dalit Literature, Modern Indian Literature, Migration
+      Studies and Diasporic Literature. He has been invited for several lectures in
+      both National and International academic periphery. Various renowned newspapers
+      like Anandabazar Patrika, Ei Samay, The Telegraph are among the many where he
+      writes. His translated works and research articles get regularly published in
+      various peer reviewed journals like EPW and Translation Today.'
+    social: ''
   - name: Suparna Mondal
     image_webp: "/images/team/Suparna.webp"
     image: "/images/team/Suparna.jpg"
