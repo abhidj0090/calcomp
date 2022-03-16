@@ -23,8 +23,8 @@ languageName = "Fr"
 weight = 2
 [[menu.main]]
 name = "Team CC1919"
-pre = "/"
-url = "team"
+pre = ""
+url = "/team"
 weight = 6
 [[menu.main]]
 name = "Lectures"
