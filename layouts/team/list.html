@@ -14,7 +14,7 @@
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}
-      {{ range $Data.Pages }}
+      {{ range .Data.Pages }}
       {{ .Render "article" }}
       {{ end }}
     </div>
