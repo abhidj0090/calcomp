@@ -19,7 +19,9 @@ team:
       like Anandabazar Patrika, Ei Samay, The Telegraph are among the many where he
       writes. His translated works and research articles get regularly published in
       various peer reviewed journals like EPW and Translation Today.'
-    social: ''
+    social:
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/mrinmoy.pramanick.96
   - name: Kingshuk Bandyopadhyay
     image_webp: "/images/team/Kinshuk.webp"
     image: "/images/team/Kinshuk.jpg"
