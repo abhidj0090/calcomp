@@ -57,7 +57,9 @@ team:
       He has done several Archival Work and Field Work throughout India. He worked
       as a Content Writer in Radio Milan 90.4 FM. Writing Lyrics for the Songs is
       his passion.
-    social: ''
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/sampayan.chakraborty.1
   - name: Avijit Halder
     image_webp: "/images/team/avijit.webp"
     image: "/images/team/avijit.jpg"
