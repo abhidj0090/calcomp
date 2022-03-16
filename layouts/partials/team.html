@@ -1,6 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.team.team.enable }}
+{{ with $data.team.team}}
 {{"<!-- Start Our Team -->" | safeHTML}}
 <section id="team" class="section" style='background-image: url("{{ .image | absURL }}")'>
   <div class="container">
@@ -12,4 +13,5 @@
   </div>
 </section>
 {{"<!-- /team -->" | safeHTML}}
+{{ end }}
 {{ end }}
