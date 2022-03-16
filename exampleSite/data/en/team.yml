@@ -3,6 +3,22 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Ayan Ghish
+    image_webp: ''
+    image: ''
+    designation: Creative Member
+    content: Ayan is a PhD Research Scholar (JRF) in the Department of English, Pondicherry
+      University. His research area for PhD is Children Literature in Translation.
+      He has been teaching the course paper, 'Modern Indian Literature in Translation'
+      in the P.G Department of English, Narasinha Dutt College, Howrah. He has done
+      his Masters and MPhil. degree from the Dept. of Comparative Indian Lang. & Lit.
+      at the University of Calcutta. He has experience working on a few projects in
+      different institutions and universities. He worked as a Junior Research Fellow
+      at ISDL,Trivandrum and as a Project Fellow at the Dept. of English, Jadavpur
+      University. Besides Bengali, English and  Hindi, he also knows Telugu as a second
+      language. His area of interests are, Translation Studies, Children Literature,
+      Digital Humanities etc.
+    social: ''
   - name: Dr. Mrinmoy Pramanik
     image_webp: "/images/team/pramanik.webp"
     image: "/images/team/pramanik.jpg"
