@@ -98,7 +98,9 @@ team:
       and South-East Asian Studies. She has also learnt the Burmese and Oriya Language.
       One of her translated work has been published in the book named, ''Dalit Chetona:
       Dalit Darshan: Kothay Kothay Sharan Kumar Limbale,'' edited by Mrinmoy Pramanick.'
-    social: ''
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/shreya.datta.96
   - name: Suman Pal
     image_webp: "/images/team/suman_newww.webp"
     image: "/images/team/suman_newww.jpg"
