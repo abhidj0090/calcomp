@@ -19,35 +19,29 @@
             </div>
         </div>
         {{"<!-- /section title -->" | safeHTML}}
-
         {{ range .team_member}}
-        {{"<!-- team member -->" | safeHTML}}
-        <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
-            <div class="team-member">
-            <div class="member-photo">
-                {{"<!-- member photo -->" | safeHTML}}
-                <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-
-                {{"<!-- member social profile -->" | safeHTML}}
-                <div class="mask">
-                <ul class="list-inline">
+        <div class="card mb-2">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+                <figure>
+                    <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+                </figure>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{.name}}</h5>
+                <span>{{ .designation | markdownify}}</span>
+                <p class="card-text">{{.content}}</p>
+                <ul class="list-inline speaker-socials">
                     {{ range .social }}
-                    <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                     {{ end }}
                 </ul>
-                </div>
+              </div>
             </div>
-
-            {{"<!-- member name & designation -->" | safeHTML}}
-            <div class="member-meta">
-                <h4>{{ .name }}</h4>
-                <span>{{ .designation | markdownify}}</span>
-                <p>{{ .content | markdownify }}</p>
-            </div>
-            </div>
+          </div>
         </div>
-        {{"<!-- end team member -->" | safeHTML}}
-        {{ end }}
+        {{end}}
         </div>
     </div>
     </section>
