@@ -141,17 +141,17 @@ blockquote {
     margin-bottom: 10px;
 
 }
-.card-speaker *{
+.card-speaker *,#team .card{
     color:white;
 }
-.card-speaker .card{
+.card-speaker .card, #team .card{
     background-color: inherit;
-    border: 2px solid teal !important;
+    border: 2px solid teal;
 }
-.card-speaker .card .row{
+.card-speaker .card .row, #team .card .row{
     margin:10px;
 }
-.card-speaker .card .row figure img{
+.card-speaker .card .row figure img, #team .card .row figure img{
     border-radius: 5px;
 }
 .up-speaker {
