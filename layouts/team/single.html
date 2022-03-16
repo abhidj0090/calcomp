@@ -1,0 +1,107 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+{{ $defaultimagewbp := .Site.Params.default_speaker_image_webp }}
+{{ $defaultimage := .Site.Params.default_speaker_image }}
+<section class="section content_main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>{{ .Title }}</h1>
+        <ul class="list-inline mb-50">
+          <!-- <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li> -->
+          <!-- <li class="list-inline-item">{{ .Params.Author }}</li> -->
+          <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+      </div>
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          {{ .Content }}
+        </div>
+        {{ $speakers := .Params.speakers }}
+        {{ if gt ( len $speakers) 0 }}
+          <div class="mb-2 card-speaker mt-2">
+            <h4>
+              Speakers
+            </h4>
+            {{ range $speakers }}
+            {{ $imagewbp := .speaker_image_webp }}
+            {{ $image := .speaker_image }}
+            {{ $name := .speaker_name }}
+            <div class="card mb-2">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  {{with .speaker_image}}
+                    <figure>
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                    </figure>
+                  {{else}}
+                    <figure>
+                      <img class="img-fluid lozad" class="card-img" data-src="{{ $defaultimagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $defaultimage | absURL }}'" alt="{{ $name }}">
+                    </figure>
+                  {{end}}
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{.speaker_name}}</h5>
+                    <p class="card-text">{{.bio}}</p>
+                    {{with .social_header}}
+                      <p class="card-text">{{.}}</p>
+                    {{end}}
+                    {{ $social_links := "false" }}
+                    {{with .links}}
+                      {{ $social_links := "true" }}
+                    {{end}}
+                    <ul class="list-inline speaker-socials">
+                      {{ range .links }}
+                        <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                      {{end}}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- <div class="mb-2">
+                {{with .speaker_image}}
+                  <div class="client-thumb speaker">
+                    <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
+                  </div>
+                {{end}}
+                <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
+              </div> -->
+            {{end}}
+          </div>
+        {{end}}
+        <div class="mt-2 topics">
+          <ul class="tags">
+            <i class="fas fa-tag"></i>
+            {{ range .Params.tags }}
+            <li><a href="/tags/{{ replace . " " "-" }}">{{ . }}</a></li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ if site.Params.post_share }}
+  <div class="desktop-share">
+    {{ partial "post-share.html" . }}
+  </div>
+  <section class="mobile-share">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          {{ partial "post-share.html" . }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+<!-- comments -->
+<div class="mt-5">
+  {{ template "_internal/disqus.html" . }}
+</div>
+
+{{ end }}
