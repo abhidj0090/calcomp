@@ -154,6 +154,9 @@ blockquote {
 .card-speaker .card .row figure img, #team .card .row figure img{
     border-radius: 5px;
 }
+#team .card .card-text{
+    font-size:15px;
+}
 .up-speaker {
     display: inline-block;
 }
