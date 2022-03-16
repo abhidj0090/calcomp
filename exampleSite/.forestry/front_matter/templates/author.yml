@@ -22,5 +22,4 @@ fields:
     name: link
     label: link
 pages:
-- exampleSite/content/english/team/aratrika-ganguly.md
-- exampleSite/content/english/team/pratim.md
+- exampleSite/content/english/team/_index.md

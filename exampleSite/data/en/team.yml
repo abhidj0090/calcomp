@@ -3,6 +3,149 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Dr. Mrinmoy Pramanik
+    image_webp: "/images/team/pramanik.webp"
+    image: "/images/team/pramanik.jpg"
+    designation: President & Co-founder
+    content: 'Dr. Mrinmoy Pramanik is the Former Head and Assistant Professor of the
+      Department of Comparative Indian Language and Literature, University of Calcutta.
+      He is the first to translate Sharan Kumar Limbale''s work in Bengali. Limbale''s
+      one of the most important works Dalit Sahityache Saundaryasastra has been translated
+      by him in Bengali, named, Dalit Nandantatwa. He has recenly edited a book, Dalit
+      Chetana, Dalit Darshan : Kathay Kathay Sharan Kumar Limbale. His research interst
+      lies in Translation Studies, Dalit Literature, Modern Indian Literature, Migration
+      Studies and Diasporic Literature. He has been invited for several lectures in
+      both National and International academic periphery. Various renowned newspapers
+      like Anandabazar Patrika, Ei Samay, The Telegraph are among the many where he
+      writes. His translated works and research articles get regularly published in
+      various peer reviewed journals like EPW and Translation Today.'
+    social:
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/mrinmoy.pramanick.96
+  - name: Kingshuk Bandyopadhyay
+    image_webp: "/images/team/Kinshuk.webp"
+    image: "/images/team/Kinshuk.jpg"
+    designation: Creative Head & Co-founder
+    content: Kingshuk is currently working as an Assistant Professor in English at
+      Shyambazar Law College(University of Calcutta). He delivers orientation lectures(GE
+      Course in Comparative Indian Literature) as a Guest Lecturer to the Post Graduate
+      students of English(Lady Brabourne College, University of Calcutta) and Bengali(Gurudas
+      College, University of Calcutta). He is pursuing his PhD in Folklore at the
+      University of Kalyani. He has received his MPhil degree in Folklore from the
+      University of Kalyani, his Post Graduate degree in Comparative Indian Language
+      and Literature from the University of Calcutta and he has done his Graduation
+      in English Language and Literature, at the University of Calcutta. His first
+      poetry book Libido Tomar Jotno Lalon was published in 2018 from Saptarshi Prakashan.
+      He is also a translator and some of his translations have already been published
+      in edited volumes. He has presented papers in some National and International
+      Seminars/Conferences and also has many publications on his credit. He is a Co-Founder
+      and theatre actor at Beleghata Natyajan.
+    social:
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/kingshuk.bandyopadhyay
+  - name: Sampayan Chakraborty
+    image_webp: "/images/team/sampayan.webp"
+    image: "/images/team/sampayan.jpg"
+    designation: Creative Member
+    content: Sampayan Chakraborty is currently doing his M.Phil in Comparative Indian
+      Literature from the Department of Modern Indian Languages and Literary Studies,
+      University of Delhi. He completed his Post-graduation from the Department of
+      Comparative Indian Language and Literature, University of Calcutta. He knows
+      Assamese, Nepali, Lepcha, Pali, Subornoroikhik Language. His research interests
+      are Comparative Indian Literature, Dalit , Adivasi and Tribal Literature, Literature
+      of West Bengal and North-East India and Graphic Novels and South East Asia.
+      He has done several Archival Work and Field Work throughout India. He worked
+      as a Content Writer in Radio Milan 90.4 FM. Writing Lyrics for the Songs is
+      his passion.
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/sampayan.chakraborty.1
+  - name: Avijit Halder
+    image_webp: "/images/team/avijit.webp"
+    image: "/images/team/avijit.jpg"
+    designation: Creative Member
+    content: 'Avijit is currently working as a Teaching Assistant for the Post Graduate
+      students of Bengali (GE Course, Comparative Indian Language and Literature)
+      at Bankim Sardar College, the University of Calcutta. He has received his MPhil
+      degree from the School of Women Studies, Jadavpur University. His research topic
+      was “Dalit Narir Atmajibani O Prantikatar Bhuswar.” He is currently working
+      as a Project Fellow in a project of Paschimbanga Dalit Sahitya Akademi, named,
+      “Dalit Sangathan Ebong Bangali Daliter Andolon O Porichoyer Akkhyan.” He has
+      also worked on a project, named, “Academic Publishing in India: Issues and Challenges”,
+      as a Project Fellow in Jadavpur University Press. In a Research Project named
+      “South-East Asia: Colony and Beyond”, he has served as a Hiring Fellow. He has
+      participated in various National and International Conferences and has published
+      several articles. His areas of research interests are Partition Literature,
+      Translation Studies, Folk Literature, Folk Narrative, Literature of Chhitmahal,
+      and History of Literary Magazines and Journals. He has also translated the essays
+      and interviews of several renowned Dalit Authors of India. He also holds experience
+      in Book Publishing. One of his translation works has been published in the edited
+      volume by Mrinmoy Pramanick, named, ‘Dalit Chetana: Dalit Darshan: Kathay Kathay
+      Sharankumar Limbale.’'
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/avijit.halder.5817300
+  - name: 'Shreya Datta '
+    image_webp: "/images/team/shreya.webp"
+    image: "/images/team/shreya.jpg"
+    designation: Creative Member
+    content: 'Shreya is pursuing her MPhil in the Centre for Comparative Literature
+      and Translation Studies from the Central University of Gujarat. Her research
+      area is Pandemic Literature. She is an alumnus of the University of Calcutta
+      where she has completed her Post Graduation in Comparative Indian Language and
+      Literature and her Graduation in English Language and Literature. Her research
+      interest lies in Dalit Literature, Translation Studies, Comparative Indian Literature
+      and South-East Asian Studies. She has also learnt the Burmese and Oriya Language.
+      One of her translated work has been published in the book named, ''Dalit Chetona:
+      Dalit Darshan: Kothay Kothay Sharan Kumar Limbale,'' edited by Mrinmoy Pramanick.'
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/shreya.datta.96
+  - name: Suman Pal
+    image_webp: "/images/team/suman_newww.webp"
+    image: "/images/team/suman_newww.jpg"
+    designation: Coordinator & Co-founder
+    content: Suman is currently pursuing his MPhil from the department of Comparative
+      Indian Language and Literature, University of Calcutta. He has a couple of publications
+      under his belt while occasionally working as a actor and theater artist. Also
+      he is a big fan of heavy metal, EDM and Ghazals.
+    social:
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/su5m5a1n9p9a6l
+  - name: Ayan Ghosh
+    image_webp: "/images/team/ayan.webp"
+    image: "/images/team/ayan.jpg"
+    designation: Creative Member
+    content: Ayan is a PhD Research Scholar (JRF) in the Department of English, Pondicherry
+      University. His research area for PhD is Children Literature in Translation.
+      He has been teaching the course paper, 'Modern Indian Literature in Translation'
+      in the P.G Department of English, Narasinha Dutt College, Howrah. He has done
+      his Masters and MPhil. degree from the Dept. of Comparative Indian Lang. & Lit.
+      at the University of Calcutta. He has experience working on a few projects in
+      different institutions and universities. He worked as a Junior Research Fellow
+      at ISDL,Trivandrum and as a Project Fellow at the Dept. of English, Jadavpur
+      University. Besides Bengali, English and  Hindi, he also knows Telugu as a second
+      language. His area of interests are, Translation Studies, Children Literature,
+      Digital Humanities etc.
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/ayan0110
+  - name: Aratrika Ganguly
+    image_webp: "/images/team/Aratrika.webp"
+    image: "/images/team/Aratrika.jpg"
+    designation: Chief Coordinator & Co-founder
+    content: 'PhD Research Scholar in the Department of Comparative Indian Language
+      and Literature at University of Calcutta. She has done her MPhil and Masters
+      from the Department of Comparative Literature at Jadavpur University. She also
+      worked as a Project Fellow in a UGC-UPE-II project entitled ''South-East Asia:
+      Colony and Beyond'' Investigated by Dr. Mrinmoy Pramanick.'
+    social:
+    - icon: fab fa-linkedin
+      link: https://www.linkedin.com/in/aratrika-ganguly/
+    - icon: fas fa-user
+      link: https://caluniv.academia.edu/AratrikaGanguly?from_navbar=true
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/aratrikaganguly
   - name: Suparna Mondal
     image_webp: "/images/team/Suparna.webp"
     image: "/images/team/Suparna.jpg"
@@ -15,18 +158,6 @@ team:
     social:
     - icon: fab fa-facebook
       link: https://www.facebook.com/Tsu.por.na
-  - name: Kingshuk Bandyopadhyay
-    image_webp: "/images/team/Kinshuk.webp"
-    image: "/images/team/Kinshuk.jpg"
-    designation: Creative Head & Co-founder
-    content: Kingshuk is currently working as an Assistant Professor of English at
-      Shyambazar Law College Kolkata. He has done his M.Phil from the Dept. of Folklore,
-      University of Kalyani and MA in Comparative Indian Language and Literature,
-      University of Calcutta.  A habitual poet author of 'Libido Tomar Jotno Lalon'
-      doubling up as a theatre artist occasionally.
-    social:
-    - icon: fab fa-facebook
-      link: https://www.facebook.com/kingshuk.bandyopadhyay
   - name: Jemima Nasrin
     image_webp: "/images/team/Jemima2.webp"
     image: "/images/team/Jemima2.jpg"
@@ -49,30 +180,3 @@ team:
     social:
     - icon: fab fa-facebook
       link: https://www.facebook.com/prat0293
-  - name: Aratrika Ganguly
-    image_webp: "/images/team/Aratrika.webp"
-    image: "/images/team/Aratrika.jpg"
-    designation: Chief Coordinator & Co-founder
-    content: 'PhD Research Scholar in the Department of Comparative Indian Language
-      and Literature at University of Calcutta. She has done her MPhil and Masters
-      from the Department of Comparative Literature at Jadavpur University. She also
-      worked as a Project Fellow in a UGC-UPE-II project entitled ''South-East Asia:
-      Colony and Beyond'' Investigated by Dr. Mrinmoy Pramanick.'
-    social:
-    - icon: fab fa-linkedin
-      link: https://www.linkedin.com/in/aratrika-ganguly/
-    - icon: fas fa-user
-      link: https://caluniv.academia.edu/AratrikaGanguly?from_navbar=true
-    - icon: fab fa-facebook
-      link: https://www.facebook.com/aratrikaganguly
-  - name: Suman Pal
-    image_webp: "/images/team/suman_newww.webp"
-    image: "/images/team/suman_newww.jpg"
-    designation: Coordinator & Co-founder
-    content: Suman is currently pursuing his MPhil from the department of Comparative
-      Indian Language and Literature, University of Calcutta. He has a couple of publications
-      under his belt while occasionally working as a actor and theater artist. Also
-      he is a big fan of heavy metal, EDM and Ghazals.
-    social:
-    - icon: fab fa-facebook
-      link: https://www.facebook.com/su5m5a1n9p9a6l
