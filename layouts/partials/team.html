@@ -1,9 +1,10 @@
+<!-- This has been moved to a seperate page-->
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.team.team.enable }}
-{{ with $data.team.team}}
+<!-- {{ if $data.team.team.enable }}
+{{ with $data.team.team}} -->
 {{"<!-- Start Our Team -->" | safeHTML}}
-<section id="team" class="section" style='background-image: url("{{ .image | absURL }}")'>
+<!-- <section id="team" class="section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
@@ -11,7 +12,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 {{"<!-- /team -->" | safeHTML}}
-{{ end }}
+<!-- {{ end }} -->
 {{ end }}
