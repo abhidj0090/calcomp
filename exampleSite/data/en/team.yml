@@ -59,7 +59,7 @@ team:
       as a Content Writer in Radio Milan 90.4 FM. Writing Lyrics for the Songs is
       his passion.
     social:
-    - icon: fas fa-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/sampayan.chakraborty.1
   - name: Avijit Halder
     image_webp: "/images/team/avijit.webp"
@@ -84,7 +84,7 @@ team:
       volume by Mrinmoy Pramanick, named, ‘Dalit Chetana: Dalit Darshan: Kathay Kathay
       Sharankumar Limbale.’'
     social:
-    - icon: fas fa-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/avijit.halder.5817300
   - name: 'Shreya Datta '
     image_webp: "/images/team/shreya.webp"
@@ -100,7 +100,7 @@ team:
       One of her translated work has been published in the book named, ''Dalit Chetona:
       Dalit Darshan: Kothay Kothay Sharan Kumar Limbale,'' edited by Mrinmoy Pramanick.'
     social:
-    - icon: fas fa-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/shreya.datta.96
   - name: Suman Pal
     image_webp: "/images/team/suman_newww.webp"
@@ -129,7 +129,7 @@ team:
       language. His area of interests are, Translation Studies, Children Literature,
       Digital Humanities etc.
     social:
-    - icon: fas fa-facebook
+    - icon: fab fa-facebook
       link: https://www.facebook.com/ayan0110
   - name: Aratrika Ganguly
     image_webp: "/images/team/Aratrika.webp"
