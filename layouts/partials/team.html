@@ -1,8 +1,7 @@
-<!-- This has been moved to a seperate page-->
 {{ $data := index site.Data site.Language.Lang }}
 
-<!-- {{ if $data.team.team.enable }}
-{{ with $data.team.team}} -->
+{{ if $data.team.team.enable }}
+{{ with $data.team.team}}
 {{"<!-- Start Our Team -->" | safeHTML}}
 <!-- <section id="team" class="section">
   <div class="container">
@@ -14,5 +13,5 @@
   </div>
 </section> -->
 {{"<!-- /team -->" | safeHTML}}
-<!-- {{ end }} -->
+{{ end }}
 {{ end }}
