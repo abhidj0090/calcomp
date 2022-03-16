@@ -30,7 +30,7 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">{{.name}}</h5>
-                <span>{{ .designation | markdownify}}</span>
+                <span class="desig">{{ .designation | markdownify}}</span>
                 <p class="card-text">{{.content}}</p>
                 <ul class="list-inline speaker-socials">
                     {{ range .social }}

@@ -155,7 +155,10 @@ blockquote {
     border-radius: 5px;
 }
 #team .card .card-text{
-    font-size:15px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-top: 1px teal solid;
+    padding-top: 10px;
 }
 .up-speaker {
     display: inline-block;
