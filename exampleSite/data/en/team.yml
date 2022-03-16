@@ -82,7 +82,9 @@ team:
       in Book Publishing. One of his translation works has been published in the edited
       volume by Mrinmoy Pramanick, named, ‘Dalit Chetana: Dalit Darshan: Kathay Kathay
       Sharankumar Limbale.’'
-    social: ''
+    social:
+    - icon: fas fa-facebook
+      link: https://www.facebook.com/avijit.halder.5817300
   - name: 'Shreya Datta '
     image_webp: "/images/team/shreya.webp"
     image: "/images/team/shreya.jpg"
