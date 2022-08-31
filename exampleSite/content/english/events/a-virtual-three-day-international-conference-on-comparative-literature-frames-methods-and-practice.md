@@ -4,6 +4,7 @@ calendar_filename = "A Virtual Three-Day International Conference On Comparative
 description = "A Virtual Three-Day International Conference On Comparative Literature: Frames, Methods and  Practice"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2022-03-05T18:30:00Z
 event_start_date = 2022-03-03T18:30:00Z
 image = "/images/cfp_page-0001.jpg"
