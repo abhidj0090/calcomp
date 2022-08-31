@@ -134,6 +134,7 @@ fields:
   type: boolean
   label: disable download
 pages:
+- exampleSite/content/english/events/3rd-establishment-day-celebration.md
 - exampleSite/content/english/events/a-virtual-three-day-international-conference-on-comparative-literature-frames-methods-and-practice.md
 - exampleSite/content/english/events/translation-on-site.md
 - exampleSite/content/english/lectures/বই-প্রকাশ-অনুষ্ঠান-ও-দলিত-সাহিত্য-বিষয়ক-আলোচনাসভা.md
