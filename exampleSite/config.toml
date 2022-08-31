@@ -37,7 +37,7 @@ pre = "#"
 url = "about"
 weight = 5
 [[menu.main]]
-name = "Upcoming Events"
+name = "Events"
 pre = "#"
 url = "events"
 weight = 2
