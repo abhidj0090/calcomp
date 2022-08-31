@@ -12,6 +12,9 @@ location = "Boichitra Sabhaghar, 2nd Floor Coffee House Building, College Street
 meeting_link = ""
 tags = ["ESTABLISHMENT DAY CELEBRATION", "THIRD ESTABLISHMENT DAY", "COMPARATIVE LITERATURE"]
 title = "3rd Establishment Day Celebration"
+[menu.main]
+name = "Academics"
+weight = 8
 [[speakers]]
 bio = "Theatre Personality"
 links = []

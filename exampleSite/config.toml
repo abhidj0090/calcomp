@@ -22,9 +22,6 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "Academics"
-weight = 8
-[[menu.main]]
 name = "Team CC1919"
 pre = ""
 url = "/team"
