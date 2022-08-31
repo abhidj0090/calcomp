@@ -14,7 +14,7 @@ tags = ["ESTABLISHMENT DAY CELEBRATION", "THIRD ESTABLISHMENT DAY", "COMPARATIVE
 title = "3rd Establishment Day Celebration"
 [menu.main]
 name = "Academics"
-weight = 8
+weight = 2
 [[speakers]]
 bio = "Theatre Personality"
 links = []
