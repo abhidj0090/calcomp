@@ -22,40 +22,43 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
+name = "Academics"
+weight = 8
+[[menu.main]]
 name = "Team CC1919"
 pre = ""
 url = "/team"
 weight = 6
 [[menu.main]]
-name = "Lectures"
+name = "Say Hi"
 pre = "#"
-url = "lectures"
-weight = 4
-[[menu.main]]
-name = "Blog"
-pre = "#"
-url = "blog"
-weight = 3
-[[menu.main]]
-name = "Biographies"
-pre = "#"
-url = "bios"
-weight = 1
-[[menu.main]]
-name = "Upcoming Events"
-pre = "#"
-url = "events"
-weight = 2
+url = "contact"
+weight = 7
 [[menu.main]]
 name = "Who are we"
 pre = "#"
 url = "about"
 weight = 5
 [[menu.main]]
-name = "Say Hi"
+name = "Upcoming Events"
 pre = "#"
-url = "contact"
-weight = 7
+url = "events"
+weight = 2
+[[menu.main]]
+name = "Biographies"
+pre = "#"
+url = "bios"
+weight = 1
+[[menu.main]]
+name = "Blog"
+pre = "#"
+url = "blog"
+weight = 3
+[[menu.main]]
+name = "Lectures"
+pre = "#"
+url = "lectures"
+weight = 4
 [params]
 author = ""
 default_speaker_image = "images/profile.jpg"
