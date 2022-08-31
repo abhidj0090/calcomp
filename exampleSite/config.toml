@@ -22,6 +22,9 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
+name = "Gallery"
+weight = 9
+[[menu.main]]
 name = "ABhaSS"
 weight = 1
 [[menu.main]]
@@ -33,7 +36,7 @@ weight = 8
 name = "Say Hi"
 pre = "#"
 url = "contact"
-weight = 9
+weight = 10
 [[menu.main]]
 name = "Who are we"
 pre = "#"
