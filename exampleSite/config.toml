@@ -46,7 +46,7 @@ weight = 7
 name = "Events"
 pre = "#"
 url = "events"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Biographies"
 pre = "#"
@@ -56,7 +56,7 @@ weight = 3
 name = "Blog"
 pre = "#"
 url = "blog"
-weight = 5
+weight = 4
 [[menu.main]]
 name = "Lectures"
 pre = "#"
