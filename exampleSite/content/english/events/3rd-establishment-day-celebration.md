@@ -4,6 +4,7 @@ calendar_filename = "3rd Establishment Day Celebration"
 description = "3rd Establishment Day Celebration"
 disable_download = false
 disable_link = false
+draft = true
 event_end_date = 2022-09-05T14:00:00Z
 event_start_date = 2022-09-05T11:30:00Z
 image = "/images/presentation1.png"
